@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+data/evaluation/reports/*.json
+data/evaluation/reports/*.md
+!data/evaluation/reports/.gitkeep

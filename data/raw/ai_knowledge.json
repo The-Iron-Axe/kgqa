@@ -1,0 +1,2264 @@
+{
+  "entities": [
+    {
+      "id": "E001",
+      "name": "人工智能",
+      "type": "Technology",
+      "description": "模拟与扩展人类智能的计算机科学与技术体系",
+      "year": 1956,
+      "country": "中国/全球",
+      "reference": "国务院.《新一代人工智能发展规划》；https://www.gov.cn/zhengce/content/2017-07/20/content_2122384.htm"
+    },
+    {
+      "id": "E002",
+      "name": "机器学习",
+      "type": "Technology",
+      "description": "使计算机从数据中自动学习规律的方法",
+      "year": 1959,
+      "country": "全球",
+      "reference": "Goodfellow et al., Deep Learning；https://en.wikipedia.org/wiki/Machine_learning"
+    },
+    {
+      "id": "E003",
+      "name": "深度学习",
+      "type": "Technology",
+      "description": "基于多层神经网络的机器学习方法",
+      "year": 2012,
+      "country": "全球",
+      "reference": "Goodfellow et al., Deep Learning；https://en.wikipedia.org/wiki/Deep_learning"
+    },
+    {
+      "id": "E004",
+      "name": "大语言模型",
+      "type": "Technology",
+      "description": "基于Transformer的大规模预训练语言模型",
+      "year": 2018,
+      "country": "全球",
+      "reference": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+      "id": "E005",
+      "name": "多模态大模型",
+      "type": "Technology",
+      "description": "同时理解文本、图像、音频、视频等多种模态的AI模型",
+      "year": 2023,
+      "country": "全球",
+      "reference": "产业公开技术综述与产品发布材料"
+    },
+    {
+      "id": "E006",
+      "name": "计算机视觉",
+      "type": "Technology",
+      "description": "使计算机理解图像与视频信息的技术",
+      "year": 1966,
+      "country": "全球",
+      "reference": "https://en.wikipedia.org/wiki/Computer_vision"
+    },
+    {
+      "id": "E007",
+      "name": "自然语言处理",
+      "type": "Technology",
+      "description": "使计算机理解、生成和处理人类语言的技术",
+      "year": 1950,
+      "country": "全球",
+      "reference": "https://en.wikipedia.org/wiki/Natural_language_processing"
+    },
+    {
+      "id": "E008",
+      "name": "强化学习",
+      "type": "Technology",
+      "description": "通过奖励信号学习最优决策策略的方法",
+      "year": 1989,
+      "country": "全球",
+      "reference": "https://en.wikipedia.org/wiki/Reinforcement_learning"
+    },
+    {
+      "id": "E009",
+      "name": "知识图谱",
+      "type": "Technology",
+      "description": "以图结构表示实体及其语义关系的技术",
+      "year": 2012,
+      "country": "全球",
+      "reference": "https://en.wikipedia.org/wiki/Knowledge_graph"
+    },
+    {
+      "id": "E010",
+      "name": "图神经网络",
+      "type": "Technology",
+      "description": "处理图结构数据的深度学习模型",
+      "year": 2005,
+      "country": "全球",
+      "reference": "https://en.wikipedia.org/wiki/Graph_neural_network"
+    },
+    {
+      "id": "E011",
+      "name": "联邦学习",
+      "type": "Technology",
+      "description": "在保护数据隐私前提下多方协作训练模型的方法",
+      "year": 2016,
+      "country": "全球",
+      "reference": "https://en.wikipedia.org/wiki/Federated_learning"
+    },
+    {
+      "id": "E012",
+      "name": "边缘智能",
+      "type": "Technology",
+      "description": "在终端或边缘侧部署AI推理与轻量训练的技术",
+      "year": 2018,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E013",
+      "name": "检索增强生成",
+      "type": "Technology",
+      "description": "结合外部知识检索与大模型生成的RAG技术",
+      "year": 2020,
+      "country": "全球",
+      "reference": "Lewis et al., RAG (NeurIPS 2020)；https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "id": "E014",
+      "name": "自动机器学习",
+      "type": "Technology",
+      "description": "自动化模型选择、特征工程与超参搜索的方法",
+      "year": 2014,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E015",
+      "name": "神经符号人工智能",
+      "type": "Technology",
+      "description": "融合神经网络与符号推理的AI范式",
+      "year": 2019,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E016",
+      "name": "语音识别",
+      "type": "Technology",
+      "description": "将人类语音转换为文本或指令的技术",
+      "year": 1952,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E017",
+      "name": "情感计算",
+      "type": "Technology",
+      "description": "识别与模拟人类情感状态的计算技术",
+      "year": 1997,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E018",
+      "name": "数字孪生",
+      "type": "Technology",
+      "description": "物理实体在数字空间的实时映射与仿真",
+      "year": 2012,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E019",
+      "name": "AI Agent",
+      "type": "Technology",
+      "description": "具备规划、工具调用与自主任务执行能力的智能体",
+      "year": 2023,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E020",
+      "name": "模型蒸馏",
+      "type": "Technology",
+      "description": "将大模型能力迁移到小模型的压缩技术",
+      "year": 2015,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E021",
+      "name": "Transformer",
+      "type": "Algorithm",
+      "description": "基于自注意力机制的神经网络架构",
+      "year": 2017,
+      "country": "全球",
+      "reference": "Vaswani et al., Attention Is All You Need；https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "id": "E022",
+      "name": "卷积神经网络",
+      "type": "Algorithm",
+      "description": "专门处理网格数据的深度学习架构",
+      "year": 1998,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E023",
+      "name": "循环神经网络",
+      "type": "Algorithm",
+      "description": "处理序列数据的递归神经网络架构",
+      "year": 1990,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E024",
+      "name": "生成对抗网络",
+      "type": "Algorithm",
+      "description": "通过生成器与判别器对抗训练的生成模型",
+      "year": 2014,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E025",
+      "name": "扩散模型",
+      "type": "Algorithm",
+      "description": "通过逐步去噪生成样本的生成式模型",
+      "year": 2015,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E026",
+      "name": "Vision Transformer",
+      "type": "Algorithm",
+      "description": "将Transformer应用于视觉任务的架构",
+      "year": 2020,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E027",
+      "name": "ResNet",
+      "type": "Model",
+      "description": "引入残差连接的深度卷积神经网络",
+      "year": 2015,
+      "country": "中国/全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E028",
+      "name": "BERT",
+      "type": "Model",
+      "description": "双向编码器表示的Transformer预训练模型",
+      "year": 2018,
+      "country": "美国",
+      "reference": "Devlin et al., BERT；https://arxiv.org/abs/1810.04805"
+    },
+    {
+      "id": "E029",
+      "name": "GPT",
+      "type": "Model",
+      "description": "生成式预训练Transformer模型系列",
+      "year": 2018,
+      "country": "美国",
+      "reference": "Radford et al., GPT；OpenAI 技术报告"
+    },
+    {
+      "id": "E030",
+      "name": "ChatGPT",
+      "type": "Product",
+      "description": "OpenAI发布的对话式大语言模型产品",
+      "year": 2022,
+      "country": "美国",
+      "reference": "https://openai.com/chatgpt"
+    },
+    {
+      "id": "E031",
+      "name": "GPT-4",
+      "type": "Model",
+      "description": "OpenAI发布的多模态大语言模型",
+      "year": 2023,
+      "country": "美国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E032",
+      "name": "Sora",
+      "type": "Product",
+      "description": "OpenAI发布的文生视频大模型",
+      "year": 2024,
+      "country": "美国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E033",
+      "name": "AlphaGo",
+      "type": "Product",
+      "description": "DeepMind开发的围棋AI程序",
+      "year": 2016,
+      "country": "英国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E034",
+      "name": "文心一言",
+      "type": "Product",
+      "description": "百度发布的中文大语言模型对话产品",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://yiyan.baidu.com/"
+    },
+    {
+      "id": "E035",
+      "name": "文心大模型",
+      "type": "Model",
+      "description": "百度研发的大语言模型系列",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://yiyan.baidu.com/"
+    },
+    {
+      "id": "E036",
+      "name": "通义千问",
+      "type": "Product",
+      "description": "阿里巴巴发布的大语言模型产品",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://tongyi.aliyun.com/"
+    },
+    {
+      "id": "E037",
+      "name": "通义大模型",
+      "type": "Model",
+      "description": "阿里云研发的大语言模型系列",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://tongyi.aliyun.com/"
+    },
+    {
+      "id": "E038",
+      "name": "DeepSeek",
+      "type": "Product",
+      "description": "深度求索发布的高性能开源大语言模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "id": "E039",
+      "name": "DeepSeek-V3",
+      "type": "Model",
+      "description": "深度求索发布的第三代大语言模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "id": "E040",
+      "name": "讯飞星火",
+      "type": "Product",
+      "description": "科大讯飞发布的认知大模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://xinghuo.xfyun.cn/"
+    },
+    {
+      "id": "E041",
+      "name": "星火大模型",
+      "type": "Model",
+      "description": "科大讯飞研发的大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://xinghuo.xfyun.cn/"
+    },
+    {
+      "id": "E042",
+      "name": "智谱GLM",
+      "type": "Model",
+      "description": "智谱AI研发的GLM系列大模型",
+      "year": 2022,
+      "country": "中国",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "id": "E043",
+      "name": "ChatGLM",
+      "type": "Product",
+      "description": "智谱AI发布的对话大模型产品",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://chatglm.cn/"
+    },
+    {
+      "id": "E044",
+      "name": "百川大模型",
+      "type": "Model",
+      "description": "百川智能研发的大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E045",
+      "name": "腾讯混元",
+      "type": "Model",
+      "description": "腾讯研发的大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://cloud.tencent.com/product/hunyuan"
+    },
+    {
+      "id": "E046",
+      "name": "混元助手",
+      "type": "Product",
+      "description": "腾讯基于混元大模型的AI助手",
+      "year": 2023,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E047",
+      "name": "字节豆包",
+      "type": "Product",
+      "description": "字节跳动发布的AI对话助手",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.doubao.com/"
+    },
+    {
+      "id": "E048",
+      "name": "豆包大模型",
+      "type": "Model",
+      "description": "字节跳动研发的大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E049",
+      "name": "商汤日日新",
+      "type": "Model",
+      "description": "商汤科技研发的多模态大模型体系",
+      "year": 2023,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E050",
+      "name": "紫东太初",
+      "type": "Model",
+      "description": "中科院自动化所发布的多模态大模型",
+      "year": 2021,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E051",
+      "name": "Kimi",
+      "type": "Product",
+      "description": "月之暗面发布的长文本AI助手",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://kimi.moonshot.cn/"
+    },
+    {
+      "id": "E052",
+      "name": "Moonshot",
+      "type": "Model",
+      "description": "月之暗面研发的大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E053",
+      "name": "可灵",
+      "type": "Product",
+      "description": "快手发布的文生视频大模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E054",
+      "name": "阶跃星辰Step",
+      "type": "Model",
+      "description": "阶跃星辰研发的大语言模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E055",
+      "name": "百度",
+      "type": "Organization",
+      "description": "中国互联网与AI技术领军企业",
+      "year": 2000,
+      "country": "中国",
+      "reference": "https://www.baidu.com/"
+    },
+    {
+      "id": "E056",
+      "name": "阿里巴巴",
+      "type": "Organization",
+      "description": "中国电商与云计算巨头",
+      "year": 1999,
+      "country": "中国",
+      "reference": "https://www.alibabagroup.com/"
+    },
+    {
+      "id": "E057",
+      "name": "腾讯",
+      "type": "Organization",
+      "description": "中国社交与数字内容科技巨头",
+      "year": 1998,
+      "country": "中国",
+      "reference": "https://www.tencent.com/"
+    },
+    {
+      "id": "E058",
+      "name": "华为",
+      "type": "Organization",
+      "description": "全球领先的ICT与智能终端提供商",
+      "year": 1987,
+      "country": "中国",
+      "reference": "https://www.huawei.com/"
+    },
+    {
+      "id": "E059",
+      "name": "字节跳动",
+      "type": "Organization",
+      "description": "全球领先的短视频与推荐算法公司",
+      "year": 2012,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E060",
+      "name": "科大讯飞",
+      "type": "Organization",
+      "description": "中国智能语音与人工智能龙头企业",
+      "year": 1999,
+      "country": "中国",
+      "reference": "https://www.iflytek.com/"
+    },
+    {
+      "id": "E061",
+      "name": "商汤科技",
+      "type": "Organization",
+      "description": "中国计算机视觉与AI平台企业",
+      "year": 2014,
+      "country": "中国",
+      "reference": "https://www.sensetime.com/"
+    },
+    {
+      "id": "E062",
+      "name": "旷视科技",
+      "type": "Organization",
+      "description": "中国计算机视觉与深度学习企业",
+      "year": 2011,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E063",
+      "name": "寒武纪",
+      "type": "Organization",
+      "description": "中国AI芯片设计领军企业",
+      "year": 2016,
+      "country": "中国",
+      "reference": "https://www.cambricon.com/"
+    },
+    {
+      "id": "E064",
+      "name": "深度求索",
+      "type": "Organization",
+      "description": "专注大模型研发的中国AI创业公司",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "id": "E065",
+      "name": "智谱AI",
+      "type": "Organization",
+      "description": "清华系大模型创业企业",
+      "year": 2019,
+      "country": "中国",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "id": "E066",
+      "name": "月之暗面",
+      "type": "Organization",
+      "description": "专注长上下文大模型的中国创业公司",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.moonshot.cn/"
+    },
+    {
+      "id": "E067",
+      "name": "百川智能",
+      "type": "Organization",
+      "description": "中国大语言模型创业企业",
+      "year": 2023,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E068",
+      "name": "中国科学院",
+      "type": "Organization",
+      "description": "中国自然科学最高科研机构",
+      "year": 1949,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E069",
+      "name": "之江实验室",
+      "type": "Organization",
+      "description": "浙江新型科研事业单位，聚焦智能计算",
+      "year": 2017,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E070",
+      "name": "OpenAI",
+      "type": "Organization",
+      "description": "美国人工智能研究实验室",
+      "year": 2015,
+      "country": "美国",
+      "reference": "https://openai.com/"
+    },
+    {
+      "id": "E071",
+      "name": "清华大学",
+      "type": "Organization",
+      "description": "中国顶尖高等学府，AI研究重镇",
+      "year": 1911,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E072",
+      "name": "北京大学",
+      "type": "Organization",
+      "description": "中国顶尖高等学府，NLP与AI研究领先",
+      "year": 1898,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E073",
+      "name": "何恺明",
+      "type": "Person",
+      "description": "ResNet作者，计算机视觉领域杰出科学家",
+      "year": 1984,
+      "country": "中国",
+      "reference": "He et al., ResNet；https://arxiv.org/abs/1512.03385"
+    },
+    {
+      "id": "E074",
+      "name": "张钹",
+      "type": "Person",
+      "description": "中国科学院院士，人工智能与知识工程专家",
+      "year": 1935,
+      "country": "中国",
+      "reference": "清华大学人工智能研究院公开资料"
+    },
+    {
+      "id": "E075",
+      "name": "周志华",
+      "type": "Person",
+      "description": "南京大学教授，机器学习与集成学习专家",
+      "year": 1973,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E076",
+      "name": "唐杰",
+      "type": "Person",
+      "description": "清华大学教授，知识图谱与大模型专家",
+      "year": 1972,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E077",
+      "name": "王海峰",
+      "type": "Person",
+      "description": "百度首席技术官，文心大模型负责人",
+      "year": 1971,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E078",
+      "name": "刘知远",
+      "type": "Person",
+      "description": "清华大学副教授，知识图谱与NLP专家",
+      "year": 1984,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E079",
+      "name": "昇腾AI",
+      "type": "Hardware",
+      "description": "华为自研的人工智能处理器及计算平台",
+      "year": 2019,
+      "country": "中国",
+      "reference": "https://www.hiascend.com/"
+    },
+    {
+      "id": "E080",
+      "name": "寒武纪思元",
+      "type": "Hardware",
+      "description": "寒武纪研发的AI加速芯片系列",
+      "year": 2019,
+      "country": "中国",
+      "reference": "https://www.cambricon.com/"
+    },
+    {
+      "id": "E081",
+      "name": "地平线征程",
+      "type": "Hardware",
+      "description": "地平线车载AI芯片系列",
+      "year": 2019,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E082",
+      "name": "海光DCU",
+      "type": "Hardware",
+      "description": "海光信息研发的深度计算单元",
+      "year": 2021,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E083",
+      "name": "燧原科技",
+      "type": "Organization",
+      "description": "中国AI训练芯片创业企业",
+      "year": 2018,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E084",
+      "name": "算力基础设施",
+      "type": "Infrastructure",
+      "description": "支撑AI训练与推理的计算硬件与数据中心",
+      "year": 2020,
+      "country": "中国",
+      "reference": "工信部新型数据中心相关政策文件"
+    },
+    {
+      "id": "E085",
+      "name": "智算中心",
+      "type": "Infrastructure",
+      "description": "面向AI训练推理的专用算力数据中心",
+      "year": 2021,
+      "country": "中国",
+      "reference": "国家发改委算力基础设施相关政策"
+    },
+    {
+      "id": "E086",
+      "name": "东数西算",
+      "type": "Infrastructure",
+      "description": "国家算力网络枢纽工程",
+      "year": 2022,
+      "country": "中国",
+      "reference": "国家发改委东数西算工程公开资料"
+    },
+    {
+      "id": "E087",
+      "name": "自动驾驶",
+      "type": "Application",
+      "description": "利用AI实现车辆自主感知、决策与驾驶",
+      "year": 2009,
+      "country": "全球",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E088",
+      "name": "智慧医疗",
+      "type": "Application",
+      "description": "AI在医学影像、辅助诊断与药物研发的应用",
+      "year": 2015,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E089",
+      "name": "智能制造",
+      "type": "Application",
+      "description": "AI驱动的工业质检、预测维护与柔性生产",
+      "year": 2016,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E090",
+      "name": "智慧城市",
+      "type": "Application",
+      "description": "AI赋能城市治理、交通与公共安全",
+      "year": 2016,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E091",
+      "name": "智慧金融",
+      "type": "Application",
+      "description": "AI在风控、反欺诈与智能投顾的应用",
+      "year": 2015,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E092",
+      "name": "智能教育",
+      "type": "Application",
+      "description": "AI个性化学习、作业批改与知识追踪",
+      "year": 2017,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E093",
+      "name": "智能安防",
+      "type": "Application",
+      "description": "AI视频分析与异常行为识别",
+      "year": 2015,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E094",
+      "name": "数字人",
+      "type": "Application",
+      "description": "基于AI的虚拟形象与交互服务",
+      "year": 2021,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E095",
+      "name": "智能客服",
+      "type": "Application",
+      "description": "大模型驱动的对话式客服系统",
+      "year": 2018,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E096",
+      "name": "Apollo自动驾驶",
+      "type": "Product",
+      "description": "百度Apollo自动驾驶开放平台",
+      "year": 2017,
+      "country": "中国",
+      "reference": "https://apollo.auto/"
+    },
+    {
+      "id": "E097",
+      "name": "《新一代人工智能发展规划》",
+      "type": "Policy",
+      "description": "国务院2017年发布的国家级AI发展战略",
+      "year": 2017,
+      "country": "中国",
+      "reference": "https://www.gov.cn/zhengce/content/2017-07/20/content_2122384.htm"
+    },
+    {
+      "id": "E098",
+      "name": "《生成式人工智能服务管理暂行办法》",
+      "type": "Policy",
+      "description": "2023年国家网信办发布的GenAI监管办法",
+      "year": 2023,
+      "country": "中国",
+      "reference": "国家网信办公开文件（2023）"
+    },
+    {
+      "id": "E099",
+      "name": "国家人工智能开放创新平台",
+      "type": "Policy",
+      "description": "工信部推动的AI开放创新平台体系",
+      "year": 2017,
+      "country": "中国",
+      "reference": "公开资料整理"
+    },
+    {
+      "id": "E100",
+      "name": "中国人工智能标准化白皮书",
+      "type": "Policy",
+      "description": "全国信标委发布的AI标准体系文件",
+      "year": 2020,
+      "country": "中国",
+      "reference": "公开资料整理"
+    }
+  ],
+  "relations": [
+    {
+      "source": "机器学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "机器学习是AI的核心方法",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "深度学习",
+      "target": "机器学习",
+      "type": "属于",
+      "description": "深度学习是机器学习的分支",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "深度学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "深度学习是AI核心分支",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "大语言模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "LLM基于深度学习",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "大语言模型",
+      "target": "Transformer",
+      "type": "基于",
+      "description": "LLM基于Transformer架构",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "多模态大模型",
+      "target": "大语言模型",
+      "type": "扩展",
+      "description": "多模态扩展LLM能力",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "计算机视觉",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "CV是AI重要分支",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "NLP是AI核心分支",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "强化学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "强化学习是AI方法",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "知识图谱",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "知识图谱是AI知识表示",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "图神经网络",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "GNN基于深度学习",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "图神经网络",
+      "target": "知识图谱",
+      "type": "应用",
+      "description": "GNN用于知识图谱嵌入",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "联邦学习",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "联邦学习基于分布式深度学习",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "边缘智能",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "边缘侧部署深度学习模型",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "大语言模型",
+      "type": "增强",
+      "description": "RAG增强大模型事实性",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "知识图谱",
+      "type": "应用",
+      "description": "RAG可结合知识图谱",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "自动机器学习",
+      "target": "机器学习",
+      "type": "属于",
+      "description": "AutoML自动化机器学习流程",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "神经符号人工智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "神经符号融合范式",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "语音识别",
+      "target": "自然语言处理",
+      "type": "属于",
+      "description": "语音识别是NLP分支",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "情感计算",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "情感计算是AI分支",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "数字孪生",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "数字孪生应用AI仿真",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "AI Agent",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "Agent基于大模型规划与工具调用",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "模型蒸馏",
+      "target": "深度学习",
+      "type": "属于",
+      "description": "蒸馏是模型压缩方法",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "Transformer",
+      "target": "深度学习",
+      "type": "属于",
+      "description": "Transformer是深度学习架构",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "卷积神经网络",
+      "target": "深度学习",
+      "type": "属于",
+      "description": "CNN是深度学习经典架构",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "循环神经网络",
+      "target": "深度学习",
+      "type": "属于",
+      "description": "RNN处理序列数据",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "生成对抗网络",
+      "target": "深度学习",
+      "type": "属于",
+      "description": "GAN是生成式模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "扩散模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "扩散模型基于深度学习",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "Vision Transformer",
+      "target": "Transformer",
+      "type": "基于",
+      "description": "ViT基于Transformer",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "ResNet",
+      "target": "卷积神经网络",
+      "type": "改进",
+      "description": "ResNet改进CNN",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "BERT",
+      "target": "Transformer",
+      "type": "基于",
+      "description": "BERT基于Transformer编码器",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "GPT",
+      "target": "Transformer",
+      "type": "基于",
+      "description": "GPT基于Transformer解码器",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "何恺明",
+      "target": "ResNet",
+      "type": "提出",
+      "description": "何恺明提出ResNet",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "何恺明",
+      "target": "计算机视觉",
+      "type": "研究",
+      "description": "何恺明研究计算机视觉",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "GPT",
+      "type": "基于",
+      "description": "ChatGPT基于GPT",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "GPT-4",
+      "target": "GPT",
+      "type": "属于",
+      "description": "GPT-4是GPT系列",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "OpenAI",
+      "target": "ChatGPT",
+      "type": "研发",
+      "description": "OpenAI研发ChatGPT",
+      "reference": "https://openai.com/"
+    },
+    {
+      "source": "OpenAI",
+      "target": "GPT-4",
+      "type": "研发",
+      "description": "OpenAI研发GPT-4",
+      "reference": "https://openai.com/"
+    },
+    {
+      "source": "OpenAI",
+      "target": "Sora",
+      "type": "研发",
+      "description": "OpenAI研发Sora",
+      "reference": "https://openai.com/"
+    },
+    {
+      "source": "Sora",
+      "target": "多模态大模型",
+      "type": "实现",
+      "description": "Sora是多模态视频模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "AlphaGo",
+      "target": "强化学习",
+      "type": "应用",
+      "description": "AlphaGo使用强化学习",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "百度",
+      "target": "文心大模型",
+      "type": "研发",
+      "description": "百度研发文心大模型",
+      "reference": "https://www.baidu.com/"
+    },
+    {
+      "source": "百度",
+      "target": "文心一言",
+      "type": "研发",
+      "description": "百度研发文心一言",
+      "reference": "https://www.baidu.com/"
+    },
+    {
+      "source": "文心一言",
+      "target": "文心大模型",
+      "type": "基于",
+      "description": "文心一言基于文心大模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "文心大模型",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "文心大模型是LLM",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "王海峰",
+      "target": "文心大模型",
+      "type": "研发",
+      "description": "王海峰负责文心大模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "通义大模型",
+      "type": "研发",
+      "description": "阿里研发通义大模型",
+      "reference": "https://www.alibabagroup.com/"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "通义千问",
+      "type": "研发",
+      "description": "阿里研发通义千问",
+      "reference": "https://www.alibabagroup.com/"
+    },
+    {
+      "source": "通义千问",
+      "target": "通义大模型",
+      "type": "基于",
+      "description": "通义千问基于通义大模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "通义大模型",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "通义大模型是LLM",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "深度求索",
+      "target": "DeepSeek",
+      "type": "研发",
+      "description": "深度求索研发DeepSeek",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "深度求索",
+      "target": "DeepSeek-V3",
+      "type": "研发",
+      "description": "深度求索研发DeepSeek-V3",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "DeepSeek-V3",
+      "type": "基于",
+      "description": "DeepSeek产品基于V3",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "DeepSeek是LLM产品",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "星火大模型",
+      "type": "研发",
+      "description": "科大讯飞研发星火",
+      "reference": "https://www.iflytek.com/"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "讯飞星火",
+      "type": "研发",
+      "description": "科大讯飞研发讯飞星火",
+      "reference": "https://www.iflytek.com/"
+    },
+    {
+      "source": "讯飞星火",
+      "target": "星火大模型",
+      "type": "基于",
+      "description": "讯飞星火基于星火大模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智谱AI",
+      "target": "智谱GLM",
+      "type": "研发",
+      "description": "智谱AI研发GLM",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "source": "智谱AI",
+      "target": "ChatGLM",
+      "type": "研发",
+      "description": "智谱AI研发ChatGLM",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "source": "ChatGLM",
+      "target": "智谱GLM",
+      "type": "基于",
+      "description": "ChatGLM基于GLM",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智谱GLM",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "GLM是大语言模型",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "百川智能",
+      "target": "百川大模型",
+      "type": "研发",
+      "description": "百川智能研发百川大模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "腾讯",
+      "target": "腾讯混元",
+      "type": "研发",
+      "description": "腾讯研发混元大模型",
+      "reference": "https://www.tencent.com/"
+    },
+    {
+      "source": "腾讯",
+      "target": "混元助手",
+      "type": "研发",
+      "description": "腾讯研发混元助手",
+      "reference": "https://www.tencent.com/"
+    },
+    {
+      "source": "混元助手",
+      "target": "腾讯混元",
+      "type": "基于",
+      "description": "混元助手基于混元",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包大模型",
+      "type": "研发",
+      "description": "字节研发豆包大模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "字节跳动",
+      "target": "字节豆包",
+      "type": "研发",
+      "description": "字节研发豆包助手",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "字节豆包",
+      "target": "豆包大模型",
+      "type": "基于",
+      "description": "豆包基于豆包大模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "商汤科技",
+      "target": "商汤日日新",
+      "type": "研发",
+      "description": "商汤研发日日新",
+      "reference": "https://www.sensetime.com/"
+    },
+    {
+      "source": "中国科学院",
+      "target": "紫东太初",
+      "type": "研发",
+      "description": "中科院研发紫东太初",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "紫东太初",
+      "target": "多模态大模型",
+      "type": "实现",
+      "description": "紫东太初是多模态模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Moonshot",
+      "type": "研发",
+      "description": "月之暗面研发Moonshot",
+      "reference": "https://www.moonshot.cn/"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi",
+      "type": "研发",
+      "description": "月之暗面研发Kimi",
+      "reference": "https://www.moonshot.cn/"
+    },
+    {
+      "source": "Kimi",
+      "target": "Moonshot",
+      "type": "基于",
+      "description": "Kimi基于Moonshot模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "可灵",
+      "target": "多模态大模型",
+      "type": "实现",
+      "description": "可灵是文生视频模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "阶跃星辰Step",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "阶跃星辰大模型",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "清华大学",
+      "target": "智谱AI",
+      "type": "孵化",
+      "description": "智谱AI源自清华KEG实验室",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "唐杰",
+      "target": "知识图谱",
+      "type": "研究",
+      "description": "唐杰研究知识图谱",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "唐杰",
+      "target": "智谱GLM",
+      "type": "研发",
+      "description": "唐杰参与GLM研发",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "刘知远",
+      "target": "知识图谱",
+      "type": "研究",
+      "description": "刘知远研究知识图谱与NLP",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "周志华",
+      "target": "机器学习",
+      "type": "研究",
+      "description": "周志华研究机器学习",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "张钹",
+      "target": "人工智能",
+      "type": "研究",
+      "description": "张钹研究人工智能",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "北京大学",
+      "target": "自然语言处理",
+      "type": "研究",
+      "description": "北大NLP研究领先",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "清华大学",
+      "target": "人工智能",
+      "type": "研究",
+      "description": "清华AI研究领先",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "华为",
+      "target": "昇腾AI",
+      "type": "研发",
+      "description": "华为研发昇腾",
+      "reference": "https://www.huawei.com/"
+    },
+    {
+      "source": "寒武纪",
+      "target": "寒武纪思元",
+      "type": "研发",
+      "description": "寒武纪研发思元芯片",
+      "reference": "https://www.cambricon.com/"
+    },
+    {
+      "source": "昇腾AI",
+      "target": "算力基础设施",
+      "type": "属于",
+      "description": "昇腾是算力基础设施",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "寒武纪思元",
+      "target": "算力基础设施",
+      "type": "属于",
+      "description": "思元芯片属于算力基础设施",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "地平线征程",
+      "target": "自动驾驶",
+      "type": "支撑",
+      "description": "征程芯片支撑自动驾驶",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "海光DCU",
+      "target": "算力基础设施",
+      "type": "属于",
+      "description": "海光DCU是算力设施",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "燧原科技",
+      "target": "算力基础设施",
+      "type": "提供",
+      "description": "燧原提供AI训练芯片",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智算中心",
+      "target": "算力基础设施",
+      "type": "属于",
+      "description": "智算中心是算力设施",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "东数西算",
+      "target": "算力基础设施",
+      "type": "推动",
+      "description": "东数西算推动算力布局",
+      "reference": "国务院.《新一代人工智能发展规划》；https://www.gov.cn/zhengce/content/2017-07/20/content_2122384.htm"
+    },
+    {
+      "source": "算力基础设施",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "算力支撑大模型训练",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "算力基础设施",
+      "type": "依赖",
+      "description": "大模型训练依赖算力",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "自动驾驶",
+      "target": "计算机视觉",
+      "type": "应用",
+      "description": "自动驾驶依赖视觉感知",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "自动驾驶",
+      "target": "强化学习",
+      "type": "应用",
+      "description": "自动驾驶使用强化学习",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "Apollo自动驾驶",
+      "target": "自动驾驶",
+      "type": "实现",
+      "description": "Apollo是自动驾驶平台",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "百度",
+      "target": "Apollo自动驾驶",
+      "type": "研发",
+      "description": "百度研发Apollo",
+      "reference": "https://www.baidu.com/"
+    },
+    {
+      "source": "智慧医疗",
+      "target": "计算机视觉",
+      "type": "应用",
+      "description": "医学影像使用CV",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智慧医疗",
+      "target": "深度学习",
+      "type": "应用",
+      "description": "医疗AI基于深度学习",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智能制造",
+      "target": "深度学习",
+      "type": "应用",
+      "description": "工业AI基于深度学习",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智慧城市",
+      "target": "计算机视觉",
+      "type": "应用",
+      "description": "智慧城市使用视觉AI",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智慧金融",
+      "target": "机器学习",
+      "type": "应用",
+      "description": "金融风控使用机器学习",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智能教育",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "智能教育使用NLP",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智能安防",
+      "target": "计算机视觉",
+      "type": "应用",
+      "description": "安防依赖视频分析",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "旷视科技",
+      "target": "智能安防",
+      "type": "应用",
+      "description": "旷视深耕安防AI",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "商汤科技",
+      "target": "智能安防",
+      "type": "应用",
+      "description": "商汤布局安防AI",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "数字人",
+      "target": "多模态大模型",
+      "type": "应用",
+      "description": "数字人依赖多模态生成",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智能客服",
+      "target": "大语言模型",
+      "type": "应用",
+      "description": "智能客服基于LLM",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智能客服",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "客服依赖NLP",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "《新一代人工智能发展规划》",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "国家政策推动AI发展",
+      "reference": "国务院.《新一代人工智能发展规划》；https://www.gov.cn/zhengce/content/2017-07/20/content_2122384.htm"
+    },
+    {
+      "source": "《生成式人工智能服务管理暂行办法》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "GenAI办法规范大模型服务",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "国家人工智能开放创新平台",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "开放创新平台推动AI落地",
+      "reference": "国务院.《新一代人工智能发展规划》；https://www.gov.cn/zhengce/content/2017-07/20/content_2122384.htm"
+    },
+    {
+      "source": "中国人工智能标准化白皮书",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "白皮书规范AI标准",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "之江实验室",
+      "target": "智算中心",
+      "type": "建设",
+      "description": "之江实验室建设智算设施",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "知识图谱",
+      "target": "自然语言处理",
+      "type": "支撑",
+      "description": "知识图谱支撑NLP与问答",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "RAG应用于智能客服",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "AI Agent",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "Agent可用于客服自动化",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "商汤科技",
+      "target": "计算机视觉",
+      "type": "研究",
+      "description": "商汤专注计算机视觉",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "旷视科技",
+      "target": "计算机视觉",
+      "type": "研究",
+      "description": "旷视专注计算机视觉",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "语音识别",
+      "type": "研究",
+      "description": "科大讯飞专注语音AI",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "文心一言",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "文心一言应用NLP",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "通义千问",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "通义千问应用NLP",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "腾讯混元",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "混元是大语言模型",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "百川大模型",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "百川是大语言模型",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "Moonshot",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "Moonshot是LLM",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "可灵",
+      "target": "扩散模型",
+      "type": "基于",
+      "description": "视频生成常用扩散模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "Sora",
+      "target": "扩散模型",
+      "type": "基于",
+      "description": "Sora基于扩散模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "边缘智能",
+      "target": "自动驾驶",
+      "type": "应用",
+      "description": "车端推理使用边缘智能",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "模型蒸馏",
+      "target": "大语言模型",
+      "type": "应用",
+      "description": "蒸馏用于大模型轻量化",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "自动机器学习",
+      "target": "智能制造",
+      "type": "应用",
+      "description": "AutoML用于工业场景",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "星火大模型",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "星火大模型是大语言模型",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "豆包大模型",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "豆包大模型是大语言模型",
+      "reference": "公开论文与产品文档"
+    },
+    {
+      "source": "讯飞星火",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "讯飞星火应用NLP技术",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "字节豆包",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "字节豆包应用NLP技术",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "讯飞星火",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "讯飞星火用于智能客服场景",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "字节豆包",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "字节豆包用于智能客服场景",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "智能教育",
+      "type": "应用",
+      "description": "科大讯飞布局智慧教育",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "星火大模型",
+      "target": "检索增强生成",
+      "type": "应用",
+      "description": "星火大模型支持RAG能力",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "豆包大模型",
+      "target": "检索增强生成",
+      "type": "应用",
+      "description": "豆包大模型支持RAG能力",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "科大讯飞是中国人工智能产业代表性企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "字节跳动",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "字节跳动是中国人工智能产业代表性企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "中国科学院",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "中科院推动人工智能基础研究",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "紫东太初",
+      "target": "大语言模型",
+      "type": "扩展",
+      "description": "紫东太初在大语言模型基础上扩展多模态",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "商汤日日新",
+      "target": "多模态大模型",
+      "type": "实现",
+      "description": "商汤日日新是多模态大模型体系",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "商汤日日新",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "商汤日日新具备大语言模型能力",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "商汤科技",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "商汤科技是中国人工智能代表性企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "旷视科技",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "旷视科技是中国人工智能代表性企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智能安防",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能安防是人工智能重要应用领域",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "华为",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "华为是中国人工智能与算力领军企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "寒武纪",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "寒武纪是中国AI芯片代表企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "燧原科技",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "燧原科技是中国AI芯片企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "之江实验室",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "之江实验室推动智能计算与AI研究",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "百川智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "百川智能是中国大模型创业企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "月之暗面",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "月之暗面是中国大模型创业企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "深度求索",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "深度求索是中国大模型创业企业",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "北京大学",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "北京大学推动人工智能研究",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "清华大学",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "清华大学推动人工智能研究",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "张钹",
+      "target": "知识图谱",
+      "type": "研究",
+      "description": "张钹研究知识工程与知识图谱",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "周志华",
+      "target": "人工智能",
+      "type": "研究",
+      "description": "周志华研究机器学习与人工智能",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "刘知远",
+      "target": "大语言模型",
+      "type": "研究",
+      "description": "刘知远研究大语言模型与知识图谱",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "王海峰",
+      "target": "人工智能",
+      "type": "研究",
+      "description": "王海峰负责推动百度人工智能战略",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "BERT",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "BERT广泛应用于自然语言处理",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "Vision Transformer",
+      "target": "计算机视觉",
+      "type": "应用",
+      "description": "ViT广泛应用于计算机视觉",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "循环神经网络",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "RNN应用于自然语言处理与序列建模",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "生成对抗网络",
+      "target": "计算机视觉",
+      "type": "应用",
+      "description": "GAN应用于计算机视觉与图像生成",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "AlphaGo",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "AlphaGo推动深度学习与强化学习发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "GPT-4",
+      "target": "多模态大模型",
+      "type": "实现",
+      "description": "GPT-4具备多模态大模型能力",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "DeepSeek-V3",
+      "target": "大语言模型",
+      "type": "实现",
+      "description": "DeepSeek-V3是大语言模型",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "联邦学习",
+      "target": "智慧医疗",
+      "type": "应用",
+      "description": "联邦学习用于医疗隐私计算场景",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "情感计算",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "情感计算用于智能客服交互",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "数字孪生",
+      "target": "智能制造",
+      "type": "应用",
+      "description": "数字孪生用于智能制造仿真",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "神经符号人工智能",
+      "target": "知识图谱",
+      "type": "应用",
+      "description": "神经符号AI结合知识图谱推理",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "边缘智能",
+      "target": "智慧城市",
+      "type": "应用",
+      "description": "边缘智能用于智慧城市终端部署",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "语音识别",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "语音识别是智能客服核心能力",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "自动机器学习",
+      "target": "智慧金融",
+      "type": "应用",
+      "description": "AutoML应用于智慧金融建模",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智慧城市",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智慧城市是人工智能应用领域",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智慧金融",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智慧金融是人工智能应用领域",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "数字人",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "数字人是人工智能应用形态",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "海光DCU",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "海光DCU支撑大语言模型训练与推理",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "地平线征程",
+      "target": "算力基础设施",
+      "type": "属于",
+      "description": "地平线征程属于边缘算力基础设施",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "中国人工智能标准化白皮书",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "白皮书规范大语言模型标准体系",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "国家人工智能开放创新平台",
+      "target": "大语言模型",
+      "type": "推动",
+      "description": "国家平台推动大模型开放创新",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "《生成式人工智能服务管理暂行办法》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "办法规范生成式人工智能服务",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "ChatGLM",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "ChatGLM应用自然语言处理",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "Kimi",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "Kimi应用自然语言处理",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "混元助手",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "混元助手应用自然语言处理",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "Apollo自动驾驶",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Apollo是人工智能自动驾驶平台",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "Sora",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "Sora推动多模态人工智能发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "自然语言处理",
+      "type": "应用",
+      "description": "ChatGPT应用自然语言处理",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "ResNet",
+      "target": "计算机视觉",
+      "type": "应用",
+      "description": "ResNet广泛应用于计算机视觉",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "可灵",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "可灵是中国多模态生成式AI产品",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "东数西算",
+      "target": "人工智能",
+      "type": "支撑",
+      "description": "东数西算支撑人工智能算力需求",
+      "reference": "公开资料整理"
+    }
+  ]
+}

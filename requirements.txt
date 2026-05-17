@@ -1,0 +1,21 @@
+# Web API
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+
+# Graph database
+neo4j==5.26.0
+
+# Data & config
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+pandas==2.2.3
+
+# Optional LLM (OpenAI-compatible API)
+openai==1.57.4
+httpx==0.28.1
+
+# Evaluation
+scikit-learn==1.5.2
+jieba==0.42.1
