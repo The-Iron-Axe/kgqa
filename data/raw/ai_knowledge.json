@@ -899,6 +899,1770 @@
       "year": 2020,
       "country": "中国",
       "reference": "公开资料整理"
+    },
+    {
+      "id": "E101",
+      "name": "大模型技术",
+      "type": "Technology",
+      "description": "大模型技术相关技术方向集合",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E102",
+      "name": "提示词工程",
+      "type": "Technology",
+      "description": "提示词工程是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E103",
+      "name": "思维链推理",
+      "type": "Technology",
+      "description": "思维链推理是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E104",
+      "name": "自一致性推理",
+      "type": "Technology",
+      "description": "自一致性推理是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E105",
+      "name": "工具调用",
+      "type": "Technology",
+      "description": "工具调用是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E106",
+      "name": "函数调用",
+      "type": "Technology",
+      "description": "函数调用是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E107",
+      "name": "长上下文建模",
+      "type": "Technology",
+      "description": "长上下文建模是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E108",
+      "name": "上下文学习",
+      "type": "Technology",
+      "description": "上下文学习是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E109",
+      "name": "指令微调",
+      "type": "Technology",
+      "description": "指令微调是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E110",
+      "name": "人类反馈强化学习",
+      "type": "Technology",
+      "description": "人类反馈强化学习是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E111",
+      "name": "直接偏好优化",
+      "type": "Technology",
+      "description": "直接偏好优化是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E112",
+      "name": "模型量化",
+      "type": "Technology",
+      "description": "模型量化是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E113",
+      "name": "模型剪枝",
+      "type": "Technology",
+      "description": "模型剪枝是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E114",
+      "name": "低秩适配",
+      "type": "Technology",
+      "description": "低秩适配是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E115",
+      "name": "混合专家模型",
+      "type": "Technology",
+      "description": "混合专家模型是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E116",
+      "name": "稀疏注意力",
+      "type": "Technology",
+      "description": "稀疏注意力是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E117",
+      "name": "KV缓存优化",
+      "type": "Technology",
+      "description": "KV缓存优化是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E118",
+      "name": "推理加速",
+      "type": "Technology",
+      "description": "推理加速是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E119",
+      "name": "模型对齐",
+      "type": "Technology",
+      "description": "模型对齐是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E120",
+      "name": "安全对齐",
+      "type": "Technology",
+      "description": "安全对齐是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E121",
+      "name": "幻觉检测",
+      "type": "Technology",
+      "description": "幻觉检测是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E122",
+      "name": "事实一致性校验",
+      "type": "Technology",
+      "description": "事实一致性校验是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E123",
+      "name": "检索式问答",
+      "type": "Technology",
+      "description": "检索式问答是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E124",
+      "name": "向量数据库",
+      "type": "Technology",
+      "description": "向量数据库是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E125",
+      "name": "语义检索",
+      "type": "Technology",
+      "description": "语义检索是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E126",
+      "name": "知识库问答",
+      "type": "Technology",
+      "description": "知识库问答是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E127",
+      "name": "多智能体协作",
+      "type": "Technology",
+      "description": "多智能体协作是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E128",
+      "name": "规划式智能体",
+      "type": "Technology",
+      "description": "规划式智能体是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E129",
+      "name": "代码智能体",
+      "type": "Technology",
+      "description": "代码智能体是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E130",
+      "name": "工作流智能体",
+      "type": "Technology",
+      "description": "工作流智能体是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E131",
+      "name": "端侧大模型",
+      "type": "Technology",
+      "description": "端侧大模型是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E132",
+      "name": "小语言模型",
+      "type": "Technology",
+      "description": "小语言模型是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E133",
+      "name": "开源大模型",
+      "type": "Technology",
+      "description": "开源大模型是大模型技术中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E134",
+      "name": "多模态与视觉",
+      "type": "Technology",
+      "description": "多模态与视觉相关技术方向集合",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E135",
+      "name": "图文对齐",
+      "type": "Technology",
+      "description": "图文对齐是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E136",
+      "name": "视觉语言模型",
+      "type": "Technology",
+      "description": "视觉语言模型是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E137",
+      "name": "视觉问答",
+      "type": "Technology",
+      "description": "视觉问答是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E138",
+      "name": "文生图",
+      "type": "Technology",
+      "description": "文生图是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E139",
+      "name": "图生文",
+      "type": "Technology",
+      "description": "图生文是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E140",
+      "name": "文生视频",
+      "type": "Technology",
+      "description": "文生视频是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E141",
+      "name": "视频理解",
+      "type": "Technology",
+      "description": "视频理解是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E142",
+      "name": "目标检测",
+      "type": "Technology",
+      "description": "目标检测是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E143",
+      "name": "语义分割",
+      "type": "Technology",
+      "description": "语义分割是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E144",
+      "name": "实例分割",
+      "type": "Technology",
+      "description": "实例分割是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E145",
+      "name": "图像检索",
+      "type": "Technology",
+      "description": "图像检索是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E146",
+      "name": "OCR识别",
+      "type": "Technology",
+      "description": "OCR识别是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E147",
+      "name": "人脸识别",
+      "type": "Technology",
+      "description": "人脸识别是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E148",
+      "name": "姿态估计",
+      "type": "Technology",
+      "description": "姿态估计是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E149",
+      "name": "三维重建",
+      "type": "Technology",
+      "description": "三维重建是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E150",
+      "name": "点云感知",
+      "type": "Technology",
+      "description": "点云感知是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E151",
+      "name": "遥感智能解译",
+      "type": "Technology",
+      "description": "遥感智能解译是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E152",
+      "name": "医学影像分析",
+      "type": "Technology",
+      "description": "医学影像分析是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E153",
+      "name": "工业视觉质检",
+      "type": "Technology",
+      "description": "工业视觉质检是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E154",
+      "name": "多模态检索",
+      "type": "Technology",
+      "description": "多模态检索是多模态与视觉中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E155",
+      "name": "机器学习与数据",
+      "type": "Technology",
+      "description": "机器学习与数据相关技术方向集合",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E156",
+      "name": "监督学习",
+      "type": "Technology",
+      "description": "监督学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E157",
+      "name": "无监督学习",
+      "type": "Technology",
+      "description": "无监督学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E158",
+      "name": "半监督学习",
+      "type": "Technology",
+      "description": "半监督学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E159",
+      "name": "自监督学习",
+      "type": "Technology",
+      "description": "自监督学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E160",
+      "name": "迁移学习",
+      "type": "Technology",
+      "description": "迁移学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E161",
+      "name": "元学习",
+      "type": "Technology",
+      "description": "元学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E162",
+      "name": "在线学习",
+      "type": "Technology",
+      "description": "在线学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E163",
+      "name": "主动学习",
+      "type": "Technology",
+      "description": "主动学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E164",
+      "name": "集成学习",
+      "type": "Technology",
+      "description": "集成学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E165",
+      "name": "因果推断",
+      "type": "Technology",
+      "description": "因果推断是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E166",
+      "name": "贝叶斯学习",
+      "type": "Technology",
+      "description": "贝叶斯学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E167",
+      "name": "异常检测",
+      "type": "Technology",
+      "description": "异常检测是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E168",
+      "name": "时间序列预测",
+      "type": "Technology",
+      "description": "时间序列预测是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E169",
+      "name": "推荐系统",
+      "type": "Technology",
+      "description": "推荐系统是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E170",
+      "name": "图表示学习",
+      "type": "Technology",
+      "description": "图表示学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E171",
+      "name": "知识表示学习",
+      "type": "Technology",
+      "description": "知识表示学习是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E172",
+      "name": "实体对齐",
+      "type": "Technology",
+      "description": "实体对齐是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E173",
+      "name": "关系抽取",
+      "type": "Technology",
+      "description": "关系抽取是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E174",
+      "name": "实体链接",
+      "type": "Technology",
+      "description": "实体链接是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E175",
+      "name": "数据标注",
+      "type": "Technology",
+      "description": "数据标注是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E176",
+      "name": "数据治理",
+      "type": "Technology",
+      "description": "数据治理是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E177",
+      "name": "特征工程",
+      "type": "Technology",
+      "description": "特征工程是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E178",
+      "name": "MLOps",
+      "type": "Technology",
+      "description": "MLOps是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E179",
+      "name": "模型监控",
+      "type": "Technology",
+      "description": "模型监控是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E180",
+      "name": "A/B测试",
+      "type": "Technology",
+      "description": "A/B测试是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E181",
+      "name": "隐私计算",
+      "type": "Technology",
+      "description": "隐私计算是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E182",
+      "name": "可信人工智能",
+      "type": "Technology",
+      "description": "可信人工智能是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E183",
+      "name": "可解释人工智能",
+      "type": "Technology",
+      "description": "可解释人工智能是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E184",
+      "name": "AI安全评测",
+      "type": "Technology",
+      "description": "AI安全评测是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E185",
+      "name": "红队测试",
+      "type": "Technology",
+      "description": "红队测试是机器学习与数据中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E186",
+      "name": "机器人与具身智能",
+      "type": "Technology",
+      "description": "机器人与具身智能相关技术方向集合",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E187",
+      "name": "具身智能",
+      "type": "Technology",
+      "description": "具身智能是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E188",
+      "name": "机器人操作",
+      "type": "Technology",
+      "description": "机器人操作是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E189",
+      "name": "机器人导航",
+      "type": "Technology",
+      "description": "机器人导航是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E190",
+      "name": "Sim2Real迁移",
+      "type": "Technology",
+      "description": "Sim2Real迁移是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E191",
+      "name": "世界模型",
+      "type": "Technology",
+      "description": "世界模型是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E192",
+      "name": "强化学习控制",
+      "type": "Technology",
+      "description": "强化学习控制是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E193",
+      "name": "模仿学习",
+      "type": "Technology",
+      "description": "模仿学习是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E194",
+      "name": "自动驾驶感知",
+      "type": "Technology",
+      "description": "自动驾驶感知是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E195",
+      "name": "自动驾驶决策",
+      "type": "Technology",
+      "description": "自动驾驶决策是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E196",
+      "name": "自动驾驶规划",
+      "type": "Technology",
+      "description": "自动驾驶规划是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E197",
+      "name": "车路协同",
+      "type": "Technology",
+      "description": "车路协同是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E198",
+      "name": "智能座舱",
+      "type": "Technology",
+      "description": "智能座舱是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E199",
+      "name": "无人机智能",
+      "type": "Technology",
+      "description": "无人机智能是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E200",
+      "name": "工业机器人",
+      "type": "Technology",
+      "description": "工业机器人是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E201",
+      "name": "服务机器人",
+      "type": "Technology",
+      "description": "服务机器人是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E202",
+      "name": "人机协同",
+      "type": "Technology",
+      "description": "人机协同是机器人与具身智能中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E203",
+      "name": "AI for Science",
+      "type": "Technology",
+      "description": "AI for Science相关技术方向集合",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E204",
+      "name": "AI制药",
+      "type": "Technology",
+      "description": "AI制药是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E205",
+      "name": "蛋白质结构预测",
+      "type": "Technology",
+      "description": "蛋白质结构预测是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E206",
+      "name": "材料发现",
+      "type": "Technology",
+      "description": "材料发现是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E207",
+      "name": "气象大模型",
+      "type": "Technology",
+      "description": "气象大模型是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E208",
+      "name": "科学计算大模型",
+      "type": "Technology",
+      "description": "科学计算大模型是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E209",
+      "name": "量子机器学习",
+      "type": "Technology",
+      "description": "量子机器学习是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E210",
+      "name": "生物信息智能",
+      "type": "Technology",
+      "description": "生物信息智能是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E211",
+      "name": "计算化学",
+      "type": "Technology",
+      "description": "计算化学是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E212",
+      "name": "自动实验平台",
+      "type": "Technology",
+      "description": "自动实验平台是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E213",
+      "name": "科研智能体",
+      "type": "Technology",
+      "description": "科研智能体是AI for Science中的重要技术方向",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E214",
+      "name": "AI搜索",
+      "type": "Application",
+      "description": "AI搜索是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E215",
+      "name": "AI编程",
+      "type": "Application",
+      "description": "AI编程是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E216",
+      "name": "智能办公",
+      "type": "Application",
+      "description": "智能办公是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E217",
+      "name": "智能营销",
+      "type": "Application",
+      "description": "智能营销是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E218",
+      "name": "智能风控",
+      "type": "Application",
+      "description": "智能风控是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E219",
+      "name": "医疗影像",
+      "type": "Application",
+      "description": "医疗影像是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E220",
+      "name": "药物研发",
+      "type": "Application",
+      "description": "药物研发是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E221",
+      "name": "智慧政务",
+      "type": "Application",
+      "description": "智慧政务是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E222",
+      "name": "智能交通",
+      "type": "Application",
+      "description": "智能交通是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E223",
+      "name": "智慧能源",
+      "type": "Application",
+      "description": "智慧能源是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E224",
+      "name": "智慧农业",
+      "type": "Application",
+      "description": "智慧农业是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E225",
+      "name": "智能物流",
+      "type": "Application",
+      "description": "智能物流是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E226",
+      "name": "智能零售",
+      "type": "Application",
+      "description": "智能零售是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E227",
+      "name": "智慧文旅",
+      "type": "Application",
+      "description": "智慧文旅是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E228",
+      "name": "智能法律",
+      "type": "Application",
+      "description": "智能法律是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E229",
+      "name": "智能审计",
+      "type": "Application",
+      "description": "智能审计是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E230",
+      "name": "智能运维",
+      "type": "Application",
+      "description": "智能运维是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E231",
+      "name": "网络安全",
+      "type": "Application",
+      "description": "网络安全是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E232",
+      "name": "舆情分析",
+      "type": "Application",
+      "description": "舆情分析是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E233",
+      "name": "内容审核",
+      "type": "Application",
+      "description": "内容审核是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E234",
+      "name": "智能翻译",
+      "type": "Application",
+      "description": "智能翻译是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E235",
+      "name": "会议纪要",
+      "type": "Application",
+      "description": "会议纪要是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E236",
+      "name": "知识管理",
+      "type": "Application",
+      "description": "知识管理是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E237",
+      "name": "企业知识库",
+      "type": "Application",
+      "description": "企业知识库是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E238",
+      "name": "智能座舱应用",
+      "type": "Application",
+      "description": "智能座舱应用是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E239",
+      "name": "机器人客服",
+      "type": "Application",
+      "description": "机器人客服是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E240",
+      "name": "工业缺陷检测",
+      "type": "Application",
+      "description": "工业缺陷检测是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E241",
+      "name": "遥感监测",
+      "type": "Application",
+      "description": "遥感监测是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E242",
+      "name": "灾害预警",
+      "type": "Application",
+      "description": "灾害预警是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E243",
+      "name": "城市治理",
+      "type": "Application",
+      "description": "城市治理是人工智能技术的重要应用场景",
+      "year": 2023,
+      "country": "中国",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "id": "E244",
+      "name": "盘古大模型",
+      "type": "Model",
+      "description": "华为研发的行业大模型体系",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "id": "E245",
+      "name": "盘古气象大模型",
+      "type": "Model",
+      "description": "面向气象预测的科学计算大模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "id": "E246",
+      "name": "Qwen2.5",
+      "type": "Model",
+      "description": "阿里通义千问系列开源大语言模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "id": "E247",
+      "name": "Qwen-VL",
+      "type": "Model",
+      "description": "通义千问视觉语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "id": "E248",
+      "name": "通义万相",
+      "type": "Product",
+      "description": "阿里发布的图像生成产品",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://tongyi.aliyun.com/wanxiang/"
+    },
+    {
+      "id": "E249",
+      "name": "ERNIE 4.0",
+      "type": "Model",
+      "description": "百度文心系列大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://yiyan.baidu.com/"
+    },
+    {
+      "id": "E250",
+      "name": "文心一格",
+      "type": "Product",
+      "description": "百度发布的AI艺术和图像生成产品",
+      "year": 2022,
+      "country": "中国",
+      "reference": "https://yige.baidu.com/"
+    },
+    {
+      "id": "E251",
+      "name": "Hunyuan-Turbo",
+      "type": "Model",
+      "description": "腾讯混元系列大语言模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://cloud.tencent.com/product/hunyuan"
+    },
+    {
+      "id": "E252",
+      "name": "腾讯元宝",
+      "type": "Product",
+      "description": "腾讯推出的AI助手产品",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://yuanbao.tencent.com/"
+    },
+    {
+      "id": "E253",
+      "name": "豆包视频生成模型",
+      "type": "Model",
+      "description": "字节跳动研发的视频生成模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://www.doubao.com/"
+    },
+    {
+      "id": "E254",
+      "name": "扣子Coze",
+      "type": "Product",
+      "description": "字节跳动推出的智能体开发平台",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://www.coze.cn/"
+    },
+    {
+      "id": "E255",
+      "name": "DeepSeek-R1",
+      "type": "Model",
+      "description": "深度求索发布的推理型大语言模型",
+      "year": 2025,
+      "country": "中国",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "id": "E256",
+      "name": "DeepSeek-Coder",
+      "type": "Model",
+      "description": "深度求索发布的代码大模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "id": "E257",
+      "name": "GLM-4",
+      "type": "Model",
+      "description": "智谱AI发布的GLM系列大模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "id": "E258",
+      "name": "智谱清言",
+      "type": "Product",
+      "description": "智谱AI推出的智能助手产品",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://chatglm.cn/"
+    },
+    {
+      "id": "E259",
+      "name": "MiniMax",
+      "type": "Organization",
+      "description": "中国大模型创业企业",
+      "year": 2021,
+      "country": "中国",
+      "reference": "https://www.minimaxi.com/"
+    },
+    {
+      "id": "E260",
+      "name": "abab大模型",
+      "type": "Model",
+      "description": "MiniMax研发的通用大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.minimaxi.com/"
+    },
+    {
+      "id": "E261",
+      "name": "海螺AI",
+      "type": "Product",
+      "description": "MiniMax推出的AI助手与内容生成产品",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://hailuoai.com/"
+    },
+    {
+      "id": "E262",
+      "name": "零一万物",
+      "type": "Organization",
+      "description": "中国大模型创业企业",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.lingyiwanwu.com/"
+    },
+    {
+      "id": "E263",
+      "name": "Yi大模型",
+      "type": "Model",
+      "description": "零一万物研发的开源大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.lingyiwanwu.com/"
+    },
+    {
+      "id": "E264",
+      "name": "阶跃星辰",
+      "type": "Organization",
+      "description": "中国大模型创业企业",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.stepfun.com/"
+    },
+    {
+      "id": "E265",
+      "name": "Step-2",
+      "type": "Model",
+      "description": "阶跃星辰研发的大语言模型",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://www.stepfun.com/"
+    },
+    {
+      "id": "E266",
+      "name": "Baichuan2",
+      "type": "Model",
+      "description": "百川智能研发的大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.baichuan-ai.com/"
+    },
+    {
+      "id": "E267",
+      "name": "Kimi K2",
+      "type": "Model",
+      "description": "月之暗面研发的长上下文大模型",
+      "year": 2025,
+      "country": "中国",
+      "reference": "https://kimi.moonshot.cn/"
+    },
+    {
+      "id": "E268",
+      "name": "日日新SenseNova",
+      "type": "Model",
+      "description": "商汤科技研发的大模型体系",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.sensetime.com/"
+    },
+    {
+      "id": "E269",
+      "name": "上海人工智能实验室",
+      "type": "Organization",
+      "description": "面向通用人工智能的新型研发机构",
+      "year": 2020,
+      "country": "中国",
+      "reference": "https://www.shlab.org.cn/"
+    },
+    {
+      "id": "E270",
+      "name": "书生浦语",
+      "type": "Model",
+      "description": "上海人工智能实验室发布的开源大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://internlm.intern-ai.org.cn/"
+    },
+    {
+      "id": "E271",
+      "name": "面壁智能",
+      "type": "Organization",
+      "description": "中国端侧大模型创业企业",
+      "year": 2022,
+      "country": "中国",
+      "reference": "https://www.modelbest.cn/"
+    },
+    {
+      "id": "E272",
+      "name": "MiniCPM",
+      "type": "Model",
+      "description": "面壁智能研发的端侧小模型系列",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://www.modelbest.cn/"
+    },
+    {
+      "id": "E273",
+      "name": "澜舟科技",
+      "type": "Organization",
+      "description": "中国自然语言处理与大模型企业",
+      "year": 2021,
+      "country": "中国",
+      "reference": "https://www.langboat.com/"
+    },
+    {
+      "id": "E274",
+      "name": "孟子大模型",
+      "type": "Model",
+      "description": "澜舟科技研发的中文大模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://www.langboat.com/"
+    },
+    {
+      "id": "E275",
+      "name": "昆仑万维",
+      "type": "Organization",
+      "description": "中国互联网与AI企业",
+      "year": 2008,
+      "country": "中国",
+      "reference": "https://www.kunlun.com/"
+    },
+    {
+      "id": "E276",
+      "name": "天工大模型",
+      "type": "Model",
+      "description": "昆仑万维研发的大语言模型",
+      "year": 2023,
+      "country": "中国",
+      "reference": "https://tiangong.kunlun.com/"
+    },
+    {
+      "id": "E277",
+      "name": "快手",
+      "type": "Organization",
+      "description": "中国短视频与AI技术企业",
+      "year": 2011,
+      "country": "中国",
+      "reference": "https://www.kuaishou.com/"
+    },
+    {
+      "id": "E278",
+      "name": "可图",
+      "type": "Product",
+      "description": "快手推出的图像生成产品",
+      "year": 2024,
+      "country": "中国",
+      "reference": "https://klingai.kuaishou.com/"
+    },
+    {
+      "id": "E279",
+      "name": "壁仞科技",
+      "type": "Organization",
+      "description": "壁仞科技是AI芯片或智能计算相关企业",
+      "year": 2022,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E280",
+      "name": "壁仞BR100",
+      "type": "Hardware",
+      "description": "壁仞科技研发的通用GPU芯片",
+      "year": 2022,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E281",
+      "name": "邃思芯片",
+      "type": "Hardware",
+      "description": "燧原科技研发的AI训练芯片",
+      "year": 2021,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E282",
+      "name": "摩尔线程",
+      "type": "Organization",
+      "description": "摩尔线程是AI芯片或智能计算相关企业",
+      "year": 2022,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E283",
+      "name": "摩尔线程MTT",
+      "type": "Hardware",
+      "description": "摩尔线程研发的GPU产品",
+      "year": 2022,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E284",
+      "name": "昆仑芯",
+      "type": "Organization",
+      "description": "昆仑芯是AI芯片或智能计算相关企业",
+      "year": 2021,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E285",
+      "name": "昆仑芯AI芯片",
+      "type": "Hardware",
+      "description": "面向AI训练与推理的国产AI芯片",
+      "year": 2021,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E286",
+      "name": "阿里平头哥",
+      "type": "Organization",
+      "description": "阿里平头哥是AI芯片或智能计算相关企业",
+      "year": 2019,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E287",
+      "name": "含光800",
+      "type": "Hardware",
+      "description": "阿里平头哥研发的AI推理芯片",
+      "year": 2019,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E288",
+      "name": "地平线",
+      "type": "Organization",
+      "description": "地平线是AI芯片或智能计算相关企业",
+      "year": 2015,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E289",
+      "name": "征程6",
+      "type": "Hardware",
+      "description": "地平线研发的车载智能计算芯片",
+      "year": 2024,
+      "country": "中国",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "id": "E290",
+      "name": "《国家人工智能产业综合标准化体系建设指南（2024版）》",
+      "type": "Policy",
+      "description": "推动人工智能产业标准体系建设的政策文件",
+      "year": 2024,
+      "country": "中国",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "id": "E291",
+      "name": "《算力基础设施高质量发展行动计划》",
+      "type": "Policy",
+      "description": "推进算力基础设施高质量发展的行动计划",
+      "year": 2023,
+      "country": "中国",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "id": "E292",
+      "name": "《促进和规范数据跨境流动规定》",
+      "type": "Policy",
+      "description": "规范数据跨境流动的重要政策文件",
+      "year": 2024,
+      "country": "中国",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "id": "E293",
+      "name": "《互联网信息服务算法推荐管理规定》",
+      "type": "Policy",
+      "description": "规范算法推荐服务的重要制度",
+      "year": 2022,
+      "country": "中国",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "id": "E294",
+      "name": "《互联网信息服务深度合成管理规定》",
+      "type": "Policy",
+      "description": "规范深度合成服务的重要制度",
+      "year": 2023,
+      "country": "中国",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "id": "E295",
+      "name": "《生成式人工智能服务安全基本要求》",
+      "type": "Policy",
+      "description": "生成式人工智能服务安全评估参考标准",
+      "year": 2024,
+      "country": "中国",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "id": "E296",
+      "name": "《关于深入实施人工智能+行动的意见》",
+      "type": "Policy",
+      "description": "推动人工智能与经济社会各领域融合应用的政策",
+      "year": 2025,
+      "country": "中国",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
     }
   ],
   "relations": [
@@ -2258,6 +4022,3863 @@
       "target": "人工智能",
       "type": "支撑",
       "description": "东数西算支撑人工智能算力需求",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "大模型技术",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "大模型技术属于人工智能技术体系",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "提示词工程",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "提示词工程属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "提示词工程",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "提示词工程是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "思维链推理",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "思维链推理属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "思维链推理",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "思维链推理是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自一致性推理",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "自一致性推理属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自一致性推理",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "自一致性推理是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工具调用",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "工具调用属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工具调用",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "工具调用是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "函数调用",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "函数调用属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "函数调用",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "函数调用是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "长上下文建模",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "长上下文建模属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "长上下文建模",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "长上下文建模是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "上下文学习",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "上下文学习属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "上下文学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "上下文学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "指令微调",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "指令微调属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "指令微调",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "指令微调是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "人类反馈强化学习",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "人类反馈强化学习属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "人类反馈强化学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "人类反馈强化学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "直接偏好优化",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "直接偏好优化属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "直接偏好优化",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "直接偏好优化是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型量化",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "模型量化属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型量化",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "模型量化是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型剪枝",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "模型剪枝属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型剪枝",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "模型剪枝是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "低秩适配",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "低秩适配属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "低秩适配",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "低秩适配是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "混合专家模型",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "混合专家模型属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "混合专家模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "混合专家模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "稀疏注意力",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "稀疏注意力属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "稀疏注意力",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "稀疏注意力是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "KV缓存优化",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "KV缓存优化属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "KV缓存优化",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "KV缓存优化是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "推理加速",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "推理加速属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "推理加速",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "推理加速是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型对齐",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "模型对齐属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型对齐",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "模型对齐是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "安全对齐",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "安全对齐属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "安全对齐",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "安全对齐是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "幻觉检测",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "幻觉检测属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "幻觉检测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "幻觉检测是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "事实一致性校验",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "事实一致性校验属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "事实一致性校验",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "事实一致性校验是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "检索式问答",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "检索式问答属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "检索式问答",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "检索式问答是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "向量数据库",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "向量数据库属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "向量数据库",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "向量数据库是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "语义检索",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "语义检索属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "语义检索",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "语义检索是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "知识库问答",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "知识库问答属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "知识库问答",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "知识库问答是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多智能体协作",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "多智能体协作属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多智能体协作",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "多智能体协作是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "规划式智能体",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "规划式智能体属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "规划式智能体",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "规划式智能体是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "代码智能体",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "代码智能体属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "代码智能体",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "代码智能体是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工作流智能体",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "工作流智能体属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工作流智能体",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "工作流智能体是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "端侧大模型",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "端侧大模型属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "端侧大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "端侧大模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "小语言模型",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "小语言模型属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "小语言模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "小语言模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "开源大模型",
+      "target": "大模型技术",
+      "type": "属于",
+      "description": "开源大模型属于大模型技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "开源大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "开源大模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态与视觉",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "多模态与视觉属于人工智能技术体系",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图文对齐",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "图文对齐属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图文对齐",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "图文对齐是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉语言模型",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "视觉语言模型属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉语言模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "视觉语言模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉问答",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "视觉问答属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉问答",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "视觉问答是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "文生图",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "文生图属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "文生图",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "文生图是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图生文",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "图生文属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图生文",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "图生文是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "文生视频",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "文生视频属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "文生视频",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "文生视频是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视频理解",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "视频理解属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视频理解",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "视频理解是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "目标检测",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "目标检测属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "目标检测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "目标检测是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "语义分割",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "语义分割属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "语义分割",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "语义分割是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "实例分割",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "实例分割属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "实例分割",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "实例分割是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图像检索",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "图像检索属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图像检索",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "图像检索是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "OCR识别",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "OCR识别属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "OCR识别",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "OCR识别是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "人脸识别",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "人脸识别属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "人脸识别",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "人脸识别是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "姿态估计",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "姿态估计属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "姿态估计",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "姿态估计是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "三维重建",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "三维重建属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "三维重建",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "三维重建是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "点云感知",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "点云感知属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "点云感知",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "点云感知是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "遥感智能解译",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "遥感智能解译属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "遥感智能解译",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "遥感智能解译是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "医学影像分析",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "医学影像分析属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "医学影像分析",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "医学影像分析是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工业视觉质检",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "工业视觉质检属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工业视觉质检",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "工业视觉质检是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态检索",
+      "target": "多模态与视觉",
+      "type": "属于",
+      "description": "多模态检索属于多模态与视觉",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态检索",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "多模态检索是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "机器学习与数据",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "机器学习与数据属于人工智能技术体系",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "监督学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "监督学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "监督学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "监督学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "无监督学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "无监督学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "无监督学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "无监督学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "半监督学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "半监督学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "半监督学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "半监督学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自监督学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "自监督学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自监督学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "自监督学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "迁移学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "迁移学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "迁移学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "迁移学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "元学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "元学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "元学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "元学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "在线学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "在线学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "在线学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "在线学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "主动学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "主动学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "主动学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "主动学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "集成学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "集成学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "集成学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "集成学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "因果推断",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "因果推断属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "因果推断",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "因果推断是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "贝叶斯学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "贝叶斯学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "贝叶斯学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "贝叶斯学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "异常检测",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "异常检测属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "异常检测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "异常检测是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "时间序列预测",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "时间序列预测属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "时间序列预测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "时间序列预测是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "推荐系统",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "推荐系统属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "推荐系统",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "推荐系统是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图表示学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "图表示学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "图表示学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "图表示学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "知识表示学习",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "知识表示学习属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "知识表示学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "知识表示学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "实体对齐",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "实体对齐属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "实体对齐",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "实体对齐是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "关系抽取",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "关系抽取属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "关系抽取",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "关系抽取是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "实体链接",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "实体链接属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "实体链接",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "实体链接是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "数据标注",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "数据标注属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "数据标注",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "数据标注是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "数据治理",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "数据治理属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "数据治理",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "数据治理是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "特征工程",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "特征工程属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "特征工程",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "特征工程是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "MLOps",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "MLOps属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "MLOps",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "MLOps是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型监控",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "模型监控属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模型监控",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "模型监控是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "A/B测试",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "A/B测试属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "A/B测试",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "A/B测试是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "隐私计算",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "隐私计算属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "隐私计算",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "隐私计算是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "可信人工智能",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "可信人工智能属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "可信人工智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "可信人工智能是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "可解释人工智能",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "可解释人工智能属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "可解释人工智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "可解释人工智能是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI安全评测",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "AI安全评测属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI安全评测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "AI安全评测是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "红队测试",
+      "target": "机器学习与数据",
+      "type": "属于",
+      "description": "红队测试属于机器学习与数据",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "红队测试",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "红队测试是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "机器人与具身智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "机器人与具身智能属于人工智能技术体系",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "具身智能",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "具身智能属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "具身智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "具身智能是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "机器人操作",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "机器人操作属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "机器人操作",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "机器人操作是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "机器人导航",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "机器人导航属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "机器人导航",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "机器人导航是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "Sim2Real迁移",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "Sim2Real迁移属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "Sim2Real迁移",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Sim2Real迁移是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "世界模型",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "世界模型属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "世界模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "世界模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "强化学习控制",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "强化学习控制属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "强化学习控制",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "强化学习控制是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模仿学习",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "模仿学习属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "模仿学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "模仿学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动驾驶感知",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "自动驾驶感知属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动驾驶感知",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "自动驾驶感知是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动驾驶决策",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "自动驾驶决策属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动驾驶决策",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "自动驾驶决策是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动驾驶规划",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "自动驾驶规划属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动驾驶规划",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "自动驾驶规划是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "车路协同",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "车路协同属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "车路协同",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "车路协同是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能座舱",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "智能座舱属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能座舱",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能座舱是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "无人机智能",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "无人机智能属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "无人机智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "无人机智能是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工业机器人",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "工业机器人属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工业机器人",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "工业机器人是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "服务机器人",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "服务机器人属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "服务机器人",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "服务机器人是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "人机协同",
+      "target": "机器人与具身智能",
+      "type": "属于",
+      "description": "人机协同属于机器人与具身智能",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "人机协同",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "人机协同是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI for Science",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "AI for Science属于人工智能技术体系",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI制药",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "AI制药属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI制药",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "AI制药是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "蛋白质结构预测",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "蛋白质结构预测属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "蛋白质结构预测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "蛋白质结构预测是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "材料发现",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "材料发现属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "材料发现",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "材料发现是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "气象大模型",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "气象大模型属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "气象大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "气象大模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "科学计算大模型",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "科学计算大模型属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "科学计算大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "科学计算大模型是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "量子机器学习",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "量子机器学习属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "量子机器学习",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "量子机器学习是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "生物信息智能",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "生物信息智能属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "生物信息智能",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "生物信息智能是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算化学",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "计算化学属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算化学",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "计算化学是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动实验平台",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "自动实验平台属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自动实验平台",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "自动实验平台是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "科研智能体",
+      "target": "AI for Science",
+      "type": "属于",
+      "description": "科研智能体属于AI for Science",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "科研智能体",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "科研智能体是人工智能相关技术",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI搜索",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "AI搜索属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI编程",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "AI编程属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能办公",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能办公属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能营销",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能营销属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能风控",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能风控属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "医疗影像",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "医疗影像属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "药物研发",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "药物研发属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智慧政务",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智慧政务属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能交通",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能交通属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智慧能源",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智慧能源属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智慧农业",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智慧农业属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能物流",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能物流属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能零售",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能零售属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智慧文旅",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智慧文旅属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能法律",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能法律属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能审计",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能审计属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能运维",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能运维属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "网络安全",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "网络安全属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "舆情分析",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "舆情分析属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "内容审核",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "内容审核属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能翻译",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能翻译属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "会议纪要",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "会议纪要属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "知识管理",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "知识管理属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "企业知识库",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "企业知识库属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "智能座舱应用",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智能座舱应用属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "机器人客服",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "机器人客服属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "工业缺陷检测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "工业缺陷检测属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "遥感监测",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "遥感监测属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "灾害预警",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "灾害预警属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "城市治理",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "城市治理属于人工智能应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "华为",
+      "target": "盘古大模型",
+      "type": "研发",
+      "description": "华为研发或发布盘古大模型",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "source": "盘古大模型",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "盘古大模型关联大语言模型",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "source": "盘古大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "盘古大模型属于人工智能产品或模型",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "source": "华为",
+      "target": "盘古气象大模型",
+      "type": "研发",
+      "description": "华为研发或发布盘古气象大模型",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "source": "盘古气象大模型",
+      "target": "科学计算大模型",
+      "type": "基于",
+      "description": "盘古气象大模型关联科学计算大模型",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "source": "盘古气象大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "盘古气象大模型属于人工智能产品或模型",
+      "reference": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen2.5",
+      "type": "研发",
+      "description": "阿里巴巴研发或发布Qwen2.5",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "source": "Qwen2.5",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "Qwen2.5关联大语言模型",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "source": "Qwen2.5",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Qwen2.5属于人工智能产品或模型",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen-VL",
+      "type": "研发",
+      "description": "阿里巴巴研发或发布Qwen-VL",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "source": "Qwen-VL",
+      "target": "视觉语言模型",
+      "type": "基于",
+      "description": "Qwen-VL关联视觉语言模型",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "source": "Qwen-VL",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Qwen-VL属于人工智能产品或模型",
+      "reference": "https://qwenlm.github.io/"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "通义万相",
+      "type": "研发",
+      "description": "阿里巴巴研发或发布通义万相",
+      "reference": "https://tongyi.aliyun.com/wanxiang/"
+    },
+    {
+      "source": "通义万相",
+      "target": "文生图",
+      "type": "基于",
+      "description": "通义万相关联文生图",
+      "reference": "https://tongyi.aliyun.com/wanxiang/"
+    },
+    {
+      "source": "通义万相",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "通义万相属于人工智能产品或模型",
+      "reference": "https://tongyi.aliyun.com/wanxiang/"
+    },
+    {
+      "source": "百度",
+      "target": "ERNIE 4.0",
+      "type": "研发",
+      "description": "百度研发或发布ERNIE 4.0",
+      "reference": "https://yiyan.baidu.com/"
+    },
+    {
+      "source": "ERNIE 4.0",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "ERNIE 4.0关联大语言模型",
+      "reference": "https://yiyan.baidu.com/"
+    },
+    {
+      "source": "ERNIE 4.0",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "ERNIE 4.0属于人工智能产品或模型",
+      "reference": "https://yiyan.baidu.com/"
+    },
+    {
+      "source": "百度",
+      "target": "文心一格",
+      "type": "研发",
+      "description": "百度研发或发布文心一格",
+      "reference": "https://yige.baidu.com/"
+    },
+    {
+      "source": "文心一格",
+      "target": "文生图",
+      "type": "基于",
+      "description": "文心一格关联文生图",
+      "reference": "https://yige.baidu.com/"
+    },
+    {
+      "source": "文心一格",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "文心一格属于人工智能产品或模型",
+      "reference": "https://yige.baidu.com/"
+    },
+    {
+      "source": "腾讯",
+      "target": "Hunyuan-Turbo",
+      "type": "研发",
+      "description": "腾讯研发或发布Hunyuan-Turbo",
+      "reference": "https://cloud.tencent.com/product/hunyuan"
+    },
+    {
+      "source": "Hunyuan-Turbo",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "Hunyuan-Turbo关联大语言模型",
+      "reference": "https://cloud.tencent.com/product/hunyuan"
+    },
+    {
+      "source": "Hunyuan-Turbo",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Hunyuan-Turbo属于人工智能产品或模型",
+      "reference": "https://cloud.tencent.com/product/hunyuan"
+    },
+    {
+      "source": "腾讯",
+      "target": "腾讯元宝",
+      "type": "研发",
+      "description": "腾讯研发或发布腾讯元宝",
+      "reference": "https://yuanbao.tencent.com/"
+    },
+    {
+      "source": "腾讯元宝",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "腾讯元宝关联大语言模型",
+      "reference": "https://yuanbao.tencent.com/"
+    },
+    {
+      "source": "腾讯元宝",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "腾讯元宝属于人工智能产品或模型",
+      "reference": "https://yuanbao.tencent.com/"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包视频生成模型",
+      "type": "研发",
+      "description": "字节跳动研发或发布豆包视频生成模型",
+      "reference": "https://www.doubao.com/"
+    },
+    {
+      "source": "豆包视频生成模型",
+      "target": "文生视频",
+      "type": "基于",
+      "description": "豆包视频生成模型关联文生视频",
+      "reference": "https://www.doubao.com/"
+    },
+    {
+      "source": "豆包视频生成模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "豆包视频生成模型属于人工智能产品或模型",
+      "reference": "https://www.doubao.com/"
+    },
+    {
+      "source": "字节跳动",
+      "target": "扣子Coze",
+      "type": "研发",
+      "description": "字节跳动研发或发布扣子Coze",
+      "reference": "https://www.coze.cn/"
+    },
+    {
+      "source": "扣子Coze",
+      "target": "AI Agent",
+      "type": "基于",
+      "description": "扣子Coze关联AI Agent",
+      "reference": "https://www.coze.cn/"
+    },
+    {
+      "source": "扣子Coze",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "扣子Coze属于人工智能产品或模型",
+      "reference": "https://www.coze.cn/"
+    },
+    {
+      "source": "深度求索",
+      "target": "DeepSeek-R1",
+      "type": "研发",
+      "description": "深度求索研发或发布DeepSeek-R1",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "思维链推理",
+      "type": "基于",
+      "description": "DeepSeek-R1关联思维链推理",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "DeepSeek-R1属于人工智能产品或模型",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "深度求索",
+      "target": "DeepSeek-Coder",
+      "type": "研发",
+      "description": "深度求索研发或发布DeepSeek-Coder",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "DeepSeek-Coder",
+      "target": "AI编程",
+      "type": "应用",
+      "description": "DeepSeek-Coder关联AI编程",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "DeepSeek-Coder",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "DeepSeek-Coder属于人工智能产品或模型",
+      "reference": "https://www.deepseek.com/"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM-4",
+      "type": "研发",
+      "description": "智谱AI研发或发布GLM-4",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "source": "GLM-4",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "GLM-4关联大语言模型",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "source": "GLM-4",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "GLM-4属于人工智能产品或模型",
+      "reference": "https://www.zhipuai.cn/"
+    },
+    {
+      "source": "智谱AI",
+      "target": "智谱清言",
+      "type": "研发",
+      "description": "智谱AI研发或发布智谱清言",
+      "reference": "https://chatglm.cn/"
+    },
+    {
+      "source": "智谱清言",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "智谱清言关联大语言模型",
+      "reference": "https://chatglm.cn/"
+    },
+    {
+      "source": "智谱清言",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "智谱清言属于人工智能产品或模型",
+      "reference": "https://chatglm.cn/"
+    },
+    {
+      "source": "MiniMax",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "MiniMax推动中国人工智能发展",
+      "reference": "https://www.minimaxi.com/"
+    },
+    {
+      "source": "MiniMax",
+      "target": "abab大模型",
+      "type": "研发",
+      "description": "MiniMax研发或发布abab大模型",
+      "reference": "https://www.minimaxi.com/"
+    },
+    {
+      "source": "abab大模型",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "abab大模型关联大语言模型",
+      "reference": "https://www.minimaxi.com/"
+    },
+    {
+      "source": "abab大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "abab大模型属于人工智能产品或模型",
+      "reference": "https://www.minimaxi.com/"
+    },
+    {
+      "source": "MiniMax",
+      "target": "海螺AI",
+      "type": "研发",
+      "description": "MiniMax研发或发布海螺AI",
+      "reference": "https://hailuoai.com/"
+    },
+    {
+      "source": "海螺AI",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "海螺AI关联大语言模型",
+      "reference": "https://hailuoai.com/"
+    },
+    {
+      "source": "海螺AI",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "海螺AI属于人工智能产品或模型",
+      "reference": "https://hailuoai.com/"
+    },
+    {
+      "source": "零一万物",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "零一万物推动中国人工智能发展",
+      "reference": "https://www.lingyiwanwu.com/"
+    },
+    {
+      "source": "零一万物",
+      "target": "Yi大模型",
+      "type": "研发",
+      "description": "零一万物研发或发布Yi大模型",
+      "reference": "https://www.lingyiwanwu.com/"
+    },
+    {
+      "source": "Yi大模型",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "Yi大模型关联大语言模型",
+      "reference": "https://www.lingyiwanwu.com/"
+    },
+    {
+      "source": "Yi大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Yi大模型属于人工智能产品或模型",
+      "reference": "https://www.lingyiwanwu.com/"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "阶跃星辰推动中国人工智能发展",
+      "reference": "https://www.stepfun.com/"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "Step-2",
+      "type": "研发",
+      "description": "阶跃星辰研发或发布Step-2",
+      "reference": "https://www.stepfun.com/"
+    },
+    {
+      "source": "Step-2",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "Step-2关联大语言模型",
+      "reference": "https://www.stepfun.com/"
+    },
+    {
+      "source": "Step-2",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Step-2属于人工智能产品或模型",
+      "reference": "https://www.stepfun.com/"
+    },
+    {
+      "source": "百川智能",
+      "target": "Baichuan2",
+      "type": "研发",
+      "description": "百川智能研发或发布Baichuan2",
+      "reference": "https://www.baichuan-ai.com/"
+    },
+    {
+      "source": "Baichuan2",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "Baichuan2关联大语言模型",
+      "reference": "https://www.baichuan-ai.com/"
+    },
+    {
+      "source": "Baichuan2",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Baichuan2属于人工智能产品或模型",
+      "reference": "https://www.baichuan-ai.com/"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi K2",
+      "type": "研发",
+      "description": "月之暗面研发或发布Kimi K2",
+      "reference": "https://kimi.moonshot.cn/"
+    },
+    {
+      "source": "Kimi K2",
+      "target": "长上下文建模",
+      "type": "基于",
+      "description": "Kimi K2关联长上下文建模",
+      "reference": "https://kimi.moonshot.cn/"
+    },
+    {
+      "source": "Kimi K2",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "Kimi K2属于人工智能产品或模型",
+      "reference": "https://kimi.moonshot.cn/"
+    },
+    {
+      "source": "商汤科技",
+      "target": "日日新SenseNova",
+      "type": "研发",
+      "description": "商汤科技研发或发布日日新SenseNova",
+      "reference": "https://www.sensetime.com/"
+    },
+    {
+      "source": "日日新SenseNova",
+      "target": "多模态大模型",
+      "type": "基于",
+      "description": "日日新SenseNova关联多模态大模型",
+      "reference": "https://www.sensetime.com/"
+    },
+    {
+      "source": "日日新SenseNova",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "日日新SenseNova属于人工智能产品或模型",
+      "reference": "https://www.sensetime.com/"
+    },
+    {
+      "source": "上海人工智能实验室",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "上海人工智能实验室推动中国人工智能发展",
+      "reference": "https://www.shlab.org.cn/"
+    },
+    {
+      "source": "上海人工智能实验室",
+      "target": "书生浦语",
+      "type": "研发",
+      "description": "上海人工智能实验室研发或发布书生浦语",
+      "reference": "https://internlm.intern-ai.org.cn/"
+    },
+    {
+      "source": "书生浦语",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "书生浦语关联大语言模型",
+      "reference": "https://internlm.intern-ai.org.cn/"
+    },
+    {
+      "source": "书生浦语",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "书生浦语属于人工智能产品或模型",
+      "reference": "https://internlm.intern-ai.org.cn/"
+    },
+    {
+      "source": "面壁智能",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "面壁智能推动中国人工智能发展",
+      "reference": "https://www.modelbest.cn/"
+    },
+    {
+      "source": "面壁智能",
+      "target": "MiniCPM",
+      "type": "研发",
+      "description": "面壁智能研发或发布MiniCPM",
+      "reference": "https://www.modelbest.cn/"
+    },
+    {
+      "source": "MiniCPM",
+      "target": "端侧大模型",
+      "type": "基于",
+      "description": "MiniCPM关联端侧大模型",
+      "reference": "https://www.modelbest.cn/"
+    },
+    {
+      "source": "MiniCPM",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "MiniCPM属于人工智能产品或模型",
+      "reference": "https://www.modelbest.cn/"
+    },
+    {
+      "source": "澜舟科技",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "澜舟科技推动中国人工智能发展",
+      "reference": "https://www.langboat.com/"
+    },
+    {
+      "source": "澜舟科技",
+      "target": "孟子大模型",
+      "type": "研发",
+      "description": "澜舟科技研发或发布孟子大模型",
+      "reference": "https://www.langboat.com/"
+    },
+    {
+      "source": "孟子大模型",
+      "target": "自然语言处理",
+      "type": "基于",
+      "description": "孟子大模型关联自然语言处理",
+      "reference": "https://www.langboat.com/"
+    },
+    {
+      "source": "孟子大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "孟子大模型属于人工智能产品或模型",
+      "reference": "https://www.langboat.com/"
+    },
+    {
+      "source": "昆仑万维",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "昆仑万维推动中国人工智能发展",
+      "reference": "https://www.kunlun.com/"
+    },
+    {
+      "source": "昆仑万维",
+      "target": "天工大模型",
+      "type": "研发",
+      "description": "昆仑万维研发或发布天工大模型",
+      "reference": "https://tiangong.kunlun.com/"
+    },
+    {
+      "source": "天工大模型",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "天工大模型关联大语言模型",
+      "reference": "https://tiangong.kunlun.com/"
+    },
+    {
+      "source": "天工大模型",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "天工大模型属于人工智能产品或模型",
+      "reference": "https://tiangong.kunlun.com/"
+    },
+    {
+      "source": "快手",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "快手推动中国人工智能发展",
+      "reference": "https://www.kuaishou.com/"
+    },
+    {
+      "source": "快手",
+      "target": "可图",
+      "type": "研发",
+      "description": "快手研发或发布可图",
+      "reference": "https://klingai.kuaishou.com/"
+    },
+    {
+      "source": "可图",
+      "target": "文生图",
+      "type": "基于",
+      "description": "可图关联文生图",
+      "reference": "https://klingai.kuaishou.com/"
+    },
+    {
+      "source": "可图",
+      "target": "人工智能",
+      "type": "属于",
+      "description": "可图属于人工智能产品或模型",
+      "reference": "https://klingai.kuaishou.com/"
+    },
+    {
+      "source": "壁仞科技",
+      "target": "人工智能",
+      "type": "支撑",
+      "description": "壁仞科技支撑人工智能算力生态",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "壁仞科技",
+      "target": "壁仞BR100",
+      "type": "研发",
+      "description": "壁仞科技研发壁仞BR100",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "壁仞BR100",
+      "target": "算力基础设施",
+      "type": "支撑",
+      "description": "壁仞BR100支撑AI训练或推理算力",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "壁仞BR100",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "壁仞BR100可支撑大语言模型训练或推理",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "燧原科技",
+      "target": "邃思芯片",
+      "type": "研发",
+      "description": "燧原科技研发邃思芯片",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "邃思芯片",
+      "target": "算力基础设施",
+      "type": "支撑",
+      "description": "邃思芯片支撑AI训练或推理算力",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "邃思芯片",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "邃思芯片可支撑大语言模型训练或推理",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "摩尔线程",
+      "target": "人工智能",
+      "type": "支撑",
+      "description": "摩尔线程支撑人工智能算力生态",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "摩尔线程",
+      "target": "摩尔线程MTT",
+      "type": "研发",
+      "description": "摩尔线程研发摩尔线程MTT",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "摩尔线程MTT",
+      "target": "算力基础设施",
+      "type": "支撑",
+      "description": "摩尔线程MTT支撑AI训练或推理算力",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "摩尔线程MTT",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "摩尔线程MTT可支撑大语言模型训练或推理",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "昆仑芯",
+      "target": "人工智能",
+      "type": "支撑",
+      "description": "昆仑芯支撑人工智能算力生态",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "昆仑芯",
+      "target": "昆仑芯AI芯片",
+      "type": "研发",
+      "description": "昆仑芯研发昆仑芯AI芯片",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "昆仑芯AI芯片",
+      "target": "算力基础设施",
+      "type": "支撑",
+      "description": "昆仑芯AI芯片支撑AI训练或推理算力",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "昆仑芯AI芯片",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "昆仑芯AI芯片可支撑大语言模型训练或推理",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "阿里平头哥",
+      "target": "人工智能",
+      "type": "支撑",
+      "description": "阿里平头哥支撑人工智能算力生态",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "阿里平头哥",
+      "target": "含光800",
+      "type": "研发",
+      "description": "阿里平头哥研发含光800",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "含光800",
+      "target": "算力基础设施",
+      "type": "支撑",
+      "description": "含光800支撑AI训练或推理算力",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "含光800",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "含光800可支撑大语言模型训练或推理",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "地平线",
+      "target": "人工智能",
+      "type": "支撑",
+      "description": "地平线支撑人工智能算力生态",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "地平线",
+      "target": "征程6",
+      "type": "研发",
+      "description": "地平线研发征程6",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "征程6",
+      "target": "算力基础设施",
+      "type": "支撑",
+      "description": "征程6支撑AI训练或推理算力",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "征程6",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "征程6可支撑大语言模型训练或推理",
+      "reference": "TrendForce Chinese AI chip overview；https://www.trendforce.com/news/2024/09/19/new-seven-chinese-chip-design-companies-you-need-to-know-all-aiming-to-replace-nvidia/"
+    },
+    {
+      "source": "《国家人工智能产业综合标准化体系建设指南（2024版）》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "《国家人工智能产业综合标准化体系建设指南（2024版）》规范或推动人工智能发展",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《国家人工智能产业综合标准化体系建设指南（2024版）》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "《国家人工智能产业综合标准化体系建设指南（2024版）》与大模型治理或标准化相关",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《算力基础设施高质量发展行动计划》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "《算力基础设施高质量发展行动计划》规范或推动人工智能发展",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《算力基础设施高质量发展行动计划》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "《算力基础设施高质量发展行动计划》与大模型治理或标准化相关",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《促进和规范数据跨境流动规定》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "《促进和规范数据跨境流动规定》规范或推动人工智能发展",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《促进和规范数据跨境流动规定》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "《促进和规范数据跨境流动规定》与大模型治理或标准化相关",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《互联网信息服务算法推荐管理规定》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "《互联网信息服务算法推荐管理规定》规范或推动人工智能发展",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《互联网信息服务算法推荐管理规定》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "《互联网信息服务算法推荐管理规定》与大模型治理或标准化相关",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《互联网信息服务深度合成管理规定》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "《互联网信息服务深度合成管理规定》规范或推动人工智能发展",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《互联网信息服务深度合成管理规定》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "《互联网信息服务深度合成管理规定》与大模型治理或标准化相关",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《生成式人工智能服务安全基本要求》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "《生成式人工智能服务安全基本要求》规范或推动人工智能发展",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《生成式人工智能服务安全基本要求》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "《生成式人工智能服务安全基本要求》与大模型治理或标准化相关",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《关于深入实施人工智能+行动的意见》",
+      "target": "人工智能",
+      "type": "规范",
+      "description": "《关于深入实施人工智能+行动的意见》规范或推动人工智能发展",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "《关于深入实施人工智能+行动的意见》",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "《关于深入实施人工智能+行动的意见》与大模型治理或标准化相关",
+      "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "自然语言处理可应用于智能客服场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "智能翻译",
+      "type": "应用",
+      "description": "自然语言处理可应用于智能翻译场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "会议纪要",
+      "type": "应用",
+      "description": "自然语言处理可应用于会议纪要场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "知识管理",
+      "type": "应用",
+      "description": "自然语言处理可应用于知识管理场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "企业知识库",
+      "type": "应用",
+      "description": "自然语言处理可应用于企业知识库场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "AI搜索",
+      "type": "应用",
+      "description": "自然语言处理可应用于AI搜索场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "自然语言处理",
+      "target": "智能法律",
+      "type": "应用",
+      "description": "自然语言处理可应用于智能法律场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "大语言模型",
+      "target": "AI搜索",
+      "type": "应用",
+      "description": "大语言模型可应用于AI搜索场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "大语言模型",
+      "target": "AI编程",
+      "type": "应用",
+      "description": "大语言模型可应用于AI编程场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "大语言模型",
+      "target": "智能办公",
+      "type": "应用",
+      "description": "大语言模型可应用于智能办公场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "大语言模型",
+      "target": "智能营销",
+      "type": "应用",
+      "description": "大语言模型可应用于智能营销场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "大语言模型",
+      "target": "智能客服",
+      "type": "应用",
+      "description": "大语言模型可应用于智能客服场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "大语言模型",
+      "target": "企业知识库",
+      "type": "应用",
+      "description": "大语言模型可应用于企业知识库场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "大语言模型",
+      "target": "机器人客服",
+      "type": "应用",
+      "description": "大语言模型可应用于机器人客服场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "AI搜索",
+      "type": "应用",
+      "description": "检索增强生成可应用于AI搜索场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "企业知识库",
+      "type": "应用",
+      "description": "检索增强生成可应用于企业知识库场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "知识管理",
+      "type": "应用",
+      "description": "检索增强生成可应用于知识管理场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "智慧政务",
+      "type": "应用",
+      "description": "检索增强生成可应用于智慧政务场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI Agent",
+      "target": "智能办公",
+      "type": "应用",
+      "description": "AI Agent可应用于智能办公场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI Agent",
+      "target": "AI编程",
+      "type": "应用",
+      "description": "AI Agent可应用于AI编程场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI Agent",
+      "target": "智能运维",
+      "type": "应用",
+      "description": "AI Agent可应用于智能运维场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI Agent",
+      "target": "机器人客服",
+      "type": "应用",
+      "description": "AI Agent可应用于机器人客服场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI Agent",
+      "target": "企业知识库",
+      "type": "应用",
+      "description": "AI Agent可应用于企业知识库场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态大模型",
+      "target": "数字人",
+      "type": "应用",
+      "description": "多模态大模型可应用于数字人场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态大模型",
+      "target": "智能教育",
+      "type": "应用",
+      "description": "多模态大模型可应用于智能教育场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态大模型",
+      "target": "智能营销",
+      "type": "应用",
+      "description": "多模态大模型可应用于智能营销场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态大模型",
+      "target": "内容审核",
+      "type": "应用",
+      "description": "多模态大模型可应用于内容审核场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "多模态大模型",
+      "target": "智慧文旅",
+      "type": "应用",
+      "description": "多模态大模型可应用于智慧文旅场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算机视觉",
+      "target": "医疗影像",
+      "type": "应用",
+      "description": "计算机视觉可应用于医疗影像场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算机视觉",
+      "target": "智能安防",
+      "type": "应用",
+      "description": "计算机视觉可应用于智能安防场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算机视觉",
+      "target": "工业缺陷检测",
+      "type": "应用",
+      "description": "计算机视觉可应用于工业缺陷检测场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算机视觉",
+      "target": "自动驾驶",
+      "type": "应用",
+      "description": "计算机视觉可应用于自动驾驶场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算机视觉",
+      "target": "遥感监测",
+      "type": "应用",
+      "description": "计算机视觉可应用于遥感监测场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "计算机视觉",
+      "target": "城市治理",
+      "type": "应用",
+      "description": "计算机视觉可应用于城市治理场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉语言模型",
+      "target": "视觉问答",
+      "type": "应用",
+      "description": "视觉语言模型可应用于视觉问答场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉语言模型",
+      "target": "医疗影像",
+      "type": "应用",
+      "description": "视觉语言模型可应用于医疗影像场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉语言模型",
+      "target": "工业缺陷检测",
+      "type": "应用",
+      "description": "视觉语言模型可应用于工业缺陷检测场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "视觉语言模型",
+      "target": "内容审核",
+      "type": "应用",
+      "description": "视觉语言模型可应用于内容审核场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "语音识别",
+      "target": "会议纪要",
+      "type": "应用",
+      "description": "语音识别可应用于会议纪要场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "语音识别",
+      "target": "智能座舱应用",
+      "type": "应用",
+      "description": "语音识别可应用于智能座舱应用场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "语音识别",
+      "target": "智能教育",
+      "type": "应用",
+      "description": "语音识别可应用于智能教育场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "联邦学习",
+      "target": "智能风控",
+      "type": "应用",
+      "description": "联邦学习可应用于智能风控场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "联邦学习",
+      "target": "智慧金融",
+      "type": "应用",
+      "description": "联邦学习可应用于智慧金融场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "隐私计算",
+      "target": "智能风控",
+      "type": "应用",
+      "description": "隐私计算可应用于智能风控场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "隐私计算",
+      "target": "智慧医疗",
+      "type": "应用",
+      "description": "隐私计算可应用于智慧医疗场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "隐私计算",
+      "target": "智能审计",
+      "type": "应用",
+      "description": "隐私计算可应用于智能审计场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "时间序列预测",
+      "target": "智慧能源",
+      "type": "应用",
+      "description": "时间序列预测可应用于智慧能源场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "时间序列预测",
+      "target": "智能物流",
+      "type": "应用",
+      "description": "时间序列预测可应用于智能物流场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "时间序列预测",
+      "target": "灾害预警",
+      "type": "应用",
+      "description": "时间序列预测可应用于灾害预警场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "时间序列预测",
+      "target": "智能运维",
+      "type": "应用",
+      "description": "时间序列预测可应用于智能运维场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "强化学习",
+      "target": "自动驾驶决策",
+      "type": "应用",
+      "description": "强化学习可应用于自动驾驶决策场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "强化学习",
+      "target": "机器人操作",
+      "type": "应用",
+      "description": "强化学习可应用于机器人操作场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "强化学习",
+      "target": "智能交通",
+      "type": "应用",
+      "description": "强化学习可应用于智能交通场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "具身智能",
+      "target": "服务机器人",
+      "type": "应用",
+      "description": "具身智能可应用于服务机器人场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "具身智能",
+      "target": "工业机器人",
+      "type": "应用",
+      "description": "具身智能可应用于工业机器人场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "具身智能",
+      "target": "人机协同",
+      "type": "应用",
+      "description": "具身智能可应用于人机协同场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "数字孪生",
+      "target": "智慧城市",
+      "type": "应用",
+      "description": "数字孪生可应用于智慧城市场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "数字孪生",
+      "target": "智慧能源",
+      "type": "应用",
+      "description": "数字孪生可应用于智慧能源场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI制药",
+      "target": "药物研发",
+      "type": "应用",
+      "description": "AI制药可应用于药物研发场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "AI制药",
+      "target": "智慧医疗",
+      "type": "应用",
+      "description": "AI制药可应用于智慧医疗场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "蛋白质结构预测",
+      "target": "AI制药",
+      "type": "应用",
+      "description": "蛋白质结构预测可应用于AI制药场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "蛋白质结构预测",
+      "target": "药物研发",
+      "type": "应用",
+      "description": "蛋白质结构预测可应用于药物研发场景",
+      "reference": "腾讯云开发者社区.RAG、Agent与多模态行业实践；https://cloud.tencent.com.cn/developer/article/2516485"
+    },
+    {
+      "source": "ResNet",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "ResNet属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "ResNet",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "ResNet基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "BERT",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "BERT属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "BERT",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "BERT基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "GPT",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "GPT属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "GPT",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "GPT基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "GPT-4",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "GPT-4属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "GPT-4",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "GPT-4基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "文心大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "文心大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "文心大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "文心大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "通义大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "通义大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "通义大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "通义大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "DeepSeek-V3",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "DeepSeek-V3属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "DeepSeek-V3",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "DeepSeek-V3基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "星火大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "星火大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "星火大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "星火大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "智谱GLM",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "智谱GLM属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "智谱GLM",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "智谱GLM基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "百川大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "百川大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "百川大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "百川大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "腾讯混元",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "腾讯混元属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "腾讯混元",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "腾讯混元基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "豆包大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "豆包大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "豆包大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "豆包大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "商汤日日新",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "商汤日日新属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "商汤日日新",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "商汤日日新基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "紫东太初",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "紫东太初属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "紫东太初",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "紫东太初基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Moonshot",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Moonshot属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Moonshot",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Moonshot基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "阶跃星辰Step",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "阶跃星辰Step属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "阶跃星辰Step",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "阶跃星辰Step基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "盘古大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "盘古大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "盘古大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "盘古大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "盘古气象大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "盘古气象大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "盘古气象大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "盘古气象大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Qwen2.5",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Qwen2.5属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Qwen2.5",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Qwen2.5基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Qwen-VL",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Qwen-VL属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Qwen-VL",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Qwen-VL基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "ERNIE 4.0",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "ERNIE 4.0属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "ERNIE 4.0",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "ERNIE 4.0基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Hunyuan-Turbo",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Hunyuan-Turbo属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Hunyuan-Turbo",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Hunyuan-Turbo基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "豆包视频生成模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "豆包视频生成模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "豆包视频生成模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "豆包视频生成模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "DeepSeek-R1属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "DeepSeek-R1基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "DeepSeek-Coder",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "DeepSeek-Coder属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "DeepSeek-Coder",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "DeepSeek-Coder基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "GLM-4",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "GLM-4属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "GLM-4",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "GLM-4基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "abab大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "abab大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "abab大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "abab大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Yi大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Yi大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Yi大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Yi大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Step-2",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Step-2属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Step-2",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Step-2基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Baichuan2",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Baichuan2属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Baichuan2",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Baichuan2基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Kimi K2",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Kimi K2属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Kimi K2",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "Kimi K2基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "日日新SenseNova",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "日日新SenseNova属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "日日新SenseNova",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "日日新SenseNova基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "书生浦语",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "书生浦语属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "书生浦语",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "书生浦语基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "MiniCPM",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "MiniCPM属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "MiniCPM",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "MiniCPM基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "孟子大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "孟子大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "孟子大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "孟子大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "天工大模型",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "天工大模型属于或关联大语言模型体系",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "天工大模型",
+      "target": "深度学习",
+      "type": "基于",
+      "description": "天工大模型基于深度学习方法",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "ChatGPT是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Sora",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "Sora是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "AlphaGo",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "AlphaGo是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "文心一言",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "文心一言是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "通义千问",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "通义千问是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "DeepSeek是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "讯飞星火",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "讯飞星火是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "ChatGLM",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "ChatGLM是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "混元助手",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "混元助手是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "字节豆包",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "字节豆包是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Kimi",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "Kimi是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "可灵",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "可灵是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "Apollo自动驾驶",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "Apollo自动驾驶是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "通义万相",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "通义万相是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "文心一格",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "文心一格是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "腾讯元宝",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "腾讯元宝是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "扣子Coze",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "扣子Coze是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "智谱清言",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "智谱清言是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "海螺AI",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "海螺AI是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "可图",
+      "target": "人工智能",
+      "type": "应用",
+      "description": "可图是人工智能应用产品",
+      "reference": "公开模型/产品资料整理；https://cloud.tencent.com/developer/article/2566324"
+    },
+    {
+      "source": "百度",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "百度推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "阿里巴巴推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "腾讯",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "腾讯推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "华为",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "华为推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "字节跳动",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "字节跳动推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "科大讯飞推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "商汤科技",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "商汤科技推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "旷视科技",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "旷视科技推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "寒武纪",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "寒武纪推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "深度求索",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "深度求索推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "智谱AI",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "智谱AI推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "月之暗面",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "月之暗面推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "百川智能",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "百川智能推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "OpenAI",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "OpenAI推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "燧原科技",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "燧原科技推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "壁仞科技",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "壁仞科技推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "摩尔线程",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "摩尔线程推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "昆仑芯",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "昆仑芯推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "阿里平头哥",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "阿里平头哥推动人工智能技术或产业发展",
+      "reference": "公开资料整理"
+    },
+    {
+      "source": "地平线",
+      "target": "人工智能",
+      "type": "推动",
+      "description": "地平线推动人工智能技术或产业发展",
       "reference": "公开资料整理"
     }
   ]

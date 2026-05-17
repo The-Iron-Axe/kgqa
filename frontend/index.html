@@ -81,6 +81,13 @@
           <h2>知识图谱可视化</h2>
           <div class="controls">
             <input type="text" id="graphSearch" class="input-glass" placeholder="输入实体名聚焦，或单击节点" />
+            <select id="graphRenderLimit" class="select-glass" title="渲染节点数量">
+              <option value="80">80 节点</option>
+              <option value="120">120 节点</option>
+              <option value="160">160 节点</option>
+              <option value="200" selected>200 节点</option>
+              <option value="260">260 节点</option>
+            </select>
             <button type="button" id="btnLoadGraph" class="btn btn-ghost">加载全图</button>
             <button type="button" id="btnFocusGraph" class="btn btn-primary">聚焦</button>
             <button type="button" id="btnGraphFullscreen" class="btn btn-ghost btn-icon" title="全屏" aria-label="全屏">
@@ -240,7 +247,7 @@
 
   <script src="/static/js/themes.js?v=2"></script>
   <script src="/static/js/theme-switcher.js?v=2"></script>
-  <script src="/static/js/app.js?v=17"></script>
+  <script src="/static/js/app.js?v=24"></script>
   <script src="/static/js/chat.js?v=8"></script>
 </body>
 </html>

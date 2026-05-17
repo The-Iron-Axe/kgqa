@@ -110,7 +110,7 @@ async def entities(limit: int = Query(100, ge=1, le=500)):
 @app.get("/api/graph")
 async def graph(
     entity: str | None = None,
-    limit: int = Query(50, ge=10, le=200),
+    limit: int = Query(50, ge=10, le=500),
     hops: int = Query(2, ge=1, le=2),
 ):
     assert kg_client is not None

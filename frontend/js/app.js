@@ -40,6 +40,15 @@ let entityTableHighlight = { keywords: [], focus: null, related: [] };
 let pendingGraphFromAnswer = null;
 let graphLoadToken = 0;
 let viewportRefreshGen = 0;
+let graphRenderLimit = 200;
+
+function getGraphRenderLimit() {
+  const el = document.getElementById("graphRenderLimit");
+  const value = Number.parseInt(el?.value || String(graphRenderLimit), 10);
+  if (!Number.isFinite(value)) return graphRenderLimit;
+  graphRenderLimit = Math.max(40, Math.min(500, value));
+  return graphRenderLimit;
+}
 
 function getGraphTheme() {
   const t = window.ThemeSwitcher?.getCurrent?.();
@@ -144,16 +153,16 @@ function buildEgoPhysics() {
       centralGravity: 0.4,
       springLength: 165,
       springConstant: 0.06,
-      damping: 0.12,
+      damping: 0.28,
       avoidOverlap: 0.55,
     },
-    minVelocity: 0.06,
+    minVelocity: 0.18,
     maxVelocity: 35,
-    timestep: 0.45,
+    timestep: 0.32,
   };
 }
 
-/** Barnes-Hut + 低阻尼，图谱持续微动 */
+/** 轻量力导向：保留展开动效，但避免长期高成本乱动 */
 function buildLivePhysics(nodeCount) {
   const n = Math.max(nodeCount, 8);
   const spread = Math.sqrt(n);
@@ -163,18 +172,32 @@ function buildLivePhysics(nodeCount) {
     solver: "barnesHut",
     stabilization: { enabled: false, iterations: 0, fit: false },
     barnesHut: {
-      gravitationalConstant: Math.min(-6000, -2200 - n * 28),
-      centralGravity: 0.22,
+      gravitationalConstant: Math.min(-4200, -1500 - n * 12),
+      centralGravity: 0.18,
       springLength,
-      springConstant: 0.045,
-      damping: 0.08,
-      avoidOverlap: 0.72,
+      springConstant: 0.035,
+      damping: 0.34,
+      avoidOverlap: 0.45,
     },
-    minVelocity: 0.05,
-    maxVelocity: 50,
-    timestep: 0.5,
+    minVelocity: 0.18,
+    maxVelocity: 28,
+    timestep: 0.28,
     adaptiveTimestep: true,
   };
+}
+
+function stopGraphSimulationSoon(net, nodeCount = getGraphNodeCount()) {
+  if (!net) return;
+  const stop = () => {
+    try {
+      net.stopSimulation();
+    } catch (_) {
+      /* ignore */
+    }
+  };
+
+  clearTimeout(graphPhysicsNudgeTimer);
+  graphPhysicsNudgeTimer = setTimeout(stop, Math.min(8500, Math.max(4200, nodeCount * 32)));
 }
 
 function enableContinuousPhysics(net, nodeCount) {
@@ -182,6 +205,7 @@ function enableContinuousPhysics(net, nodeCount) {
   try {
     net.setOptions({ physics: buildLivePhysics(nodeCount) });
     net.startSimulation();
+    stopGraphSimulationSoon(net, nodeCount);
   } catch (_) {
     /* ignore */
   }
@@ -192,6 +216,7 @@ function energizeGraphSimulation() {
   try {
     network.setOptions({ physics: { enabled: true } });
     network.startSimulation();
+    stopGraphSimulationSoon(network);
   } catch (_) {
     /* ignore */
   }
@@ -203,7 +228,7 @@ function stopGraphPhysicsKeeper() {
     graphPhysicsKeeper = null;
   }
   if (graphPhysicsNudgeTimer) {
-    clearInterval(graphPhysicsNudgeTimer);
+    clearTimeout(graphPhysicsNudgeTimer);
     graphPhysicsNudgeTimer = null;
   }
 }
@@ -221,17 +246,8 @@ function startGraphPhysicsKeeper(nodeCount) {
     if (!network) return;
     try {
       if (graphViewMode === "ego" && egoCenterEntity) {
-        const centerId = nameToNodeId(egoCenterEntity);
-        if (centerId && graphNodes) {
-          const node = graphNodes.get(centerId);
-          if (node && !node.fixed) {
-            graphNodes.update({ id: centerId, x: 0, y: 0, fixed: { x: true, y: true } });
-          }
-        }
+        // 关系网中心只在初始布局时放到中心，不再锁死，保证所有节点都能拖动。
         return;
-      }
-      if (network.physics?.physicsEnabled === false) {
-        enableContinuousPhysics(network, nodeCount);
       }
     } catch (_) {
       /* ignore */
@@ -274,6 +290,7 @@ function bindGraphInteraction(net, nodeCount, dragHooks = {}) {
     if (graphViewMode === "ego" && egoCenterEntity) {
       net.setOptions({ physics: buildEgoPhysics() });
       net.startSimulation();
+      stopGraphSimulationSoon(net, nodeCount);
     }
   });
 }
@@ -283,7 +300,7 @@ function computeEgoPositions(centerName, nodeList) {
   if (!center) return [];
   const others = nodeList.filter((n) => n.name !== centerName);
   const R = Math.max(140, Math.min(320, 85 + others.length * 26));
-  const positions = [{ id: center.id, x: 0, y: 0, fixed: { x: true, y: true } }];
+  const positions = [{ id: center.id, x: 0, y: 0, fixed: false }];
   others.forEach((n, i) => {
     const angle = (2 * Math.PI * i) / Math.max(others.length, 1) - Math.PI / 2;
     positions.push({
@@ -303,6 +320,7 @@ function applyEgoRadialLayout(centerName, nodeList) {
   graphNodes.update(positions);
   network.setOptions({ physics: buildEgoPhysics() });
   network.startSimulation();
+  stopGraphSimulationSoon(network, nodeList.length);
 
   setTimeout(() => {
     try {
@@ -315,6 +333,126 @@ function applyEgoRadialLayout(centerName, nodeList) {
       /* ignore */
     }
   }, 150);
+}
+
+const FULL_GRAPH_ANCHOR_NAMES = [
+  "人工智能",
+  "机器学习",
+  "深度学习",
+  "大语言模型",
+  "多模态大模型",
+  "计算机视觉",
+  "自然语言处理",
+  "知识图谱",
+  "AI Agent",
+  "具身智能",
+  "算力基础设施",
+  "智能制造",
+  "自动驾驶",
+  "智慧医疗",
+  "百度",
+  "阿里巴巴",
+  "腾讯",
+  "华为",
+  "深度求索",
+  "智谱AI",
+];
+
+function stableHash(text) {
+  return String(text || "").split("").reduce((acc, ch) => {
+    return (acc * 31 + ch.charCodeAt(0)) >>> 0;
+  }, 7);
+}
+
+function computeNodeDegrees(edgeList) {
+  const degrees = new Map();
+  edgeList.forEach((edge) => {
+    degrees.set(edge.source, (degrees.get(edge.source) || 0) + 1);
+    degrees.set(edge.target, (degrees.get(edge.target) || 0) + 1);
+  });
+  return degrees;
+}
+
+function pickFullGraphAnchors(nodeList, edgeList) {
+  const byName = new Map(nodeList.map((node) => [node.name, node]));
+  const degrees = computeNodeDegrees(edgeList);
+  const anchors = [];
+  const seen = new Set();
+
+  FULL_GRAPH_ANCHOR_NAMES.forEach((name) => {
+    const node = byName.get(name);
+    if (node && !seen.has(node.id)) {
+      seen.add(node.id);
+      anchors.push(node);
+    }
+  });
+
+  nodeList
+    .slice()
+    .sort((a, b) => (degrees.get(b.id) || 0) - (degrees.get(a.id) || 0))
+    .forEach((node) => {
+      if (anchors.length >= 14) return;
+      if (!seen.has(node.id) && (degrees.get(node.id) || 0) >= 3) {
+        seen.add(node.id);
+        anchors.push(node);
+      }
+    });
+
+  return anchors.slice(0, 14);
+}
+
+function applyFullMultiCenterLayout(nodeList, edgeList) {
+  if (!graphNodes || !nodeList.length) return;
+
+  const anchors = pickFullGraphAnchors(nodeList, edgeList);
+  if (anchors.length < 2) return;
+
+  const anchorIds = new Set(anchors.map((node) => node.id));
+  const anchorPositions = new Map();
+  const radius = Math.max(190, Math.min(320, 150 + anchors.length * 12));
+
+  anchors.forEach((node, index) => {
+    const angle = (2 * Math.PI * index) / anchors.length - Math.PI / 2;
+    const x = Math.round(radius * Math.cos(angle));
+    const y = Math.round(radius * Math.sin(angle));
+    anchorPositions.set(node.id, { x, y });
+  });
+
+  const linkedAnchorByNode = new Map();
+  edgeList.forEach((edge) => {
+    if (anchorIds.has(edge.source) && !anchorIds.has(edge.target)) {
+      linkedAnchorByNode.set(edge.target, edge.source);
+    }
+    if (anchorIds.has(edge.target) && !anchorIds.has(edge.source)) {
+      linkedAnchorByNode.set(edge.source, edge.target);
+    }
+  });
+
+  const updates = nodeList.map((node, index) => {
+    const anchorPosition = anchorPositions.get(node.id);
+    if (anchorPosition) {
+      return {
+        id: node.id,
+        x: anchorPosition.x,
+        y: anchorPosition.y,
+        fixed: false,
+      };
+    }
+
+    const anchorId = linkedAnchorByNode.get(node.id) || anchors[index % anchors.length]?.id;
+    const base = anchorPositions.get(anchorId) || { x: 0, y: 0 };
+    const h = stableHash(node.name || node.id);
+    const angle = ((h % 360) * Math.PI) / 180;
+    const distance = 70 + (h % 105);
+    return {
+      id: node.id,
+      x: Math.round(base.x + Math.cos(angle) * distance),
+      y: Math.round(base.y + Math.sin(angle) * distance),
+      fixed: false,
+    };
+  });
+
+  graphNodes.update(updates);
 }
 
 function clearNodeLayoutLocks() {
@@ -851,7 +989,7 @@ async function loadGraph(entity = null, opts = {}) {
     keywords = [],
     related = [],
     hops = entity ? 1 : 2,
-    limit = entity ? (egoLayout ? 120 : 55) : 120,
+    limit = getGraphRenderLimit(),
     fitView = !entity,
   } = opts;
 
@@ -943,6 +1081,7 @@ function renderGraph(data, { fitView = true, focusCamera = false, egoLayout = fa
       dragView: true,
       hideEdgesOnDrag: false,
       hideEdgesOnZoom: false,
+      hoverConnectedEdges: true,
       keyboard: false,
       multiselect: false,
     },
@@ -961,8 +1100,10 @@ function renderGraph(data, { fitView = true, focusCamera = false, egoLayout = fa
       applyEgoRadialLayout(egoCenter, nodeList);
     } else {
       clearNodeLayoutLocks();
+      applyFullMultiCenterLayout(nodeList, edgeList);
       network.setOptions({ physics: buildLivePhysics(nodeCount) });
       network.startSimulation();
+      stopGraphSimulationSoon(network, nodeCount);
     }
     applyGraphHighlights();
     if (useEgo) {
@@ -994,7 +1135,9 @@ function renderGraph(data, { fitView = true, focusCamera = false, egoLayout = fa
 
   if (useEgo) {
     network.setOptions({ physics: buildEgoPhysics() });
+    stopGraphSimulationSoon(network, nodeCount);
   } else {
+    applyFullMultiCenterLayout(nodeList, edgeList);
     enableContinuousPhysics(network, nodeCount);
   }
   startGraphPhysicsKeeper(nodeCount);
@@ -1350,6 +1493,32 @@ async function focusGraphFromAnswer() {
   return applyGraphHighlightsInView();
 }
 
+async function rerenderCurrentGraph() {
+  getGraphRenderLimit();
+  graphLoadToken += 1;
+  viewportRefreshGen += 1;
+
+  if (graphViewMode === "ego" && egoCenterEntity) {
+    await loadGraph(egoCenterEntity, {
+      keywords: graphQuestionKeywords,
+      related: graphRelatedNames,
+      hops: 1,
+      limit: graphRenderLimit,
+      fitView: false,
+      egoLayout: true,
+    });
+  } else {
+    await loadGraph(null, {
+      keywords: graphQuestionKeywords,
+      related: graphRelatedNames,
+      limit: graphRenderLimit,
+      fitView: true,
+      egoLayout: false,
+    });
+  }
+  scheduleGraphViewportRefresh(3);
+}
+
 function bindTabNavigation() {
   document.querySelectorAll(".nav-tab").forEach((tab) => {
     tab.addEventListener("click", () => {
@@ -1424,6 +1593,9 @@ function bindEvents() {
   document.getElementById("btnExitEgo")?.addEventListener("click", () => exitEntityNetwork());
 
   document.getElementById("btnLoadGraph").addEventListener("click", () => exitEntityNetwork());
+  document.getElementById("graphRenderLimit")?.addEventListener("change", () => {
+    rerenderCurrentGraph().catch((err) => console.warn("重渲染图谱失败", err));
+  });
 
   const focusGraph = () => {
     const entity = document.getElementById("graphSearch").value.trim();

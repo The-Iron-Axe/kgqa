@@ -86,7 +86,15 @@ class Neo4jClient:
             params = {"name": entity_name, "limit": limit}
         else:
             query = """
-            MATCH (n:Entity)-[r:RELATION]->(m:Entity)
+            UNWIND $anchors AS anchor_name
+            MATCH (a:Entity {name: anchor_name})-[r:RELATION]-(x:Entity)
+            WHERE NOT (
+                a.name = '人工智能'
+                AND NOT x.name IN $anchors
+            )
+            WITH anchor_name, collect(DISTINCT r)[0..18] AS rels
+            UNWIND rels AS r
+            WITH DISTINCT startNode(r) AS n, r, endNode(r) AS m
             RETURN
                 n.id AS n_id, n.name AS n_name, n.type AS n_type,
                 n.description AS n_description, n.reference AS n_reference,
@@ -96,7 +104,31 @@ class Neo4jClient:
                 startNode(r).id AS src_id, endNode(r).id AS tgt_id
             LIMIT $limit
             """
-            params = {"limit": limit}
+            params = {
+                "limit": limit,
+                "anchors": [
+                    "人工智能",
+                    "机器学习",
+                    "深度学习",
+                    "大语言模型",
+                    "多模态大模型",
+                    "计算机视觉",
+                    "自然语言处理",
+                    "知识图谱",
+                    "AI Agent",
+                    "具身智能",
+                    "算力基础设施",
+                    "智能制造",
+                    "自动驾驶",
+                    "智慧医疗",
+                    "百度",
+                    "阿里巴巴",
+                    "腾讯",
+                    "华为",
+                    "深度求索",
+                    "智谱AI",
+                ],
+            }
 
         records = self.run_query(query, params)
         nodes: dict[str, dict] = {}

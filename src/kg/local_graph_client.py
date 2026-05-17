@@ -110,7 +110,7 @@ class LocalGraphClient:
             return {"nodes": list(nodes.values()), "edges": edges}
 
         count = 0
-        for rel in self._relations:
+        for rel in self._select_connected_relations(limit):
             if count >= limit:
                 break
 
@@ -144,6 +144,111 @@ class LocalGraphClient:
                 count += 1
 
         return {"nodes": list(nodes.values()), "edges": edges}
+
+    def _select_connected_relations(self, limit: int) -> list[dict[str, Any]]:
+        """Pick a connected full-graph sample so the visualization is not split."""
+        picked: list[dict[str, Any]] = []
+        seen: set[tuple[str, str, str]] = set()
+        selected_nodes: set[str] = set()
+        endpoint_counts: dict[str, int] = {}
+
+        priority_types = ["研发", "基于", "实现", "属于", "应用", "支撑", "推动", "规范", "研究", "增强"]
+        priority_rank = {rel_type: idx for idx, rel_type in enumerate(priority_types)}
+
+        entity_names = set(self._entities)
+        anchors = [
+            "人工智能",
+            "大语言模型",
+            "深度学习",
+            "机器学习",
+            "计算机视觉",
+            "自然语言处理",
+            "知识图谱",
+            "AI Agent",
+            "算力基础设施",
+        ]
+        root = next((name for name in anchors if name in entity_names), None)
+        if not root:
+            root = self._relations[0]["source"] if self._relations else ""
+        selected_nodes.add(root)
+        root_degree_limit = 8
+
+        def relation_key(rel: dict[str, Any]) -> tuple[int, int, str]:
+            rel_type = rel.get("type", "")
+            touches_anchor = rel["source"] in anchors or rel["target"] in anchors
+            touches_root = root in (rel["source"], rel["target"])
+            return (
+                priority_rank.get(rel_type, len(priority_rank)),
+                0 if touches_anchor and not touches_root else 1 if touches_anchor else 2,
+                rel["source"] + rel["target"],
+            )
+
+        def try_add(rel: dict[str, Any], *, force: bool = False) -> bool:
+            key = (rel["source"], rel["target"], rel.get("type", ""))
+            if key in seen:
+                return False
+            if not force and root in (rel["source"], rel["target"]):
+                if endpoint_counts.get(root, 0) >= root_degree_limit:
+                    return False
+            picked.append(rel)
+            seen.add(key)
+            selected_nodes.add(rel["source"])
+            selected_nodes.add(rel["target"])
+            endpoint_counts[rel["source"]] = endpoint_counts.get(rel["source"], 0) + 1
+            endpoint_counts[rel["target"]] = endpoint_counts.get(rel["target"], 0) + 1
+            return True
+
+        # First connect several second-level cores to the root. This keeps one
+        # connected graph while preventing "人工智能" from owning every edge.
+        for anchor in anchors[1:]:
+            bridge = next(
+                (
+                    rel
+                    for rel in self._relations
+                    if anchor in (rel["source"], rel["target"])
+                    and root in (rel["source"], rel["target"])
+                ),
+                None,
+            )
+            if bridge:
+                try_add(bridge, force=True)
+            if endpoint_counts.get(root, 0) >= root_degree_limit:
+                break
+
+        # Grow one connected component from all selected cores. Endpoint caps are
+        # relaxed in passes, but the root node keeps a strict cap.
+        for cap in (5, 10, 18, 32, 9999):
+            progressed = True
+            while progressed and len(picked) < limit:
+                progressed = False
+                candidates = [
+                    rel
+                    for rel in self._relations
+                    if (rel["source"] in selected_nodes) ^ (rel["target"] in selected_nodes)
+                    and not (
+                        root in (rel["source"], rel["target"])
+                        and endpoint_counts.get(root, 0) >= root_degree_limit
+                    )
+                    and endpoint_counts.get(rel["source"], 0) < cap
+                    and endpoint_counts.get(rel["target"], 0) < cap
+                ]
+                candidates.sort(key=relation_key)
+
+                for rel in candidates:
+                    if try_add(rel):
+                        progressed = True
+                    if len(picked) >= limit:
+                        return picked
+
+        # Fill remaining slots with intra-component edges. These keep the sample
+        # connected because both endpoints are already in the selected component.
+        for rel in sorted(self._relations, key=relation_key):
+            if len(picked) >= limit:
+                break
+            if rel["source"] in selected_nodes and rel["target"] in selected_nodes:
+                try_add(rel)
+
+        return picked
 
     def search_entity(self, keyword: str) -> list[dict[str, Any]]:
         results = []
