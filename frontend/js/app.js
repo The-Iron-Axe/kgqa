@@ -41,6 +41,7 @@ let pendingGraphFromAnswer = null;
 let graphLoadToken = 0;
 let viewportRefreshGen = 0;
 let graphRenderLimit = 200;
+let lastCypherResult = null;
 
 function getGraphRenderLimit() {
   const el = document.getElementById("graphRenderLimit");
@@ -1315,6 +1316,15 @@ async function fetchAnswer(question, mode = "kg") {
   });
 }
 
+async function runCypherQuery(query) {
+  return api("/api/cypher", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ query }),
+    timeoutMs: 45000,
+  });
+}
+
 async function buildHighlightFromAnswer(question, result) {
   const questionKeywords =
     result.matched_entities?.length > 0
@@ -1519,6 +1529,149 @@ async function rerenderCurrentGraph() {
   scheduleGraphViewportRefresh(3);
 }
 
+async function refreshGraphDataAfterWrite() {
+  await loadStatistics();
+  await loadEntities();
+  if (currentView === "graph" || currentView === "cypher") {
+    await rerenderCurrentGraph();
+  }
+}
+
+function stringifyCell(value) {
+  if (value == null) return "";
+  if (typeof value === "object") return JSON.stringify(value);
+  return String(value);
+}
+
+function renderCypherJson(result) {
+  const rows = result.rows || [];
+  return `<pre>${escapeHtml(`${result.message || "执行成功"}\n\n${JSON.stringify(rows, null, 2)}`)}</pre>`;
+}
+
+function renderCypherTable(result) {
+  const rows = result.rows || [];
+  if (!rows.length) {
+    return `<div class="cypher-empty">${escapeHtml(result.message || "执行成功，未返回数据行")}</div>`;
+  }
+
+  const columns = [...rows.reduce((set, row) => {
+    Object.keys(row || {}).forEach((key) => set.add(key));
+    return set;
+  }, new Set())];
+
+  const header = columns.map((col) => `<div class="cypher-cell cypher-cell--head">${escapeHtml(col)}</div>`).join("");
+  const body = rows
+    .map((row) => {
+      const cells = columns
+        .map((col) => `<div class="cypher-cell">${escapeHtml(stringifyCell(row?.[col]))}</div>`)
+        .join("");
+      return cells;
+    })
+    .join("");
+
+  return `
+    <div class="cypher-result-summary">${escapeHtml(result.message || `返回 ${rows.length} 行`)}</div>
+    <div class="cypher-grid" style="--cols: ${columns.length}">
+      ${header}
+      ${body}
+    </div>`;
+}
+
+function renderCypherResult(result) {
+  const mode = document.getElementById("cypherOutputMode")?.value || "table";
+  return mode === "json" ? renderCypherJson(result) : renderCypherTable(result);
+}
+
+function cypherResultColumns(rows) {
+  return [...rows.reduce((set, row) => {
+    Object.keys(row || {}).forEach((key) => set.add(key));
+    return set;
+  }, new Set())];
+}
+
+function csvEscape(value) {
+  const text = stringifyCell(value);
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
+function downloadTextFile(filename, content, type) {
+  const blob = new Blob([content], { type });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+function exportCypherResult() {
+  if (!lastCypherResult) {
+    const output = document.getElementById("cypherOutput");
+    if (output) output.textContent = "暂无可导出的查询结果。";
+    return;
+  }
+
+  const rows = lastCypherResult.rows || [];
+  const mode = document.getElementById("cypherOutputMode")?.value || "table";
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
+
+  if (mode === "json") {
+    downloadTextFile(
+      `cypher-result-${stamp}.json`,
+      JSON.stringify({ ...lastCypherResult, exported_at: new Date().toISOString() }, null, 2),
+      "application/json;charset=utf-8"
+    );
+    return;
+  }
+
+  const columns = cypherResultColumns(rows);
+  const csv = [
+    columns.map(csvEscape).join(","),
+    ...rows.map((row) => columns.map((col) => csvEscape(row?.[col])).join(",")),
+  ].join("\r\n");
+  downloadTextFile(`cypher-result-${stamp}.csv`, `\ufeff${csv}`, "text/csv;charset=utf-8");
+}
+
+async function executeCypherFromConsole() {
+  const input = document.getElementById("cypherInput");
+  const output = document.getElementById("cypherOutput");
+  const btn = document.getElementById("btnRunCypher");
+  const query = input?.value.trim();
+  if (!query || !output) return;
+
+  output.textContent = "正在执行...";
+  if (btn) btn.disabled = true;
+  try {
+    const result = await runCypherQuery(query);
+    lastCypherResult = result;
+    output.innerHTML = renderCypherResult(result);
+    if (result.changed) {
+      await refreshGraphDataAfterWrite();
+    }
+  } catch (err) {
+    output.textContent = `执行失败：${err.message}`;
+  } finally {
+    if (btn) btn.disabled = false;
+  }
+}
+
+function insertCypherQuery(query) {
+  const input = document.getElementById("cypherInput");
+  if (!input) return;
+  input.value = query;
+  input.focus();
+}
+
+function openCypherHelpModal() {
+  document.getElementById("cypherHelpModal")?.classList.remove("hidden");
+}
+
+function closeCypherHelpModal() {
+  document.getElementById("cypherHelpModal")?.classList.add("hidden");
+}
+
 function bindTabNavigation() {
   document.querySelectorAll(".nav-tab").forEach((tab) => {
     tab.addEventListener("click", () => {
@@ -1595,6 +1748,35 @@ function bindEvents() {
   document.getElementById("btnLoadGraph").addEventListener("click", () => exitEntityNetwork());
   document.getElementById("graphRenderLimit")?.addEventListener("change", () => {
     rerenderCurrentGraph().catch((err) => console.warn("重渲染图谱失败", err));
+  });
+  document.getElementById("btnRunCypher")?.addEventListener("click", () => {
+    executeCypherFromConsole().catch((err) => console.warn("执行 Cypher 失败", err));
+  });
+  document.getElementById("btnCypherHelp")?.addEventListener("click", openCypherHelpModal);
+  document.getElementById("btnExportCypher")?.addEventListener("click", exportCypherResult);
+  document.querySelectorAll("[data-close-cypher-help]").forEach((el) => {
+    el.addEventListener("click", closeCypherHelpModal);
+  });
+  document.querySelectorAll(".cypher-example").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      insertCypherQuery(btn.dataset.query || "");
+      closeCypherHelpModal();
+    });
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeCypherHelpModal();
+  });
+  document.getElementById("cypherOutputMode")?.addEventListener("change", () => {
+    const output = document.getElementById("cypherOutput");
+    if (output && lastCypherResult) {
+      output.innerHTML = renderCypherResult(lastCypherResult);
+    }
+  });
+  document.getElementById("cypherInput")?.addEventListener("keydown", (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
+      e.preventDefault();
+      executeCypherFromConsole().catch((err) => console.warn("执行 Cypher 失败", err));
+    }
   });
 
   const focusGraph = () => {

@@ -74,6 +74,17 @@ class EntityDetailResponse(BaseModel):
     incoming: list[dict]
 
 
+class CypherRequest(BaseModel):
+    query: str = Field(..., min_length=1, max_length=5000)
+
+
+class CypherResponse(BaseModel):
+    rows: list[dict]
+    row_count: int
+    changed: bool
+    message: str
+
+
 @app.get("/")
 async def index():
     return FileResponse(FRONTEND_DIR / "index.html")
@@ -162,6 +173,43 @@ async def ask(request: QuestionRequest):
         evidence=result.evidence,
         mode=result.mode,
         matched_entities=result.matched_entities,
+    )
+
+
+def _is_cypher_write(query: str) -> bool:
+    tokens = {"CREATE", "MERGE", "SET", "DELETE", "DETACH", "REMOVE", "DROP"}
+    upper = query.upper()
+    return any(token in upper.split() for token in tokens)
+
+
+@app.post("/api/cypher", response_model=CypherResponse)
+async def cypher(request: CypherRequest):
+    assert kg_client is not None
+    query = request.query.strip().rstrip(";")
+    if not query:
+        raise HTTPException(status_code=400, detail="Cypher 语句不能为空")
+
+    try:
+        rows = kg_client.run_query(query)
+    except NotImplementedError as exc:
+        raise HTTPException(
+            status_code=400,
+            detail="当前为本地 JSON 模式，不支持 Cypher。请切换到 Neo4j 模式后使用控制台。",
+        ) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"Cypher 执行失败：{exc}") from exc
+
+    changed = _is_cypher_write(query)
+    if changed:
+        global kg_engine, llm_engine
+        kg_engine = KGQAEngine(kg_client)
+        llm_engine = LLMQAEngine(kg_engine)
+
+    return CypherResponse(
+        rows=rows,
+        row_count=len(rows),
+        changed=changed,
+        message=f"执行成功，返回 {len(rows)} 行" + ("，图谱已刷新" if changed else ""),
     )
 
 
