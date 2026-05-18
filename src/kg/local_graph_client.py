@@ -152,7 +152,23 @@ class LocalGraphClient:
         selected_nodes: set[str] = set()
         endpoint_counts: dict[str, int] = {}
 
-        priority_types = ["研发", "基于", "实现", "属于", "应用", "支撑", "推动", "规范", "研究", "增强"]
+        priority_types = [
+            "使用架构",
+            "优化",
+            "缓解",
+            "提升",
+            "优化指标",
+            "研发",
+            "基于",
+            "实现",
+            "属于",
+            "应用",
+            "支撑",
+            "推动",
+            "规范",
+            "研究",
+            "增强",
+        ]
         priority_rank = {rel_type: idx for idx, rel_type in enumerate(priority_types)}
 
         entity_names = set(self._entities)
@@ -165,6 +181,12 @@ class LocalGraphClient:
             "自然语言处理",
             "知识图谱",
             "AI Agent",
+            "模型幻觉",
+            "DeepSeek-R1",
+            "Qwen3",
+            "Kimi K2",
+            "多头潜在注意力",
+            "FlashAttention",
             "算力基础设施",
         ]
         root = next((name for name in anchors if name in entity_names), None)
@@ -288,6 +310,7 @@ class LocalGraphClient:
                     {
                         "relation": rel["type"],
                         "target": rel["target"],
+                        "target_type": target.get("type"),
                         "target_desc": target.get("description", ""),
                     }
                 )
@@ -302,6 +325,7 @@ class LocalGraphClient:
                     {
                         "source": rel["source"],
                         "relation": rel["type"],
+                        "source_type": source.get("type"),
                         "source_desc": source.get("description", ""),
                     }
                 )

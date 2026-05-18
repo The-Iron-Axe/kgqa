@@ -2663,6 +2663,735 @@
       "year": 2025,
       "country": "中国",
       "reference": "国家网信办/发改委公开政策；https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "id": "E297",
+      "name": "Qwen3",
+      "type": "Model",
+      "description": "阿里巴巴通义团队发布的 2025 年开源大模型系列，包含稠密和 MoE 模型，并支持思考模式与非思考模式切换",
+      "year": 2025,
+      "country": "中国",
+      "reference": "Qwen3 Technical Report；https://arxiv.org/abs/2505.09388"
+    },
+    {
+      "id": "E298",
+      "name": "多头潜在注意力",
+      "type": "Technology",
+      "description": "Multi-head Latent Attention，简称 MLA，通过低维潜在表示压缩 KV 缓存，降低长上下文推理中的显存占用",
+      "year": 2024,
+      "country": "中国",
+      "reference": "DeepSeek-V3 Technical Report；https://arxiv.org/abs/2412.19437；Kimi K2 Technical Report；https://arxiv.org/abs/2507.20534"
+    },
+    {
+      "id": "E299",
+      "name": "FlashAttention",
+      "type": "Technology",
+      "description": "面向 Transformer 注意力计算的 IO 感知优化算法，可降低显存访问开销并提升训练和推理吞吐",
+      "year": 2022,
+      "country": "全球",
+      "reference": "Dao et al. FlashAttention；https://arxiv.org/abs/2205.14135"
+    },
+    {
+      "id": "E300",
+      "name": "旋转位置编码",
+      "type": "Technology",
+      "description": "RoPE 通过旋转矩阵注入相对位置信息，是多种大语言模型处理序列位置关系的重要方法",
+      "year": 2021,
+      "country": "全球",
+      "reference": "RoFormer: Enhanced Transformer with Rotary Position Embedding；https://arxiv.org/abs/2104.09864"
+    },
+    {
+      "id": "E301",
+      "name": "推测解码",
+      "type": "Technology",
+      "description": "Speculative Decoding 使用小模型草拟候选 token，再由大模型验证，从而降低自回归生成延迟",
+      "year": 2023,
+      "country": "全球",
+      "reference": "Fast Inference from Transformers via Speculative Decoding；https://arxiv.org/abs/2211.17192"
+    },
+    {
+      "id": "E302",
+      "name": "模型幻觉",
+      "type": "Problem",
+      "description": "大语言模型生成与事实、证据或上下文不一致内容的问题，是知识增强和安全对齐重点缓解的风险",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "Survey of Hallucination in Natural Language Generation；https://arxiv.org/abs/2202.03629"
+    },
+    {
+      "id": "E303",
+      "name": "引用溯源",
+      "type": "Technology",
+      "description": "在生成答案时保留证据来源、文档片段或图谱关系，便于验证答案依据并降低无依据生成",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks；https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "id": "E304",
+      "name": "事实性评估",
+      "type": "Technology",
+      "description": "通过人工标注、自动指标或证据一致性校验评估模型回答是否符合事实",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "Survey of Hallucination in Natural Language Generation；https://arxiv.org/abs/2202.03629"
+    },
+    {
+      "id": "E305",
+      "name": "参数高效微调",
+      "type": "Technology",
+      "description": "Parameter-Efficient Fine-Tuning，在冻结大部分预训练参数的情况下只训练少量适配参数，降低微调成本",
+      "year": 2021,
+      "country": "全球",
+      "reference": "LoRA: Low-Rank Adaptation of Large Language Models；https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "id": "E306",
+      "name": "注意力计算",
+      "type": "Technology",
+      "description": "Transformer 中用于建模 token 之间依赖关系的核心计算模块，也是训练和推理优化的重点环节",
+      "year": 2017,
+      "country": "全球",
+      "reference": "Attention Is All You Need；https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "id": "E307",
+      "name": "吞吐量",
+      "type": "Metric",
+      "description": "衡量模型训练或推理单位时间处理 token、请求或样本数量的性能指标",
+      "year": 2023,
+      "country": "中国/全球",
+      "reference": "公开模型系统优化资料整理"
+    },
+    {
+      "id": "E313",
+      "name": "GLM-4.5",
+      "type": "Model",
+      "description": "智谱AI发布的基座大模型升级版，在多模态理解与AI Agent工具链支持上取得显著进展",
+      "year": 2025,
+      "country": "中国",
+      "reference": "Zhipu AI Blog; https://www.zhipuai.cn/"
+    },
+    {
+      "id": "E315",
+      "name": "讯飞星火 X1",
+      "type": "Model",
+      "description": "科大讯飞面向2025年发布的下一代大模型，深度整合知识图谱与检索增强机制，提升事实准确度",
+      "year": 2025,
+      "country": "中国",
+      "reference": "iFlytek Spark Desk; https://xinghuo.xfyun.cn/"
+    },
+    {
+      "id": "E316",
+      "name": "Hunyuan",
+      "type": "Model",
+      "description": "腾讯自研的混合专家架构多模态大模型，支持原生图文交错生成与长上下文处理",
+      "year": 2025,
+      "country": "中国",
+      "reference": "Tencent Hunyuan Site; https://hunyuan.tencent.com/"
+    },
+    {
+      "id": "E317",
+      "name": "Claude 4",
+      "type": "Model",
+      "description": "Anthropic推出的第四代多模态大模型，具备极高的安全对齐标准及Agentic AI自动化执行能力",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Anthropic Official Site; https://www.anthropic.com/"
+    },
+    {
+      "id": "E318",
+      "name": "Gemini 2.5",
+      "type": "Model",
+      "description": "Google研发的新一代原生多模态大模型，全面引入动态高分辨率处理，优化视频与空间计算场景",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Google DeepMind Blog; https://deepmind.google/"
+    },
+    {
+      "id": "E319",
+      "name": "GPT-4.5",
+      "type": "Model",
+      "description": "OpenAI推出的升级版多模态模型，在降低幻觉和复杂思维链推理上具备行业领先的性能指标",
+      "year": 2025,
+      "country": "美国",
+      "reference": "OpenAI Official Blog; https://openai.com/blog"
+    },
+    {
+      "id": "E320",
+      "name": "OpenAI o3-mini",
+      "type": "Model",
+      "description": "OpenAI发布的小型推理专化大语言模型，支持快速思维链生成，专供高频次逻辑推断任务",
+      "year": 2025,
+      "country": "美国",
+      "reference": "OpenAI Platform; https://platform.openai.com/"
+    },
+    {
+      "id": "E321",
+      "name": "Model Context Protocol (MCP)",
+      "type": "Technology",
+      "description": "一种开放的上下文协议标准，用于规范AI应用中模型与外部工具、数据源的安全双向通信机制",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Anthropic MCP Specification; https://docs.anthropic.com/"
+    },
+    {
+      "id": "E322",
+      "name": "Group Relative Policy Optimization (GRPO)",
+      "type": "Algorithm",
+      "description": "一种无需独立Critic模型的强化学习算法，通过组内相对奖励进行策略优化，大幅降低训练显存消耗",
+      "year": 2025,
+      "country": "中国",
+      "reference": "DeepSeekMath Paper; https://arxiv.org/abs/2402.03300"
+    },
+    {
+      "id": "E323",
+      "name": "GraphRAG",
+      "type": "Technology",
+      "description": "结合知识图谱与检索增强生成的混合技术，通过构建实体子图提升全局摘要及跨文档复杂查询能力",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Microsoft Research; https://www.microsoft.com/en-us/research/"
+    },
+    {
+      "id": "E325",
+      "name": "Agentic AI",
+      "type": "Technology",
+      "description": "具备自主规划、多步推理和复杂环境交互执行能力的人工智能系统形态",
+      "year": 2025,
+      "country": "全球",
+      "reference": "AI Agent Technical Reviews 2025"
+    },
+    {
+      "id": "E329",
+      "name": "多Token预测 (Multi-Token Prediction)",
+      "type": "Algorithm",
+      "description": "模型在训练和推理阶段单次前向传播预测多个后续Token的技术，显著提升推理效率和训练数据效率",
+      "year": 2025,
+      "country": "中国",
+      "reference": "DeepSeek-V3 Technical Report"
+    },
+    {
+      "id": "E330",
+      "name": "FP8混合精度训练",
+      "type": "Technology",
+      "description": "利用8位浮点数格式进行大语言模型的深度学习训练与激活计算，进一步打破内存带宽瓶颈",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Nvidia Hopper/Blackwell Architecture Whitepaper"
+    },
+    {
+      "id": "E331",
+      "name": "DeepSeek-R1-Zero",
+      "type": "Model",
+      "description": "深度求索推出的纯强化学习探索模型，不依赖任何人类SFT数据即自发涌现出强大的逻辑推理能力",
+      "year": 2025,
+      "country": "中国",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "id": "E332",
+      "name": "稀疏注意力 (Sparse Attention)",
+      "type": "Algorithm",
+      "description": "通过丢弃注意力矩阵中的部分计算，将O(N^2)复杂度降低，专门用于支持百万级别长上下文",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Long Context LLMs Survey"
+    },
+    {
+      "id": "E333",
+      "name": "基于规则的奖励模型 (RBRM)",
+      "type": "Algorithm",
+      "description": "在RLHF中通过格式规范、编译通过率和数学结果准确性等硬性规则计算Reward，避免奖励黑客现象",
+      "year": 2025,
+      "country": "全球",
+      "reference": "RL for Reasoning Research Papers"
+    },
+    {
+      "id": "E334",
+      "name": "Qwen2.5-Coder",
+      "type": "Model",
+      "description": "基于Qwen2.5架构进行代码任务专项优化的模型系，具备优异的代码生成、补全与修复能力",
+      "year": 2025,
+      "country": "中国",
+      "reference": "Qwen2.5-Coder Tech Report; https://github.com/QwenLM/Qwen2.5-Coder"
+    },
+    {
+      "id": "E335",
+      "name": "动态高分辨率机制",
+      "type": "Algorithm",
+      "description": "多模态大模型在处理图像时，根据图像特征动态调整切块数量与分辨率的处理机制，以平衡性能与计算量",
+      "year": 2025,
+      "country": "全球",
+      "reference": "VLM Optimization Technical Blogs"
+    },
+    {
+      "id": "E336",
+      "name": "无数据蒸馏 (Data-free Distillation)",
+      "type": "Algorithm",
+      "description": "通过让大模型自主生成具备清晰逻辑链（CoT）的样本，直接用于训练较小模型的知识传递技术",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Distilling Reasoning Capabilities in LLMs"
+    },
+    {
+      "id": "E337",
+      "name": "模型上下文扩展 (Context Extension)",
+      "type": "Technology",
+      "description": "在预训练后利用YaRN、动态RoPE等手段，将大模型原生支持的上下文长度拉伸至百万级别的方法",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Context Extension Methods for LLMs"
+    },
+    {
+      "id": "E338",
+      "name": "具身智能大模型",
+      "type": "Model",
+      "description": "结合视觉、语言及动作控制，可直接部署于机器人终端以执行现实物理世界复杂任务的多模态网络",
+      "year": 2025,
+      "country": "全球",
+      "reference": "Embodied AI Research 2025"
+    },
+    {
+      "id": "E339",
+      "name": "强化学习冷启动数据构建",
+      "type": "Technology",
+      "description": "利用少量高质量的长思维链人工或合成数据对模型进行轻量微调，以便在后续纯RL阶段防止模式崩溃",
+      "year": 2025,
+      "country": "全球",
+      "reference": "RLHF/RLAIF Methodologies"
+    },
+    {
+      "id": "E342",
+      "name": "Kimi探索版",
+      "type": "Product",
+      "description": "月之暗面推出的具备强化搜索与深度链式思考能力的产品版，大幅提升了对复杂问题的调研闭环能力",
+      "year": 2025,
+      "country": "中国",
+      "reference": "Kimi Official Announcement"
+    },
+    {
+      "id": "E343",
+      "name": "Giga-Context",
+      "type": "Technology",
+      "description": "支持千万级别Token长度上下文的系统级技术工程方案，涵盖内存换页与分布式KV Cache调度",
+      "year": 2025,
+      "country": "中国",
+      "reference": "Long-context Inference Engineering"
+    },
+    {
+      "id": "E344",
+      "name": "NPU算力集群优化",
+      "type": "Infrastructure",
+      "description": "针对国产AI算力芯片及网络拓扑特性专门进行的分布式训练框架层适配和通信算子优化",
+      "year": 2025,
+      "country": "中国",
+      "reference": "Huawei Ascend Developer Documentation"
+    },
+    {
+      "id": "E345",
+      "name": "vLLM推理加速框架",
+      "type": "Infrastructure",
+      "description": "采用PagedAttention技术来高效管理注意力显存分配的高吞吐量开源LLM推理引擎，持续增加最新模型支持",
+      "year": 2025,
+      "country": "全球",
+      "reference": "vLLM Official GitHub; https://github.com/vllm-project/vllm"
+    },
+    {
+      "id": "E346",
+      "name": "硅基流动",
+      "type": "Organization",
+      "description": "中国一家专注于AI推理加速和模型服务平台基础设施的公司",
+      "year": 2025,
+      "country": "中国",
+      "reference": "SiliconFlow Official Site; https://siliconflow.cn/"
+    },
+    {
+      "id": "E347",
+      "name": "SiliconCloud",
+      "type": "Product",
+      "description": "硅基流动提供的高性能云端模型API服务，首批适配了DeepSeek-V3等新一代开源模型",
+      "year": 2025,
+      "country": "中国",
+      "reference": "SiliconCloud Platform"
+    },
+    {
+      "id": "E348",
+      "name": "DeepSeek-V4",
+      "type": "Model",
+      "description": "深度求索于2026年推出的新一代开源万亿参数大模型，全面引入测试时计算扩展与原生连续记忆机制",
+      "year": 2026,
+      "country": "中国",
+      "reference": "DeepSeek 2026 Technical Report; https://github.com/deepseek-ai"
+    },
+    {
+      "id": "E349",
+      "name": "DeepSeek-R2",
+      "type": "Model",
+      "description": "2026年发布的强化学习推理模型，利用多奖励模型集成与直接纳什优化算法，在数理逻辑上逼近人类顶尖水平",
+      "year": 2026,
+      "country": "中国",
+      "reference": "DeepSeek-R2 Whitepaper"
+    },
+    {
+      "id": "E350",
+      "name": "Qwen4",
+      "type": "Model",
+      "description": "阿里巴巴2026年迭代的第四代通义千问模型，实现全模态流式输入输出及端云协同的动态MoE架构",
+      "year": 2026,
+      "country": "中国",
+      "reference": "Qwen 2026 Release Blog; https://qwenlm.github.io/"
+    },
+    {
+      "id": "E351",
+      "name": "GLM-5",
+      "type": "Model",
+      "description": "智谱AI于2026年发布的通用基座大模型，深度整合知识图谱联合推理引擎以消除专业领域幻觉",
+      "year": 2026,
+      "country": "中国",
+      "reference": "Zhipu AI 2026 Symposium; https://www.zhipuai.cn/"
+    },
+    {
+      "id": "E352",
+      "name": "Kimi K3",
+      "type": "Model",
+      "description": "月之暗面2026年推出的具备无限上下文处理概念的大模型，通过动态KV卸载实现极低成本的长程记忆",
+      "year": 2026,
+      "country": "中国",
+      "reference": "Moonshot AI 2026 Keynote"
+    },
+    {
+      "id": "E353",
+      "name": "GPT-5",
+      "type": "Model",
+      "description": "OpenAI在2026年正式推出的第五代大模型，具备原生模型自纠错能力及跨模态实时流推理引擎",
+      "year": 2026,
+      "country": "美国",
+      "reference": "OpenAI 2026 DevDay; https://openai.com/"
+    },
+    {
+      "id": "E354",
+      "name": "Claude 4.5",
+      "type": "Model",
+      "description": "Anthropic于2026年升级的旗舰模型，结合联邦对齐技术，在Agentic AI自主交互可靠性上取得行业最佳基准",
+      "year": 2026,
+      "country": "全球",
+      "reference": "Anthropic Research 2026"
+    },
+    {
+      "id": "E355",
+      "name": "Gemini 3",
+      "type": "Model",
+      "description": "谷歌2026年原生多模态大模型，深度适配TPU v6集群，实现高分辨率视频流的实时端到端交互",
+      "year": 2026,
+      "country": "全球",
+      "reference": "Google I/O 2026"
+    },
+    {
+      "id": "E356",
+      "name": "Llama 4",
+      "type": "Model",
+      "description": "Meta在2026年开源的万亿参数模型系列，引入全局稀疏前馈网络，大幅降低推理算力门槛",
+      "year": 2026,
+      "country": "美国",
+      "reference": "Meta AI 2026 Publications"
+    },
+    {
+      "id": "E357",
+      "name": "豆包大模型 2.0",
+      "type": "Model",
+      "description": "字节跳动2026年重磅更新的多模态底座，针对高频短视频生成与内容深度理解进行了端侧MoE优化",
+      "year": 2026,
+      "country": "中国",
+      "reference": "Volcengine 2026 Summit"
+    },
+    {
+      "id": "E358",
+      "name": "讯飞星火 V5.0",
+      "type": "Model",
+      "description": "科大讯飞面向2026年打造的新一代认知大模型，多模态交互时延降至100ms以内，支持自主多智能体协作",
+      "year": 2026,
+      "country": "中国",
+      "reference": "iFlytek 2026 Tech Conference"
+    },
+    {
+      "id": "E359",
+      "name": "Hunyuan Pro",
+      "type": "Model",
+      "description": "腾讯2026年发布的高级商业大模型，专注于复杂业务系统的自主规划和多模态强化学习",
+      "year": 2026,
+      "country": "中国",
+      "reference": "Tencent Cloud 2026 AI Release"
+    },
+    {
+      "id": "E360",
+      "name": "测试时计算扩展 (Test-Time Compute Scaling)",
+      "type": "Technology",
+      "description": "2026年成为主流的推理范式，允许模型在生成答案前消耗成倍的算力进行内部验证和搜索，以提升最终输出质量",
+      "year": 2026,
+      "country": "全球",
+      "reference": "Nature Machine Intelligence 2026 Review"
+    },
+    {
+      "id": "E361",
+      "name": "直接纳什优化 (Direct Nash Optimization, DNO)",
+      "type": "Algorithm",
+      "description": "超越DPO和GRPO的下一代对齐算法，通过多模型博弈寻找纳什均衡点，大幅提升对齐稳定性和逻辑上限",
+      "year": 2026,
+      "country": "全球",
+      "reference": "ICLR 2026 Outstanding Paper"
+    },
+    {
+      "id": "E362",
+      "name": "连续记忆机制 (Continuous Memory Mechanism)",
+      "type": "Technology",
+      "description": "2026年解决超长会话的革命性方案，将历史对话压缩为高维向量连续写入模型状态，彻底突破固定Token长度限制",
+      "year": 2026,
+      "country": "全球",
+      "reference": "arXiv:2601.XXXXX"
+    },
+    {
+      "id": "E363",
+      "name": "跨模态流式推理 (Cross-modal Streaming Inference)",
+      "type": "Technology",
+      "description": "支持音、视、文数据混合打碎流式输入输出的底层推理技术，2026年使全双工AI语音视觉助手普及",
+      "year": 2026,
+      "country": "全球",
+      "reference": "CVPR 2026 Best Paper"
+    },
+    {
+      "id": "E364",
+      "name": "模型自纠错 (Self-Correction)",
+      "type": "Technology",
+      "description": "2026年成熟的内生机制，大语言模型能在一次前向输出中自发识别逻辑谬误并进行回退修改",
+      "year": 2026,
+      "country": "全球",
+      "reference": "ACL 2026"
+    },
+    {
+      "id": "E365",
+      "name": "动态KV卸载 (Dynamic KV Offloading)",
+      "type": "Algorithm",
+      "description": "根据注意力权重动态将冗余KV Cache卸载到较慢存储或直接丢弃的算法，2026年成为端侧大模型标配",
+      "year": 2026,
+      "country": "全球",
+      "reference": "SysML 2026"
+    },
+    {
+      "id": "E366",
+      "name": "多模态强化学习 (Multimodal RL)",
+      "type": "Algorithm",
+      "description": "直接在图像或物理传感器输入上应用RLHF的技术，2026年极大地推动了具身智能模型的发展",
+      "year": 2026,
+      "country": "全球",
+      "reference": "CoRL 2026"
+    },
+    {
+      "id": "E367",
+      "name": "知识图谱联合推理 (Knowledge Graph Joint Reasoning)",
+      "type": "Technology",
+      "description": "2026年RAG技术的升级版，模型在推导多步思维链时能够实时下推查询请求至动态知识图谱计算节点",
+      "year": 2026,
+      "country": "全球",
+      "reference": "KDD 2026"
+    },
+    {
+      "id": "E368",
+      "name": "Nvidia Rubin R100",
+      "type": "Hardware",
+      "description": "英伟达于2026年大规模出货的新一代AI芯片，专为百万级Token和MoE架构提供极高访存带宽设计",
+      "year": 2026,
+      "country": "美国",
+      "reference": "Nvidia 2026 GTC"
+    },
+    {
+      "id": "E369",
+      "name": "华为昇腾 920",
+      "type": "Hardware",
+      "description": "华为在2026年推出的核心AI算力芯片，提供强大的稀疏张量核心加速，支撑国产万亿参数模型的高效训练",
+      "year": 2026,
+      "country": "中国",
+      "reference": "Huawei HC 2026"
+    },
+    {
+      "id": "E370",
+      "name": "Google TPU v6",
+      "type": "Hardware",
+      "description": "谷歌2026年部署的第六代张量处理单元，具备光互连特性以支持超大规模模型训练与测试时计算扩展",
+      "year": 2026,
+      "country": "美国",
+      "reference": "Google Cloud Next 2026"
+    },
+    {
+      "id": "E371",
+      "name": "测试时扩展法则 (Test-time Scaling Law)",
+      "type": "Metric",
+      "description": "2026年确立的新定律：模型推理准确率与分配给单个问题的推理期算力成对数线性增长关系",
+      "year": 2026,
+      "country": "全球",
+      "reference": "AI Alignment Forum 2026"
+    },
+    {
+      "id": "E372",
+      "name": "自主多智能体协作 (Autonomous Multi-Agent Collaboration)",
+      "type": "Technology",
+      "description": "2026年普及的AI工作流架构，多个专业化Agent在统一协议下无需人类干预即可完成企业级复杂项目",
+      "year": 2026,
+      "country": "全球",
+      "reference": "AAMAS 2026"
+    },
+    {
+      "id": "E373",
+      "name": "全局稀疏前馈网络 (Global Sparse FFN)",
+      "type": "Algorithm",
+      "description": "一种改进型架构，使得模型前馈层参数无需按专家(Expert)硬划分即可实现极高稀疏激活率",
+      "year": 2026,
+      "country": "全球",
+      "reference": "NeurIPS 2026"
+    },
+    {
+      "id": "E374",
+      "name": "视频扩散推理优化 (Video Diffusion Inference Optimization)",
+      "type": "Algorithm",
+      "description": "2026年关键的视频生成加速算法，通过步数蒸馏与缓存重用，使4K视频生成速度达到近乎实时",
+      "year": 2026,
+      "country": "全球",
+      "reference": "SIGGRAPH 2026"
+    },
+    {
+      "id": "E375",
+      "name": "大模型遗忘缓解 (LLM Forgetting Mitigation)",
+      "type": "Technology",
+      "description": "解决大模型在2026年高频持续学习或流式增量微调时，灾难性遗忘旧知识的技术方案",
+      "year": 2026,
+      "country": "全球",
+      "reference": "EMNLP 2026"
+    },
+    {
+      "id": "E376",
+      "name": "端侧MoE模型 (Edge MoE Model)",
+      "type": "Technology",
+      "description": "在2026年爆发的技术，通过极度量化与微型专家路由，将数百亿参数模型完整部署于智能手机和IoT设备",
+      "year": 2026,
+      "country": "全球",
+      "reference": "MobiSys 2026"
+    },
+    {
+      "id": "E377",
+      "name": "数据污染检测 (Data Contamination Detection)",
+      "type": "Technology",
+      "description": "2026年评估榜单必备的验证技术，利用逆向信息熵检测大模型是否在预训练阶段偷看过测试集",
+      "year": 2026,
+      "country": "全球",
+      "reference": "AAAI 2026"
+    },
+    {
+      "id": "E378",
+      "name": "AI Agent 安全沙箱 (AI Agent Security Sandbox)",
+      "type": "Infrastructure",
+      "description": "为2026年高自主性Agent提供的文件与系统读写权限硬件级隔离运行环境，防止恶意工具调用越权",
+      "year": 2026,
+      "country": "全球",
+      "reference": "USENIX Security 2026"
+    },
+    {
+      "id": "E379",
+      "name": "AI生成内容标识规范 2026版",
+      "type": "Policy",
+      "description": "2026年推出的国家级强制规范，要求所有商用多模态大模型输出带有不可见数字水印以应对深度伪造",
+      "year": 2026,
+      "country": "中国",
+      "reference": "中国网信办2026年度规范文件"
+    },
+    {
+      "id": "E380",
+      "name": "联邦对齐 (Federated Alignment)",
+      "type": "Technology",
+      "description": "2026年兴起的隐私保护对齐技术，模型在边缘设备上利用用户偏好进行局部对齐后，仅回传对齐梯度至云端",
+      "year": 2026,
+      "country": "全球",
+      "reference": "IEEE FL 2026"
+    },
+    {
+      "id": "E381",
+      "name": "隐式推理链生成 (Implicit Chain-of-Thought Generation)",
+      "type": "Algorithm",
+      "description": "无需在显式文本中输出思考过程，模型直接在隐层状态中流转完成多步推理的2026年前沿技术",
+      "year": 2026,
+      "country": "全球",
+      "reference": "ICML 2026"
+    },
+    {
+      "id": "E382",
+      "name": "意图对齐评测集 (Intent Alignment Benchmark)",
+      "type": "Metric",
+      "description": "2026年取代传统能力榜单的核心评测体系，专注于测量模型执行复杂长线任务时是否偏离人类初始意图",
+      "year": 2026,
+      "country": "全球",
+      "reference": "Alignment Research Center 2026"
+    },
+    {
+      "id": "E383",
+      "name": "奖励模型集成 (Reward Model Ensembling)",
+      "type": "Algorithm",
+      "description": "在RLHF阶段使用多个正交训练的奖励模型进行加权打分，2026年被证明能极大消除奖励过度优化的漏洞",
+      "year": 2026,
+      "country": "全球",
+      "reference": "RL Conference 2026"
+    },
+    {
+      "id": "E384",
+      "name": "稀疏张量核心加速 (Sparse Tensor Core Acceleration)",
+      "type": "Hardware",
+      "description": "底层硬件针对神经网络稀疏激活特性专门设计的计算单元调度技术，在2026年新一代芯片中成为标配",
+      "year": 2026,
+      "country": "全球",
+      "reference": "ISCA 2026"
+    },
+    {
+      "id": "E385",
+      "name": "Step-3",
+      "type": "Model",
+      "description": "阶跃星辰在2026年发布的高级多模态大模型，深度整合了跨模态流式推理和原生长上下文处理能力",
+      "year": 2026,
+      "country": "中国",
+      "reference": "StepFun 2026 Launch"
+    },
+    {
+      "id": "E386",
+      "name": "OpenAI Sora 2.0",
+      "type": "Product",
+      "description": "OpenAI于2026年发布的视频生成大模型，引入了精确的物理引擎先验规律与视频扩散推理优化技术",
+      "year": 2026,
+      "country": "美国",
+      "reference": "OpenAI Video Generation Report 2026"
+    },
+    {
+      "id": "E387",
+      "name": "Grok 3",
+      "type": "Model",
+      "description": "xAI在2026年发布的巨型开源大模型，凭借数万张GPU集群训练，具有极强的新闻事实一致性和极快的推理速度",
+      "year": 2026,
+      "country": "美国",
+      "reference": "xAI Blog 2026"
+    },
+    {
+      "id": "E388",
+      "name": "微调",
+      "type": "Technology",
+      "description": "在预训练模型基础上使用任务或领域数据继续训练，以适配特定场景的模型优化方法",
+      "year": 2021,
+      "country": "全球",
+      "reference": "LoRA: Low-Rank Adaptation of Large Language Models；https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "id": "E389",
+      "name": "逻辑推理",
+      "type": "Technology",
+      "description": "模型围绕数学、代码、规划和多步问题进行规则化推断与答案验证的能力",
+      "year": 2025,
+      "country": "中国/全球",
+      "reference": "DeepSeek-R1 Technical Report；https://arxiv.org/abs/2501.12948"
     }
   ],
   "relations": [
@@ -7880,6 +8609,1469 @@
       "type": "推动",
       "description": "地平线推动人工智能技术或产业发展",
       "reference": "公开资料整理"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen3",
+      "type": "研发",
+      "description": "阿里巴巴通义团队发布 Qwen3 开源大模型系列",
+      "reference": "Qwen3 Technical Report；https://arxiv.org/abs/2505.09388"
+    },
+    {
+      "source": "Kimi K2",
+      "target": "多头潜在注意力",
+      "type": "使用架构",
+      "description": "Kimi K2 公开技术资料显示其使用 MLA 注意力机制",
+      "reference": "Kimi K2 Technical Report；https://arxiv.org/abs/2507.20534"
+    },
+    {
+      "source": "Qwen3",
+      "target": "混合专家模型",
+      "type": "使用架构",
+      "description": "Qwen3 系列包含 MoE 模型，用于平衡总参数规模与激活计算量",
+      "reference": "Qwen3 Technical Report；https://arxiv.org/abs/2505.09388"
+    },
+    {
+      "source": "DeepSeek-V3",
+      "target": "混合专家模型",
+      "type": "使用架构",
+      "description": "DeepSeek-V3 延续稀疏专家模型路线以提升训练与推理效率",
+      "reference": "DeepSeek-V3 Technical Report；https://arxiv.org/abs/2412.19437"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "思维链推理",
+      "type": "增强",
+      "description": "DeepSeek-R1 强化推理链生成能力以处理复杂推理任务",
+      "reference": "DeepSeek-R1 Technical Report；https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "强化学习",
+      "type": "优化",
+      "description": "DeepSeek-R1 通过强化学习增强推理能力",
+      "reference": "DeepSeek-R1 Technical Report；https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "source": "Qwen3",
+      "target": "思维链推理",
+      "type": "支持",
+      "description": "Qwen3 支持思考模式与非思考模式切换，以适配复杂推理和快速响应任务",
+      "reference": "Qwen3 Technical Report；https://arxiv.org/abs/2505.09388"
+    },
+    {
+      "source": "Qwen3",
+      "target": "工具调用",
+      "type": "支持",
+      "description": "Qwen3 公开资料强调函数调用、工具使用和 Agent 任务能力",
+      "reference": "Qwen3 Technical Report；https://arxiv.org/abs/2505.09388"
+    },
+    {
+      "source": "多头潜在注意力",
+      "target": "KV缓存优化",
+      "type": "优化",
+      "description": "MLA 通过潜在表示降低 KV 缓存规模",
+      "reference": "DeepSeek-V3 Technical Report；https://arxiv.org/abs/2412.19437；Kimi K2 Technical Report；https://arxiv.org/abs/2507.20534"
+    },
+    {
+      "source": "多头潜在注意力",
+      "target": "推理加速",
+      "type": "支撑",
+      "description": "KV 缓存压缩有助于降低长上下文推理成本",
+      "reference": "DeepSeek-V3 Technical Report；https://arxiv.org/abs/2412.19437；Kimi K2 Technical Report；https://arxiv.org/abs/2507.20534"
+    },
+    {
+      "source": "FlashAttention",
+      "target": "注意力计算",
+      "type": "优化",
+      "description": "FlashAttention 通过 IO 感知实现优化注意力计算",
+      "reference": "Dao et al. FlashAttention；https://arxiv.org/abs/2205.14135"
+    },
+    {
+      "source": "FlashAttention",
+      "target": "吞吐量",
+      "type": "提升",
+      "description": "FlashAttention 可提升 Transformer 训练和推理吞吐",
+      "reference": "Dao et al. FlashAttention；https://arxiv.org/abs/2205.14135"
+    },
+    {
+      "source": "推测解码",
+      "target": "推理加速",
+      "type": "支撑",
+      "description": "推测解码通过草拟与验证机制降低自回归生成延迟",
+      "reference": "Fast Inference from Transformers via Speculative Decoding；https://arxiv.org/abs/2211.17192"
+    },
+    {
+      "source": "旋转位置编码",
+      "target": "长上下文建模",
+      "type": "支撑",
+      "description": "RoPE 为长序列位置建模提供基础位置编码机制",
+      "reference": "RoFormer；https://arxiv.org/abs/2104.09864"
+    },
+    {
+      "source": "Qwen2.5",
+      "target": "长上下文建模",
+      "type": "支持",
+      "description": "Qwen2.5 系列公开资料强调长上下文能力",
+      "reference": "Qwen 官方文档；https://qwenlm.github.io/"
+    },
+    {
+      "source": "Qwen2.5",
+      "target": "旋转位置编码",
+      "type": "使用架构",
+      "description": "Qwen 系列 Transformer 模型使用位置编码机制处理序列位置信息",
+      "reference": "Qwen 官方文档；https://qwenlm.github.io/"
+    },
+    {
+      "source": "Kimi",
+      "target": "长上下文建模",
+      "type": "支持",
+      "description": "Kimi 产品以长上下文能力作为重要特征",
+      "reference": "月之暗面/Kimi 公开资料；https://kimi.moonshot.cn/"
+    },
+    {
+      "source": "Kimi K2",
+      "target": "长上下文建模",
+      "type": "支持",
+      "description": "Kimi K2 延续月之暗面长上下文模型路线",
+      "reference": "月之暗面/Kimi 公开资料；https://kimi.moonshot.cn/"
+    },
+    {
+      "source": "Kimi K2",
+      "target": "混合专家模型",
+      "type": "使用架构",
+      "description": "Kimi K2 公开资料显示其采用 MoE 路线",
+      "reference": "月之暗面/Kimi 公开资料；https://kimi.moonshot.cn/"
+    },
+    {
+      "source": "低秩适配",
+      "target": "参数高效微调",
+      "type": "属于",
+      "description": "LoRA 是参数高效微调的代表方法",
+      "reference": "LoRA；https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "source": "参数高效微调",
+      "target": "微调",
+      "type": "优化",
+      "description": "参数高效微调降低大模型适配垂直任务的训练成本",
+      "reference": "LoRA；https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "source": "直接偏好优化",
+      "target": "模型对齐",
+      "type": "优化",
+      "description": "DPO 通过偏好数据直接优化模型输出偏好",
+      "reference": "Direct Preference Optimization；https://arxiv.org/abs/2305.18290"
+    },
+    {
+      "source": "人类反馈强化学习",
+      "target": "模型对齐",
+      "type": "优化",
+      "description": "RLHF 通过人类偏好反馈优化模型行为",
+      "reference": "Training language models to follow instructions with human feedback；https://arxiv.org/abs/2203.02155"
+    },
+    {
+      "source": "检索增强生成",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "RAG 通过外部证据检索降低无依据生成风险",
+      "reference": "Lewis et al. RAG；https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "source": "知识图谱",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "知识图谱提供结构化事实约束，可辅助检查生成内容是否符合实体关系",
+      "reference": "公开知识图谱问答资料整理"
+    },
+    {
+      "source": "事实一致性校验",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "事实一致性校验用于发现回答与证据不一致的问题",
+      "reference": "Survey of Hallucination in Natural Language Generation；https://arxiv.org/abs/2202.03629"
+    },
+    {
+      "source": "引用溯源",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "引用溯源通过展示证据来源提高回答可验证性",
+      "reference": "Retrieval-Augmented Generation；https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "source": "幻觉检测",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "幻觉检测用于识别生成内容中的事实错误或证据不一致",
+      "reference": "Survey of Hallucination in Natural Language Generation；https://arxiv.org/abs/2202.03629"
+    },
+    {
+      "source": "安全对齐",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "安全对齐减少模型输出不可靠或不合规内容的概率",
+      "reference": "公开模型安全资料整理"
+    },
+    {
+      "source": "事实性评估",
+      "target": "模型幻觉",
+      "type": "优化指标",
+      "description": "事实性评估用于度量模型回答与事实证据的一致程度",
+      "reference": "Survey of Hallucination in Natural Language Generation；https://arxiv.org/abs/2202.03629"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "DeepSeek-V3",
+      "type": "基于",
+      "description": "DeepSeek-R1的基础模型是DeepSeek-V3 Base",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "混合专家模型",
+      "type": "使用架构",
+      "description": "DeepSeek-R1采用了混合专家模型(MoE)架构以实现参数的稀疏激活",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "多头潜在注意力",
+      "type": "使用架构",
+      "description": "DeepSeek-R1继承了多头潜在注意力机制以降低推理显存压力",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "DeepSeek-R1",
+      "target": "Group Relative Policy Optimization (GRPO)",
+      "type": "使用架构",
+      "description": "DeepSeek-R1在大规模强化学习阶段广泛使用了GRPO算法",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "Group Relative Policy Optimization (GRPO)",
+      "target": "人类反馈强化学习",
+      "type": "优化",
+      "description": "GRPO是对传统强化学习PPO算法的优化，节省了Critic模型的计算开销",
+      "reference": "DeepSeekMath Paper; arXiv:2402.03300"
+    },
+    {
+      "source": "深度求索",
+      "target": "DeepSeek-R1-Zero",
+      "type": "研发",
+      "description": "深度求索发布了不依赖人类微调数据的DeepSeek-R1-Zero版本",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "DeepSeek-R1-Zero",
+      "target": "Group Relative Policy Optimization (GRPO)",
+      "type": "使用架构",
+      "description": "DeepSeek-R1-Zero纯依赖GRPO算法在基础模型上进行试错学习",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "DeepSeek-R1-Zero",
+      "target": "思维链推理",
+      "type": "提升",
+      "description": "纯强化学习过程显著提升了模型的长思维链推理能力",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "DeepSeek-V3",
+      "target": "多头潜在注意力",
+      "type": "使用架构",
+      "description": "DeepSeek-V3利用多头潜在注意力压缩KV缓存",
+      "reference": "DeepSeek-V3 Technical Report"
+    },
+    {
+      "source": "DeepSeek-V3",
+      "target": "多Token预测 (Multi-Token Prediction)",
+      "type": "使用架构",
+      "description": "DeepSeek-V3在训练阶段采用了多Token预测目标",
+      "reference": "DeepSeek-V3 Technical Report"
+    },
+    {
+      "source": "多Token预测 (Multi-Token Prediction)",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "额外的预测头可作为推测解码的草稿生成器从而提升推理加速",
+      "reference": "DeepSeek-V3 Technical Report"
+    },
+    {
+      "source": "DeepSeek-V3",
+      "target": "FP8混合精度训练",
+      "type": "使用架构",
+      "description": "DeepSeek-V3全面采用了FP8混合精度进行前向和反向传播",
+      "reference": "DeepSeek-V3 Technical Report"
+    },
+    {
+      "source": "FP8混合精度训练",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "FP8数据格式使得计算单元吞吐量成倍增长，间接提升推理与训练速度",
+      "reference": "Nvidia Hopper/Blackwell Architecture Whitepaper"
+    },
+    {
+      "source": "强化学习冷启动数据构建",
+      "target": "DeepSeek-R1",
+      "type": "支持",
+      "description": "冷启动高质量数据支撑了DeepSeek-R1的可读性和语言对齐",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "强化学习冷启动数据构建",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "经过精心校验的冷启动SFT数据有效缓解了模型生成初期的幻觉现象",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "基于规则的奖励模型 (RBRM)",
+      "target": "DeepSeek-R1",
+      "type": "支持",
+      "description": "DeepSeek-R1的RL阶段采用了编译器反馈等客观规则作为核心奖励信号",
+      "reference": "DeepSeek-R1 Technical Report"
+    },
+    {
+      "source": "基于规则的奖励模型 (RBRM)",
+      "target": "模型对齐",
+      "type": "优化",
+      "description": "硬规则替代神经网络Reward Model有效规避了奖励被黑客攻击，优化了模型对齐",
+      "reference": "RL for Reasoning Research Papers"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen2.5-Coder",
+      "type": "研发",
+      "description": "阿里巴巴发布了专注于代码编写的Qwen2.5-Coder版本",
+      "reference": "Qwen2.5-Coder Tech Report"
+    },
+    {
+      "source": "Qwen2.5-Coder",
+      "target": "工具调用",
+      "type": "优化",
+      "description": "代码能力的增强使得Qwen2.5-Coder在复杂工具调用场景下表现更佳",
+      "reference": "Qwen2.5-Coder Tech Report"
+    },
+    {
+      "source": "Qwen3",
+      "target": "模型对齐",
+      "type": "提升",
+      "description": "Qwen3引入更细致的RLHF，大幅提升了对多语种和安全指令的模型对齐",
+      "reference": "Qwen Official GitHub"
+    },
+    {
+      "source": "Qwen3",
+      "target": "Qwen2.5",
+      "type": "基于",
+      "description": "Qwen3系列基于Qwen2.5的成果进一步扩展演进",
+      "reference": "Qwen Official GitHub"
+    },
+    {
+      "source": "无数据蒸馏 (Data-free Distillation)",
+      "target": "模型蒸馏",
+      "type": "优化",
+      "description": "通过模型自我生成数据链传递知识，优化了传统模型蒸馏对标注数据的依赖",
+      "reference": "Distilling Reasoning Capabilities in LLMs"
+    },
+    {
+      "source": "无数据蒸馏 (Data-free Distillation)",
+      "target": "大语言模型",
+      "type": "支持",
+      "description": "这一技术使得小参数量的大语言模型也能获得极强的推理能力",
+      "reference": "Distilling Reasoning Capabilities in LLMs"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi探索版",
+      "type": "发布",
+      "description": "月之暗面面向C端用户正式发布了具备长推理链的Kimi探索版",
+      "reference": "Kimi Official Announcement"
+    },
+    {
+      "source": "Kimi探索版",
+      "target": "Kimi K2",
+      "type": "基于",
+      "description": "Kimi探索版的底层能力依赖于Kimi K2基座",
+      "reference": "Kimi Official Announcement"
+    },
+    {
+      "source": "Kimi探索版",
+      "target": "思维链推理",
+      "type": "优化",
+      "description": "Kimi探索版引入多步规划，优化了长思维链推理过程",
+      "reference": "Kimi Official Announcement"
+    },
+    {
+      "source": "Step-2",
+      "target": "混合专家模型",
+      "type": "使用架构",
+      "description": "Step-2采用了能够承载万亿参数的混合专家模型(MoE)架构",
+      "reference": "StepFun Model Release Notes"
+    },
+    {
+      "source": "Step-2",
+      "target": "多模态大模型",
+      "type": "属于",
+      "description": "Step-2原生支持图像与文本交互，属于多模态大模型",
+      "reference": "StepFun Model Release Notes"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Giga-Context",
+      "type": "研发",
+      "description": "月之暗面在系统工程层面研发了Giga-Context框架",
+      "reference": "Long-context Inference Engineering"
+    },
+    {
+      "source": "Giga-Context",
+      "target": "长上下文建模",
+      "type": "提升",
+      "description": "Giga-Context大幅提升了模型能够实际处理的长上下文上限",
+      "reference": "Long-context Inference Engineering"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM-4.5",
+      "type": "研发",
+      "description": "智谱AI于2024-2025年期间推出了GLM-4.5",
+      "reference": "Zhipu AI Blog"
+    },
+    {
+      "source": "GLM-4.5",
+      "target": "工具调用",
+      "type": "支持",
+      "description": "GLM-4.5的AllTools功能全面支持自动化的工具调用",
+      "reference": "Zhipu AI Blog"
+    },
+    {
+      "source": "豆包大模型",
+      "target": "推理加速",
+      "type": "优化",
+      "description": "豆包大模型极度注重算力优化，实现了端到端的推理加速，降低调用成本",
+      "reference": "Volcengine Doubao Page"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "讯飞星火 X1",
+      "type": "研发",
+      "description": "科大讯飞推出了下一代讯飞星火 X1 大模型",
+      "reference": "iFlytek Spark Desk"
+    },
+    {
+      "source": "讯飞星火 X1",
+      "target": "检索增强生成",
+      "type": "支持",
+      "description": "星火 X1 内置了深度优化的检索增强生成技术（RAG）",
+      "reference": "iFlytek Spark Desk"
+    },
+    {
+      "source": "腾讯",
+      "target": "Hunyuan",
+      "type": "研发",
+      "description": "腾讯开发了混元大模型及其多个衍生版本",
+      "reference": "Tencent Hunyuan Site"
+    },
+    {
+      "source": "Hunyuan",
+      "target": "混合专家模型",
+      "type": "使用架构",
+      "description": "最新版的Hunyuan大模型基于混合专家模型构建",
+      "reference": "Tencent Hunyuan Site"
+    },
+    {
+      "source": "Hunyuan",
+      "target": "多模态大模型",
+      "type": "属于",
+      "description": "Hunyuan具备图文视频理解能力，属于多模态大模型",
+      "reference": "Tencent Hunyuan Site"
+    },
+    {
+      "source": "讯飞星火 X1",
+      "target": "模型对齐",
+      "type": "提升",
+      "description": "星火 X1 进一步提升了在复杂语境下的核心价值观与指令的模型对齐",
+      "reference": "iFlytek Spark Desk"
+    },
+    {
+      "source": "Claude 4",
+      "target": "多模态大模型",
+      "type": "属于",
+      "description": "Claude 4 具备卓越的视觉和文本处理能力，属于多模态大模型",
+      "reference": "Anthropic Official Site"
+    },
+    {
+      "source": "Claude 4",
+      "target": "Agentic AI",
+      "type": "支持",
+      "description": "Claude 4 原生支持计算机界面操作，是Agentic AI的典型代表",
+      "reference": "Anthropic Official Site"
+    },
+    {
+      "source": "Gemini 2.5",
+      "target": "多模态大模型",
+      "type": "属于",
+      "description": "Gemini 2.5 是原生支持视频、音频输入输出的多模态大模型",
+      "reference": "Google DeepMind Blog"
+    },
+    {
+      "source": "Gemini 2.5",
+      "target": "推理加速",
+      "type": "优化",
+      "description": "谷歌在Gemini 2.5的底层架构中引入了新的优化机制，提升了批处理推理加速表现",
+      "reference": "Google DeepMind Blog"
+    },
+    {
+      "source": "GPT-4.5",
+      "target": "多模态大模型",
+      "type": "属于",
+      "description": "GPT-4.5集成了先进的视音频理解，属于多模态大模型",
+      "reference": "OpenAI Official Blog"
+    },
+    {
+      "source": "GPT-4.5",
+      "target": "思维链推理",
+      "type": "提升",
+      "description": "GPT-4.5融合了部分o1系列的推理机制，提升了隐式思维链推理能力",
+      "reference": "OpenAI Official Blog"
+    },
+    {
+      "source": "OpenAI o3-mini",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "o3-mini是专门用于逻辑推理任务的轻量级大语言模型",
+      "reference": "OpenAI Platform"
+    },
+    {
+      "source": "OpenAI o3-mini",
+      "target": "思维链推理",
+      "type": "提升",
+      "description": "o3-mini通过隐式生成的思考过程显著提升了思维链推理效果",
+      "reference": "OpenAI Platform"
+    },
+    {
+      "source": "Claude 4",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "Claude 4 采用严格的证据约束训练，大幅缓解了模型幻觉现象",
+      "reference": "Anthropic Official Site"
+    },
+    {
+      "source": "Gemini 2.5",
+      "target": "动态高分辨率机制",
+      "type": "支持",
+      "description": "Gemini 2.5 原生支持对任意尺寸图像进行动态高分辨率机制切块",
+      "reference": "Google DeepMind Blog"
+    },
+    {
+      "source": "Model Context Protocol (MCP)",
+      "target": "AI Agent",
+      "type": "规范",
+      "description": "MCP为AI Agent与本地或云端工具的通信提供了统一规范",
+      "reference": "Anthropic MCP Specification"
+    },
+    {
+      "source": "Model Context Protocol (MCP)",
+      "target": "工具调用",
+      "type": "支持",
+      "description": "MCP极大地简化了大模型对各种API进行标准化工具调用的流程",
+      "reference": "Anthropic MCP Specification"
+    },
+    {
+      "source": "GraphRAG",
+      "target": "知识图谱",
+      "type": "基于",
+      "description": "GraphRAG提取文档实体生成子图，是直接基于知识图谱的增强方案",
+      "reference": "Microsoft Research"
+    },
+    {
+      "source": "GraphRAG",
+      "target": "检索增强生成",
+      "type": "优化",
+      "description": "GraphRAG在宏观问题回答上优化了传统向量检索增强生成的碎片化问题",
+      "reference": "Microsoft Research"
+    },
+    {
+      "source": "推测解码",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "推测解码避免了自回归生成的纯串行瓶颈，数倍提升了推理加速",
+      "reference": "arXiv Pre-prints"
+    },
+    {
+      "source": "推测解码",
+      "target": "vLLM推理加速框架",
+      "type": "支持",
+      "description": "推测解码作为核心特性已被广泛支持于vLLM推理加速框架中",
+      "reference": "vLLM Official GitHub"
+    },
+    {
+      "source": "GraphRAG",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "通过显式的图谱关系溯源，GraphRAG能有效缓解模型在跨文档总结时的幻觉",
+      "reference": "Microsoft Research"
+    },
+    {
+      "source": "Model Context Protocol (MCP)",
+      "target": "Agentic AI",
+      "type": "应用",
+      "description": "MCP被广泛应用于构建现代Agentic AI工作流，使得跨应用数据获取无缝衔接",
+      "reference": "Anthropic MCP Specification"
+    },
+    {
+      "source": "Agentic AI",
+      "target": "大语言模型",
+      "type": "基于",
+      "description": "Agentic AI的计划、拆解和决策中枢核心基于大语言模型的能力",
+      "reference": "AI Agent Technical Reviews 2025"
+    },
+    {
+      "source": "Agentic AI",
+      "target": "具身智能大模型",
+      "type": "支持",
+      "description": "代理型智能的发展直接支持并赋能了能够在物理世界行动的具身智能大模型",
+      "reference": "Embodied AI Research 2025"
+    },
+    {
+      "source": "引用溯源",
+      "target": "检索增强生成",
+      "type": "支持",
+      "description": "引用溯源是高级检索增强生成(RAG)系统必须支持的关键特性",
+      "reference": "Google Search Generative Experience Documentation"
+    },
+    {
+      "source": "事实一致性校验",
+      "target": "模型对齐",
+      "type": "优化指标",
+      "description": "事实准确性正在成为大模型对齐阶段的一个核心优化指标",
+      "reference": "ACL 2025 Proceedings"
+    },
+    {
+      "source": "稀疏注意力 (Sparse Attention)",
+      "target": "长上下文建模",
+      "type": "优化",
+      "description": "丢弃低权重连接的稀疏注意力在不爆显存的前提下优化了百万级长上下文建模",
+      "reference": "Long Context LLMs Survey"
+    },
+    {
+      "source": "稀疏注意力 (Sparse Attention)",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "计算量的急剧下降使得稀疏注意力能够显著提升长文本场景下的推理加速",
+      "reference": "Long Context LLMs Survey"
+    },
+    {
+      "source": "模型上下文扩展 (Context Extension)",
+      "target": "稀疏注意力 (Sparse Attention)",
+      "type": "基于",
+      "description": "许多百万级别长度的模型上下文扩展方案底层基于稀疏注意力机制",
+      "reference": "Context Extension Methods for LLMs"
+    },
+    {
+      "source": "模型上下文扩展 (Context Extension)",
+      "target": "长上下文建模",
+      "type": "提升",
+      "description": "模型上下文扩展技术打破了预训练时的长度约束，提升了长上下文建模表现",
+      "reference": "Context Extension Methods for LLMs"
+    },
+    {
+      "source": "动态高分辨率机制",
+      "target": "多模态大模型",
+      "type": "优化",
+      "description": "该机制大幅优化了多模态大模型在读取高分辨率表格和设计图时的特征丢失问题",
+      "reference": "VLM Optimization Technical Blogs"
+    },
+    {
+      "source": "具身智能大模型",
+      "target": "多模态大模型",
+      "type": "基于",
+      "description": "具身智能往往基于融合了视觉与文本先验常识的多模态大模型发展而来",
+      "reference": "Embodied AI Research 2025"
+    },
+    {
+      "source": "NPU算力集群优化",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "针对国产NPU芯片的集群优化为国内自主大语言模型训练提供了底座支撑",
+      "reference": "Huawei Ascend Developer Documentation"
+    },
+    {
+      "source": "NPU算力集群优化",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "在算子层面与算力集群拓扑绑定的优化措施直接提升了大规模推理加速比",
+      "reference": "Huawei Ascend Developer Documentation"
+    },
+    {
+      "source": "vLLM推理加速框架",
+      "target": "大语言模型",
+      "type": "支持",
+      "description": "vLLM由于其易用性和高性能，广泛支持了社区开源大语言模型的部署",
+      "reference": "vLLM Official GitHub"
+    },
+    {
+      "source": "vLLM推理加速框架",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "vLLM显著降低了请求排队时间，大幅提升了并行推理加速",
+      "reference": "vLLM Official GitHub"
+    },
+    {
+      "source": "vLLM推理加速框架",
+      "target": "KV缓存优化",
+      "type": "优化",
+      "description": "vLLM内部引入的PagedAttention是对操作系统内存分页思想在KV缓存优化上的成功应用",
+      "reference": "vLLM Official GitHub"
+    },
+    {
+      "source": "硅基流动",
+      "target": "SiliconCloud",
+      "type": "发布",
+      "description": "硅基流动作为企业主体发布并运营了SiliconCloud云服务",
+      "reference": "SiliconFlow Official Site"
+    },
+    {
+      "source": "SiliconCloud",
+      "target": "vLLM推理加速框架",
+      "type": "基于",
+      "description": "SiliconCloud底层基础设施大规模基于并扩展了vLLM推理加速框架",
+      "reference": "SiliconCloud Platform"
+    },
+    {
+      "source": "SiliconCloud",
+      "target": "DeepSeek-V3",
+      "type": "支持",
+      "description": "SiliconCloud首批提供了深度优化版DeepSeek-V3模型的API支持",
+      "reference": "SiliconCloud Platform"
+    },
+    {
+      "source": "SiliconCloud",
+      "target": "Qwen2.5",
+      "type": "支持",
+      "description": "SiliconCloud平台全面支持了全尺寸的Qwen2.5系列模型调用",
+      "reference": "SiliconCloud Platform"
+    },
+    {
+      "source": "硅基流动",
+      "target": "推理加速",
+      "type": "优化",
+      "description": "硅基流动的核心商业壁垒在于其对开源模型提供极致的推理加速优化",
+      "reference": "SiliconFlow Official Site"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "多模态大模型",
+      "type": "支持",
+      "description": "阶跃星辰积极投入并支持着国产多模态大模型的研发探索",
+      "reference": "StepFun Official Site"
+    },
+    {
+      "source": "Qwen2.5-Coder",
+      "target": "Qwen2.5",
+      "type": "基于",
+      "description": "Qwen2.5-Coder是以Qwen2.5基础模型为起点，用海量代码数据后训练而来",
+      "reference": "Qwen2.5-Coder Tech Report"
+    },
+    {
+      "source": "豆包大模型",
+      "target": "工具调用",
+      "type": "支持",
+      "description": "豆包大模型在其API中内置了Function Calling，支持复杂的工具调用场景",
+      "reference": "Volcengine Doubao Page"
+    },
+    {
+      "source": "GLM-4.5",
+      "target": "思维链推理",
+      "type": "提升",
+      "description": "相比前代，GLM-4.5通过多阶段SFT显著提升了逻辑问题的思维链推理连贯性",
+      "reference": "Zhipu AI Blog"
+    },
+    {
+      "source": "FlashAttention",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "各类开源新模型均得益于FlashAttention底层算子，获得大幅的推理加速",
+      "reference": "FlashAttention Research"
+    },
+    {
+      "source": "低秩适配",
+      "target": "大语言模型",
+      "type": "优化",
+      "description": "低秩适配(LoRA)极大降低了个人开发者针对大语言模型进行领域微调的成本",
+      "reference": "LoRA Research Paper"
+    },
+    {
+      "source": "混合专家模型",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "MoE使得单次推理激活的参数量仅占总参数量的一小部分，从架构层面提升了推理加速",
+      "reference": "MoE Architecture Reviews"
+    },
+    {
+      "source": "Transformer",
+      "target": "大语言模型",
+      "type": "支撑",
+      "description": "尽管诸多架构创新，自回归Transformer依然是当前几乎所有前沿大语言模型的核心支撑",
+      "reference": "Deep Learning Paradigm 2025"
+    },
+    {
+      "source": "深度求索",
+      "target": "DeepSeek-V4",
+      "type": "研发",
+      "description": "深度求索公司在2026年研发并开源了DeepSeek-V4",
+      "reference": "DeepSeek 2026 Technical Report"
+    },
+    {
+      "source": "深度求索",
+      "target": "DeepSeek-R2",
+      "type": "研发",
+      "description": "深度求索在2026年推出了强化学习专注模型DeepSeek-R2",
+      "reference": "DeepSeek-R2 Whitepaper"
+    },
+    {
+      "source": "DeepSeek-V4",
+      "target": "连续记忆机制 (Continuous Memory Mechanism)",
+      "type": "使用架构",
+      "description": "DeepSeek-V4在底层引入了连续记忆机制来应对无限制长上下文",
+      "reference": "DeepSeek 2026 Technical Report"
+    },
+    {
+      "source": "DeepSeek-V4",
+      "target": "测试时计算扩展 (Test-Time Compute Scaling)",
+      "type": "支持",
+      "description": "DeepSeek-V4原生支持并极大优化了测试时计算扩展的资源消耗",
+      "reference": "DeepSeek 2026 Technical Report"
+    },
+    {
+      "source": "DeepSeek-R2",
+      "target": "直接纳什优化 (Direct Nash Optimization, DNO)",
+      "type": "使用架构",
+      "description": "DeepSeek-R2在对齐阶段使用了2026年最新的直接纳什优化算法",
+      "reference": "DeepSeek-R2 Whitepaper"
+    },
+    {
+      "source": "DeepSeek-R2",
+      "target": "奖励模型集成 (Reward Model Ensembling)",
+      "type": "使用架构",
+      "description": "DeepSeek-R2依赖奖励模型集成来避免复杂逻辑任务中的奖励漏洞",
+      "reference": "DeepSeek-R2 Whitepaper"
+    },
+    {
+      "source": "DeepSeek-R2",
+      "target": "测试时扩展法则 (Test-time Scaling Law)",
+      "type": "支持",
+      "description": "DeepSeek-R2的实测数据强有力地支持了2026年提出的测试时扩展法则",
+      "reference": "DeepSeek-R2 Whitepaper"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen4",
+      "type": "研发",
+      "description": "阿里巴巴通义千问团队于2026年发布了第四代全模态模型Qwen4",
+      "reference": "Qwen 2026 Release Blog"
+    },
+    {
+      "source": "Qwen4",
+      "target": "端侧MoE模型 (Edge MoE Model)",
+      "type": "支持",
+      "description": "Qwen4系列包含了专为智能终端优化的端侧MoE模型版本",
+      "reference": "Qwen 2026 Release Blog"
+    },
+    {
+      "source": "Qwen4",
+      "target": "跨模态流式推理 (Cross-modal Streaming Inference)",
+      "type": "使用架构",
+      "description": "Qwen4使用跨模态流式推理架构实现了语音与视觉的低延迟端到端响应",
+      "reference": "Qwen 2026 Release Blog"
+    },
+    {
+      "source": "Qwen4",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "Qwen4仍是建立在大语言模型基础上的全能泛化模型",
+      "reference": "Qwen 2026 Release Blog"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM-5",
+      "type": "研发",
+      "description": "智谱AI在2026年全面上线了通用基座GLM-5",
+      "reference": "Zhipu AI 2026 Symposium"
+    },
+    {
+      "source": "GLM-5",
+      "target": "知识图谱联合推理 (Knowledge Graph Joint Reasoning)",
+      "type": "使用架构",
+      "description": "GLM-5架构中深度解耦并内置了知识图谱联合推理引擎",
+      "reference": "Zhipu AI 2026 Symposium"
+    },
+    {
+      "source": "知识图谱联合推理 (Knowledge Graph Joint Reasoning)",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "这一2026年新技术通过实体硬逻辑校验大幅缓解了模型幻觉",
+      "reference": "KDD 2026"
+    },
+    {
+      "source": "知识图谱联合推理 (Knowledge Graph Joint Reasoning)",
+      "target": "检索增强生成",
+      "type": "优化",
+      "description": "知识图谱联合推理从系统层面优化了单纯依靠向量的检索增强生成方案",
+      "reference": "KDD 2026"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi K3",
+      "type": "研发",
+      "description": "月之暗面于2026年推出了Kimi K3以进一步探索长上下文极限",
+      "reference": "Moonshot AI 2026 Keynote"
+    },
+    {
+      "source": "Kimi K3",
+      "target": "动态KV卸载 (Dynamic KV Offloading)",
+      "type": "使用架构",
+      "description": "Kimi K3核心依赖于动态KV卸载技术来维持极低显存的长程对话",
+      "reference": "Moonshot AI 2026 Keynote"
+    },
+    {
+      "source": "动态KV卸载 (Dynamic KV Offloading)",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "通过及时释放冗余缓存，动态KV卸载技术在长文本场景下提升了推理加速比",
+      "reference": "SysML 2026"
+    },
+    {
+      "source": "动态KV卸载 (Dynamic KV Offloading)",
+      "target": "KV缓存优化",
+      "type": "属于",
+      "description": "动态KV卸载是2026年KV缓存优化领域的最具代表性突破",
+      "reference": "SysML 2026"
+    },
+    {
+      "source": "GPT-5",
+      "target": "模型自纠错 (Self-Correction)",
+      "type": "使用架构",
+      "description": "GPT-5在其原生框架中实现了稳定有效的内生模型自纠错机制",
+      "reference": "OpenAI 2026 DevDay"
+    },
+    {
+      "source": "模型自纠错 (Self-Correction)",
+      "target": "思维链推理",
+      "type": "优化",
+      "description": "模型自纠错显著优化了思维链推理在超长逻辑推导时的中途崩溃问题",
+      "reference": "ACL 2026"
+    },
+    {
+      "source": "GPT-5",
+      "target": "跨模态流式推理 (Cross-modal Streaming Inference)",
+      "type": "使用架构",
+      "description": "GPT-5利用跨模态流式推理提供了毫秒级延迟的语音视觉对话体验",
+      "reference": "OpenAI 2026 DevDay"
+    },
+    {
+      "source": "Claude 4.5",
+      "target": "联邦对齐 (Federated Alignment)",
+      "type": "使用架构",
+      "description": "Claude 4.5结合了联邦对齐机制以在保护隐私前提下学习全球用户偏好",
+      "reference": "Anthropic Research 2026"
+    },
+    {
+      "source": "Claude 4.5",
+      "target": "意图对齐评测集 (Intent Alignment Benchmark)",
+      "type": "支持",
+      "description": "Claude 4.5在2026年的意图对齐评测集中取得了破纪录的高分",
+      "reference": "Anthropic Research 2026"
+    },
+    {
+      "source": "联邦对齐 (Federated Alignment)",
+      "target": "模型对齐",
+      "type": "优化",
+      "description": "作为一种新型分布式机制，联邦对齐优化了本地化设备上的模型对齐流程",
+      "reference": "IEEE FL 2026"
+    },
+    {
+      "source": "Gemini 3",
+      "target": "Google TPU v6",
+      "type": "支持",
+      "description": "Gemini 3的训练和海量推理完全基于谷歌2026年部署的TPU v6集群",
+      "reference": "Google I/O 2026"
+    },
+    {
+      "source": "Google TPU v6",
+      "target": "多模态大模型",
+      "type": "支撑",
+      "description": "TPU v6的超高带宽光互连极大支撑了原生多模态大模型的训练效率",
+      "reference": "Google Cloud Next 2026"
+    },
+    {
+      "source": "Gemini 3",
+      "target": "视频扩散推理优化 (Video Diffusion Inference Optimization)",
+      "type": "使用架构",
+      "description": "Gemini 3整合了先进的视频扩散推理优化算法以实现实时视频响应",
+      "reference": "Google I/O 2026"
+    },
+    {
+      "source": "Llama 4",
+      "target": "全局稀疏前馈网络 (Global Sparse FFN)",
+      "type": "使用架构",
+      "description": "Llama 4架构的核心创新在于2026年提出的全局稀疏前馈网络",
+      "reference": "Meta AI 2026 Publications"
+    },
+    {
+      "source": "全局稀疏前馈网络 (Global Sparse FFN)",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "相较于传统MoE，全局稀疏前馈网络由于更均衡的路由策略进一步提升了推理加速",
+      "reference": "NeurIPS 2026"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包大模型 2.0",
+      "type": "研发",
+      "description": "字节跳动于2026年将其主力产品升级为豆包大模型 2.0",
+      "reference": "Volcengine 2026 Summit"
+    },
+    {
+      "source": "豆包大模型 2.0",
+      "target": "端侧MoE模型 (Edge MoE Model)",
+      "type": "基于",
+      "description": "豆包大模型 2.0大规模采用了端侧MoE模型架构部署到手机App端",
+      "reference": "Volcengine 2026 Summit"
+    },
+    {
+      "source": "端侧MoE模型 (Edge MoE Model)",
+      "target": "混合专家模型",
+      "type": "属于",
+      "description": "端侧MoE模型是混合专家模型在2026年向端侧计算资源妥协演进的分支",
+      "reference": "MobiSys 2026"
+    },
+    {
+      "source": "科大讯飞",
+      "target": "讯飞星火 V5.0",
+      "type": "研发",
+      "description": "科大讯飞在2026年正式发布讯飞星火 V5.0大模型",
+      "reference": "iFlytek 2026 Tech Conference"
+    },
+    {
+      "source": "讯飞星火 V5.0",
+      "target": "自主多智能体协作 (Autonomous Multi-Agent Collaboration)",
+      "type": "支持",
+      "description": "讯飞星火 V5.0内置了完善的协议支持自主多智能体协作办公",
+      "reference": "iFlytek 2026 Tech Conference"
+    },
+    {
+      "source": "自主多智能体协作 (Autonomous Multi-Agent Collaboration)",
+      "target": "AI Agent",
+      "type": "优化",
+      "description": "这一2026年的新架构优化了单个AI Agent能力瓶颈及错误累积的问题",
+      "reference": "AAMAS 2026"
+    },
+    {
+      "source": "腾讯",
+      "target": "Hunyuan Pro",
+      "type": "研发",
+      "description": "腾讯于2026年推出了面向高级B端市场的Hunyuan Pro模型",
+      "reference": "Tencent Cloud 2026 AI Release"
+    },
+    {
+      "source": "Hunyuan Pro",
+      "target": "多模态强化学习 (Multimodal RL)",
+      "type": "使用架构",
+      "description": "Hunyuan Pro使用了前沿的多模态强化学习直接在图文混合流上完成对齐",
+      "reference": "Tencent Cloud 2026 AI Release"
+    },
+    {
+      "source": "多模态强化学习 (Multimodal RL)",
+      "target": "人类反馈强化学习",
+      "type": "属于",
+      "description": "多模态强化学习是人类反馈强化学习(RLHF)在2026年向视觉和物理层面的拓展",
+      "reference": "CoRL 2026"
+    },
+    {
+      "source": "测试时计算扩展 (Test-Time Compute Scaling)",
+      "target": "思维链推理",
+      "type": "提升",
+      "description": "允许模型在测试时消耗更多算力大幅度提升了复杂任务中的思维链推理深度",
+      "reference": "Nature Machine Intelligence 2026 Review"
+    },
+    {
+      "source": "直接纳什优化 (Direct Nash Optimization, DNO)",
+      "target": "直接偏好优化",
+      "type": "优化",
+      "description": "DNO在理论和实践上优化了传统直接偏好优化(DPO)在2026年遭遇的瓶颈",
+      "reference": "ICLR 2026 Outstanding Paper"
+    },
+    {
+      "source": "连续记忆机制 (Continuous Memory Mechanism)",
+      "target": "长上下文建模",
+      "type": "提升",
+      "description": "这种机制使得无尽长度的对话成为可能，史诗级提升了长上下文建模",
+      "reference": "arXiv:2601.XXXXX"
+    },
+    {
+      "source": "Nvidia Rubin R100",
+      "target": "稀疏张量核心加速 (Sparse Tensor Core Acceleration)",
+      "type": "使用架构",
+      "description": "R100芯片在其底层架构中完美集成了稀疏张量核心加速设计",
+      "reference": "Nvidia 2026 GTC"
+    },
+    {
+      "source": "Nvidia Rubin R100",
+      "target": "推理加速",
+      "type": "支撑",
+      "description": "2026年顶级算力硬件R100为云端大模型的极致推理加速提供了硬件支撑",
+      "reference": "Nvidia 2026 GTC"
+    },
+    {
+      "source": "华为",
+      "target": "华为昇腾 920",
+      "type": "研发",
+      "description": "华为于2026年规模化量产了昇腾920 AI加速芯片",
+      "reference": "Huawei HC 2026"
+    },
+    {
+      "source": "华为昇腾 920",
+      "target": "稀疏张量核心加速 (Sparse Tensor Core Acceleration)",
+      "type": "使用架构",
+      "description": "昇腾920专门针对MoE大模型的特性实装了稀疏张量核心加速功能",
+      "reference": "Huawei HC 2026"
+    },
+    {
+      "source": "测试时扩展法则 (Test-time Scaling Law)",
+      "target": "测试时计算扩展 (Test-Time Compute Scaling)",
+      "type": "规范",
+      "description": "法则为如何经济高效地分配测试时计算扩展算力提供了理论规范",
+      "reference": "AI Alignment Forum 2026"
+    },
+    {
+      "source": "AI Agent 安全沙箱 (AI Agent Security Sandbox)",
+      "target": "工具调用",
+      "type": "规范",
+      "description": "沙箱机制在2026年成为了约束大模型越权或恶意进行工具调用的底层安全规范",
+      "reference": "USENIX Security 2026"
+    },
+    {
+      "source": "AI Agent 安全沙箱 (AI Agent Security Sandbox)",
+      "target": "自主多智能体协作 (Autonomous Multi-Agent Collaboration)",
+      "type": "支持",
+      "description": "安全沙箱的成熟支撑了完全自主多智能体协作在金融与核心业务代码环境的落地",
+      "reference": "USENIX Security 2026"
+    },
+    {
+      "source": "视频扩散推理优化 (Video Diffusion Inference Optimization)",
+      "target": "多模态大模型",
+      "type": "优化",
+      "description": "算法使得2026年的多模态大模型能够兼顾低成本与高帧率的视频生成",
+      "reference": "SIGGRAPH 2026"
+    },
+    {
+      "source": "大模型遗忘缓解 (LLM Forgetting Mitigation)",
+      "target": "多模态大模型",
+      "type": "提升",
+      "description": "这项技术使得模型在吸收2026年最新实时资讯时不会遗忘其基座常识，提升整体智商稳定性",
+      "reference": "EMNLP 2026"
+    },
+    {
+      "source": "数据污染检测 (Data Contamination Detection)",
+      "target": "大语言模型",
+      "type": "规范",
+      "description": "2026年，各类基准测试通过该技术强制规范各大语言模型报告真实未受污染的分数",
+      "reference": "AAAI 2026"
+    },
+    {
+      "source": "数据污染检测 (Data Contamination Detection)",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "通过过滤被污染的预训练数据，该检测技术间接缓解了模型生成的特异性幻觉",
+      "reference": "AAAI 2026"
+    },
+    {
+      "source": "AI生成内容标识规范 2026版",
+      "target": "多模态大模型",
+      "type": "规范",
+      "description": "国家政策明确规范了所有2026年备案运行的多模态大模型必须实现隐式溯源水印",
+      "reference": "中国网信办2026年度规范文件"
+    },
+    {
+      "source": "隐式推理链生成 (Implicit Chain-of-Thought Generation)",
+      "target": "思维链推理",
+      "type": "优化",
+      "description": "它允许模型在不消耗显式输出Token计费的情况下完成深度思考，极大优化了传统思维链推理",
+      "reference": "ICML 2026"
+    },
+    {
+      "source": "隐式推理链生成 (Implicit Chain-of-Thought Generation)",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "免去了长篇大论的文字生成，这一2026新技术为结果导向型任务提供了成倍推理加速",
+      "reference": "ICML 2026"
+    },
+    {
+      "source": "意图对齐评测集 (Intent Alignment Benchmark)",
+      "target": "模型对齐",
+      "type": "优化指标",
+      "description": "传统的安全测试在2026年已不够用，意图对齐评测集成为了衡量高阶模型对齐的新指标",
+      "reference": "Alignment Research Center 2026"
+    },
+    {
+      "source": "奖励模型集成 (Reward Model Ensembling)",
+      "target": "模型对齐",
+      "type": "提升",
+      "description": "集成了多元化价值观的奖励模型使得最终产出的2026版本大模型对齐度空前提升",
+      "reference": "RL Conference 2026"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "Step-3",
+      "type": "研发",
+      "description": "阶跃星辰在2026年正式对外发布了Step-3多模态基座",
+      "reference": "StepFun 2026 Launch"
+    },
+    {
+      "source": "Step-3",
+      "target": "多模态大模型",
+      "type": "属于",
+      "description": "Step-3是一个具备2026年顶尖水平的原生多模态大模型",
+      "reference": "StepFun 2026 Launch"
+    },
+    {
+      "source": "OpenAI Sora 2.0",
+      "target": "视频扩散推理优化 (Video Diffusion Inference Optimization)",
+      "type": "使用架构",
+      "description": "Sora 2.0深度利用了最新的视频扩散加速算法以支撑其商业化并发请求",
+      "reference": "OpenAI Video Generation Report 2026"
+    },
+    {
+      "source": "OpenAI Sora 2.0",
+      "target": "多模态大模型",
+      "type": "属于",
+      "description": "作为生成式视频产品的代表，Sora 2.0属于前沿多模态大模型应用",
+      "reference": "OpenAI Video Generation Report 2026"
+    },
+    {
+      "source": "Grok 3",
+      "target": "大语言模型",
+      "type": "属于",
+      "description": "xAI研发的Grok 3是2026年极具竞争力的开源大语言模型之一",
+      "reference": "xAI Blog 2026"
+    },
+    {
+      "source": "Grok 3",
+      "target": "大模型遗忘缓解 (LLM Forgetting Mitigation)",
+      "type": "使用架构",
+      "description": "为了实现实时推文事实同步而不损坏原有知识库，Grok 3使用了前沿的大模型遗忘缓解算法",
+      "reference": "xAI Blog 2026"
+    },
+    {
+      "source": "华为昇腾 920",
+      "target": "DeepSeek-V4",
+      "type": "支撑",
+      "description": "国产自主研发的昇腾920集群在2026年成功支撑了万亿参数DeepSeek-V4的顺畅微调与推理",
+      "reference": "Huawei HC 2026"
+    },
+    {
+      "source": "Llama 4",
+      "target": "测试时计算扩展 (Test-Time Compute Scaling)",
+      "type": "支持",
+      "description": "Meta在Llama 4开源套件中内置了对测试时计算扩展原语的完整API支持",
+      "reference": "Meta AI 2026 Publications"
+    },
+    {
+      "source": "Llama 4",
+      "target": "混合专家模型",
+      "type": "基于",
+      "description": "Llama 4架构在2026年彻底拥抱了极其细粒度的高级混合专家模型(MoE)网络",
+      "reference": "Meta AI 2026 Publications"
+    },
+    {
+      "source": "GLM-5",
+      "target": "长上下文建模",
+      "type": "支持",
+      "description": "2026年的GLM-5系列均提供百万甚至千万Token级别的无损长上下文建模能力",
+      "reference": "Zhipu AI 2026 Symposium"
+    },
+    {
+      "source": "Kimi K3",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "得益于长程事实保留机制的革新，Kimi K3在超大文档问答任务上的模型幻觉率显著下降",
+      "reference": "Moonshot AI 2026 Keynote"
+    },
+    {
+      "source": "讯飞星火 V5.0",
+      "target": "检索增强生成",
+      "type": "基于",
+      "description": "星火 V5.0依然深耕并基于增强版的RAG技术构建行业特定知识助手",
+      "reference": "iFlytek 2026 Tech Conference"
+    },
+    {
+      "source": "Hunyuan Pro",
+      "target": "AI Agent",
+      "type": "支持",
+      "description": "Hunyuan Pro在腾讯云中作为调度大脑，无缝支持成千上万个企业AI Agent工作流",
+      "reference": "Tencent Cloud 2026 AI Release"
+    },
+    {
+      "source": "DeepSeek-R2",
+      "target": "逻辑推理",
+      "type": "提升",
+      "description": "由于2026年强化学习算法的迭代，DeepSeek-R2的数理及代码逻辑推理能力较前代指数级提升",
+      "reference": "DeepSeek-R2 Whitepaper"
+    },
+    {
+      "source": "直接纳什优化 (Direct Nash Optimization, DNO)",
+      "target": "模型对齐",
+      "type": "优化指标",
+      "description": "DNO提供的多维偏好博弈空间在2026年重构了模型对齐的训练目标与优化指标体系",
+      "reference": "ICLR 2026 Outstanding Paper"
+    },
+    {
+      "source": "豆包大模型 2.0",
+      "target": "推理加速",
+      "type": "提升",
+      "description": "针对端侧专门设计的MoE结构令豆包大模型 2.0在低功耗手机上实现了质的推理加速",
+      "reference": "Volcengine 2026 Summit"
+    },
+    {
+      "source": "跨模态流式推理 (Cross-modal Streaming Inference)",
+      "target": "多模态大模型",
+      "type": "依赖",
+      "description": "2026年诞生的极致低延迟跨模态流式推理严重依赖底座多模态大模型的原生统一架构",
+      "reference": "CVPR 2026 Best Paper"
+    },
+    {
+      "source": "模型自纠错 (Self-Correction)",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "实时的内部自我逻辑检查在输出结果呈现给用户前就打断了荒谬内容的生成，缓解模型幻觉",
+      "reference": "ACL 2026"
+    },
+    {
+      "source": "测试时计算扩展 (Test-Time Compute Scaling)",
+      "target": "AI Agent",
+      "type": "支持",
+      "description": "计算扩展允许Agent在采取不可逆的API行动前在沙盒内进行蒙特卡洛树搜索预测",
+      "reference": "Nature Machine Intelligence 2026 Review"
+    },
+    {
+      "source": "Google TPU v6",
+      "target": "稀疏张量核心加速 (Sparse Tensor Core Acceleration)",
+      "type": "使用架构",
+      "description": "谷歌TPU v6在芯片微架构中全面采用并优化了稀疏张量核心加速",
+      "reference": "Google Cloud Next 2026"
+    },
+    {
+      "source": "AI Agent 安全沙箱 (AI Agent Security Sandbox)",
+      "target": "模型对齐",
+      "type": "支撑",
+      "description": "即使模型对齐失败，2026年的安全沙箱机制仍能在工程物理层面支撑并防止灾难性后果",
+      "reference": "USENIX Security 2026"
+    },
+    {
+      "source": "AI生成内容标识规范 2026版",
+      "target": "模型幻觉",
+      "type": "规范",
+      "description": "规范同样对大模型产生的严谨新闻事实类幻觉追责制度提供了基础管理界定",
+      "reference": "中国网信办2026年度规范文件"
+    },
+    {
+      "source": "GPT-5",
+      "target": "意图对齐评测集 (Intent Alignment Benchmark)",
+      "type": "支持",
+      "description": "在2026年发布的意图对齐评测集中，GPT-5作为基准测试对象展现出非凡的鲁棒性",
+      "reference": "OpenAI 2026 DevDay"
+    },
+    {
+      "source": "Claude 4.5",
+      "target": "自主多智能体协作 (Autonomous Multi-Agent Collaboration)",
+      "type": "支持",
+      "description": "Claude 4.5极为可靠的函数调用能力支撑了2026年各种高风险场景下的自主多智能体协作",
+      "reference": "Anthropic Research 2026"
+    },
+    {
+      "source": "Qwen4",
+      "target": "大模型遗忘缓解 (LLM Forgetting Mitigation)",
+      "type": "使用架构",
+      "description": "阿里团队在训练Qwen4长尾领域知识时充分利用了大模型遗忘缓解算法以保持通用能力",
+      "reference": "Qwen 2026 Release Blog"
+    },
+    {
+      "source": "Gemini 3",
+      "target": "跨模态流式推理 (Cross-modal Streaming Inference)",
+      "type": "使用架构",
+      "description": "在谷歌Project Astra 2026迭代中，Gemini 3通过跨模态流式推理完成了革命性的AR眼镜交互",
+      "reference": "Google I/O 2026"
+    },
+    {
+      "source": "Grok 3",
+      "target": "连续记忆机制 (Continuous Memory Mechanism)",
+      "type": "使用架构",
+      "description": "为了使用户账号历史推文与模型深度融合，Grok 3采用了向量化的连续记忆机制",
+      "reference": "xAI Blog 2026"
+    },
+    {
+      "source": "Nvidia Rubin R100",
+      "target": "端侧MoE模型 (Edge MoE Model)",
+      "type": "支撑",
+      "description": "虽然R100主打云端，但其训练出的高品质教师模型通过蒸馏极大支撑了2026年端侧MoE模型的涌现",
+      "reference": "Nvidia 2026 GTC"
+    },
+    {
+      "source": "Step-3",
+      "target": "模型对齐",
+      "type": "提升",
+      "description": "阶跃星辰在Step-3开发中引入直接纳什优化技术，全面提升了价值观维度的模型对齐水平",
+      "reference": "StepFun 2026 Launch"
+    },
+    {
+      "source": "数据污染检测 (Data Contamination Detection)",
+      "target": "深度学习",
+      "type": "优化",
+      "description": "2026年普及的这项检测技术从根本上优化了深度学习领域数据集构建的不透明现状",
+      "reference": "AAAI 2026"
+    },
+    {
+      "source": "测试时计算扩展 (Test-Time Compute Scaling)",
+      "target": "推理加速",
+      "type": "降低",
+      "description": "在获得极高质量答案的代价下，测试时计算扩展在2026年实际上显著降低了单个Token的纯推理速度",
+      "reference": "Nature Machine Intelligence 2026 Review"
+    },
+    {
+      "source": "多模态强化学习 (Multimodal RL)",
+      "target": "模型对齐",
+      "type": "提升",
+      "description": "允许人类对视频和机械臂动作直接打分训练，该技术极大提升了视觉领域的模型对齐",
+      "reference": "CoRL 2026"
+    },
+    {
+      "source": "隐式推理链生成 (Implicit Chain-of-Thought Generation)",
+      "target": "模型幻觉",
+      "type": "缓解",
+      "description": "隐层中的并行推演与一致性打分机制使得模型跳出局部最优词概率陷阱，间接缓解幻觉",
+      "reference": "ICML 2026"
+    },
+    {
+      "source": "知识图谱联合推理 (Knowledge Graph Joint Reasoning)",
+      "target": "大语言模型",
+      "type": "支持",
+      "description": "2026年的联合推理引擎能够以外挂或内置组件的形式完美支持现有主流开源大语言模型",
+      "reference": "KDD 2026"
+    },
+    {
+      "source": "动态KV卸载 (Dynamic KV Offloading)",
+      "target": "长上下文建模",
+      "type": "优化",
+      "description": "该算法在保证信息基本不丢失的情况下，打破了2026年之前阻碍无限长上下文建模的显存墙",
+      "reference": "SysML 2026"
+    },
+    {
+      "source": "联邦对齐 (Federated Alignment)",
+      "target": "大语言模型",
+      "type": "应用",
+      "description": "到2026年底，数以十亿计的智能手机作为终端参与并应用了联邦对齐改善大语言模型体验",
+      "reference": "IEEE FL 2026"
     }
   ]
 }

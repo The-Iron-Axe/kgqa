@@ -1,4 +1,4 @@
-"""可选的大模型增强问答（基于知识图谱检索 + LLM 生成）。"""
+"""可选的大模型增强问答（基于图谱证据组织自然语言回答）。"""
 
 from __future__ import annotations
 
@@ -40,7 +40,7 @@ RICH_PROMPT = """你是中国先进人工智能技术领域的专业问答助手
 
 
 class LLMQAEngine:
-    """RAG 模式：先从图谱检索证据，再调用大模型组织自然语言回答。"""
+    """图谱证据增强模式：先做结构化图谱问答，再调用大模型润色表达。"""
 
     def __init__(self, kg_engine: KGQAEngine | None = None) -> None:
         self.kg_engine = kg_engine or KGQAEngine()

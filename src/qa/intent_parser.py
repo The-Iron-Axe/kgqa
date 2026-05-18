@@ -18,6 +18,9 @@ class ParsedIntent:
 RELATION_KEYWORDS = {
     "属于": "属于",
     "基于": "基于",
+    "使用架构": "使用架构",
+    "采用架构": "使用架构",
+    "架构": "使用架构",
     "应用": "应用",
     "研发": "研发",
     "提出": "提出",
@@ -26,6 +29,12 @@ RELATION_KEYWORDS = {
     "扩展": "扩展",
     "实现": "实现",
     "改进": "改进",
+    "优化": "优化",
+    "优化指标": "优化指标",
+    "提升": "提升",
+    "降低": "降低",
+    "缓解": "缓解",
+    "解决": "缓解",
     "推动": "推动",
     "提供": "提供",
     "研究": "研究",
@@ -93,6 +102,12 @@ class IntentParser:
         # 类别成员：哪些X属于Y
         if re.search(r"(哪些.*属于|什么属于|有哪些.*属于)", q):
             return ParsedIntent("category_members", entity, raw_question=q)
+
+        # 技术路径/解决方案：面向架构、优化、幻觉缓解等技术型问题
+        if re.search(r"(技术路径|解决方案|技术方案|有哪些方法|哪些方法|有哪些技术|哪些技术|哪些架构|使用了哪些架构|采用了哪些架构|如何解决|怎么解决|如何缓解|怎么缓解|如何增强|怎么增强)", q):
+            if "幻觉" in q and "模型幻觉" in self.entity_names:
+                entity = "模型幻觉"
+            return ParsedIntent("technical_path", entity, raw_question=q)
 
         # 应用领域使用了哪些技术
         if re.search(r"(应用了哪些|使用了哪些|用到哪些|依赖哪些)", q):

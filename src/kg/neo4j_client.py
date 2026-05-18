@@ -116,6 +116,12 @@ class Neo4jClient:
                     "自然语言处理",
                     "知识图谱",
                     "AI Agent",
+                    "模型幻觉",
+                    "DeepSeek-R1",
+                    "Qwen3",
+                    "Kimi K2",
+                    "多头潜在注意力",
+                    "FlashAttention",
                     "具身智能",
                     "算力基础设施",
                     "智能制造",
@@ -187,7 +193,8 @@ class Neo4jClient:
         return self.run_query(
             """
             MATCH (n:Entity {name: $name})-[r:RELATION]->(m:Entity)
-            RETURN r.type AS relation, m.name AS target, m.description AS target_desc
+            RETURN r.type AS relation, m.name AS target, m.type AS target_type,
+                   m.description AS target_desc
             """,
             {"name": name},
         )
@@ -196,7 +203,8 @@ class Neo4jClient:
         return self.run_query(
             """
             MATCH (n:Entity)-[r:RELATION]->(m:Entity {name: $name})
-            RETURN n.name AS source, r.type AS relation, n.description AS source_desc
+            RETURN n.name AS source, n.type AS source_type, r.type AS relation,
+                   n.description AS source_desc
             """,
             {"name": name},
         )

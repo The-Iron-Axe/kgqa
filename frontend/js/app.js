@@ -41,6 +41,7 @@ let pendingGraphFromAnswer = null;
 let graphLoadToken = 0;
 let viewportRefreshGen = 0;
 let graphRenderLimit = 200;
+let graphDataSignature = "";
 let lastCypherResult = null;
 
 function getGraphRenderLimit() {
@@ -258,6 +259,58 @@ function startGraphPhysicsKeeper(nodeCount) {
 
 function getGraphNodeCount() {
   return network?.body?.nodeIndices?.length || graphNodes?.length || 50;
+}
+
+function graphRenderProfile(nodeCount, edgeCount, useEgo = false) {
+  const dense = !useEgo && (nodeCount > 140 || edgeCount > 260);
+  return {
+    dense,
+    smoothType: dense ? "continuous" : "dynamic",
+    showEdgeLabels: !dense,
+    hoverConnectedEdges: !dense,
+  };
+}
+
+function makeGraphSignature(nodeList, edgeList, { useEgo = false, egoCenter = null } = {}) {
+  const nodeIds = nodeList.map((n) => n.id).sort().join("|");
+  const edgeIds = edgeList
+    .map((e) => `${e.source}->${e.target}:${e.type || ""}`)
+    .sort()
+    .join("|");
+  return `${useEgo ? "ego" : "full"}:${egoCenter || ""}:${nodeIds}::${edgeIds}`;
+}
+
+function clearGraphTimers() {
+  clearTimeout(graphFitTimer);
+  clearTimeout(graphResizeTimer);
+  clearTimeout(graphViewportRetryTimer);
+  clearTimeout(graphPhysicsNudgeTimer);
+  graphFitTimer = null;
+  graphResizeTimer = null;
+  graphViewportRetryTimer = null;
+  graphPhysicsNudgeTimer = null;
+}
+
+function destroyGraphNetwork({ clearDom = false } = {}) {
+  stopGraphPhysicsKeeper();
+  stopHighlightPulse();
+  clearGraphTimers();
+  if (network) {
+    try {
+      network.destroy();
+    } catch (_) {
+      /* ignore */
+    }
+  }
+  network = null;
+  window.network = null;
+  graphNodes = null;
+  graphEdges = null;
+  graphDataSignature = "";
+  if (clearDom) {
+    const container = document.getElementById("graphContainer");
+    if (container) container.innerHTML = "";
+  }
 }
 
 window.resumeGraphPhysics = () => {
@@ -602,16 +655,17 @@ function buildVisNode(n, role = null) {
   };
 }
 
-function buildVisEdge(e, i, focusId = null) {
+function buildVisEdge(e, i, focusId = null, profile = {}) {
   const gt = getGraphTheme();
   const touchesFocus =
     focusId && (e.source === focusId || e.target === focusId);
+  const showLabel = profile.showEdgeLabels || touchesFocus;
   return {
-    id: `e-${e.source}-${e.target}-${e.type || i}`,
+    id: `e-${e.source}-${e.target}-${e.type || "rel"}-${i}`,
     from: e.source,
     to: e.target,
     title: `${e.type || "关系"}\n${e.description || ""}\n\n参考文献：${e.reference || "—"}`,
-    label: e.type ? truncateLabel(e.type, 6) : undefined,
+    label: showLabel && e.type ? truncateLabel(e.type, 6) : undefined,
     arrows: { to: { enabled: true, scaleFactor: 0.55 } },
     color: {
       color: touchesFocus ? gt.edgeFocus : gt.edgeColor,
@@ -1021,10 +1075,10 @@ async function loadGraph(entity = null, opts = {}) {
   });
 }
 
-function syncGraphDatasets(nodeList, edgeList) {
+function syncGraphDatasets(nodeList, edgeList, profile = {}) {
   const focusId = graphFocusEntity ? nameToNodeId(graphFocusEntity) : null;
   const nodeItems = nodeList.map((n) => buildVisNode(n));
-  const edgeItems = edgeList.map((e, i) => buildVisEdge(e, i, focusId));
+  const edgeItems = edgeList.map((e, i) => buildVisEdge(e, i, focusId, profile));
 
   const newNodeIds = new Set(nodeItems.map((n) => n.id));
   const newEdgeIds = new Set(edgeItems.map((e) => e.id));
@@ -1047,15 +1101,7 @@ function renderGraph(data, { fitView = true, focusCamera = false, egoLayout = fa
   const edgeList = data.edges || [];
 
   if (!nodeList.length) {
-    stopGraphPhysicsKeeper();
-    stopHighlightPulse();
-    if (network) {
-      network.destroy();
-      network = null;
-      window.network = null;
-      graphNodes = null;
-      graphEdges = null;
-    }
+    destroyGraphNetwork();
     container.innerHTML = '<p class="graph-empty">暂无图谱数据，请先运行导入脚本或点击「加载全图」</p>';
     return;
   }
@@ -1066,11 +1112,14 @@ function renderGraph(data, { fitView = true, focusCamera = false, egoLayout = fa
 
   rebuildNodeNameMap(nodeList);
   const nodeCount = nodeList.length;
+  const edgeCount = edgeList.length;
   const gt = getGraphTheme();
   const fontFace = graphFontFace();
   const focusId = graphFocusEntity ? nameToNodeId(graphFocusEntity) : null;
 
   const useEgo = egoLayout && egoCenter;
+  const profile = graphRenderProfile(nodeCount, edgeCount, useEgo);
+  const nextSignature = makeGraphSignature(nodeList, edgeList, { useEgo, egoCenter });
   const options = {
     physics: useEgo ? buildEgoPhysics() : buildLivePhysics(nodeCount),
     layout: { improvedLayout: false },
@@ -1082,21 +1131,44 @@ function renderGraph(data, { fitView = true, focusCamera = false, egoLayout = fa
       dragView: true,
       hideEdgesOnDrag: false,
       hideEdgesOnZoom: false,
-      hoverConnectedEdges: true,
+      hoverConnectedEdges: profile.hoverConnectedEdges,
       keyboard: false,
       multiselect: false,
     },
     nodes: { shape: "dot" },
     edges: {
-      smooth: { enabled: true, type: "dynamic", roundness: 0.45, forceDirection: "none" },
-      font: { size: 8, color: gt.edgeFont, strokeWidth: 0, face: fontFace, align: "middle" },
+      smooth: { enabled: true, type: profile.smoothType, roundness: 0.42, forceDirection: "none" },
+      font: {
+        size: profile.showEdgeLabels ? 8 : 0,
+        color: gt.edgeFont,
+        strokeWidth: 0,
+        face: fontFace,
+        align: "middle",
+      },
       chosen: { label: false },
     },
     configure: { enabled: false },
   };
 
   if (network && graphNodes && graphEdges) {
-    syncGraphDatasets(nodeList, edgeList);
+    if (graphDataSignature === nextSignature) {
+      applyGraphHighlights();
+      if (useEgo) {
+        focusGraphViewportOnHighlights();
+      } else if (focusCamera) {
+        focusOnHighlightNodes(true);
+      } else if (fitView) {
+        scheduleGraphFitOnce(120);
+      }
+      scheduleGraphViewportRefresh();
+      window.dispatchEvent(new CustomEvent("graphrendered"));
+      return;
+    }
+
+    clearGraphTimers();
+    syncGraphDatasets(nodeList, edgeList, profile);
+    graphDataSignature = nextSignature;
+    network.setOptions(options);
     if (useEgo) {
       applyEgoRadialLayout(egoCenter, nodeList);
     } else {
@@ -1119,17 +1191,11 @@ function renderGraph(data, { fitView = true, focusCamera = false, egoLayout = fa
     return;
   }
 
-  stopGraphPhysicsKeeper();
-  stopHighlightPulse();
-
-  if (network) {
-    network.destroy();
-    network = null;
-    window.network = null;
-  }
+  destroyGraphNetwork({ clearDom: true });
 
   graphNodes = new vis.DataSet(nodeList.map((n) => buildVisNode(n)));
-  graphEdges = new vis.DataSet(edgeList.map((e, i) => buildVisEdge(e, i, focusId)));
+  graphEdges = new vis.DataSet(edgeList.map((e, i) => buildVisEdge(e, i, focusId, profile)));
+  graphDataSignature = nextSignature;
 
   network = new vis.Network(container, { nodes: graphNodes, edges: graphEdges }, options);
   window.network = network;
@@ -1270,6 +1336,8 @@ async function exitEntityNetwork() {
   pendingGraphFromAnswer = null;
   graphViewMode = "full";
   egoCenterEntity = null;
+  const graphSearch = document.getElementById("graphSearch");
+  if (graphSearch) graphSearch.value = "";
   clearGraphHighlightState();
   applyEntityTableHighlights({ keywords: [], focus: null, related: [] });
   hideEntityPanel();
@@ -1503,6 +1571,38 @@ async function focusGraphFromAnswer() {
   return applyGraphHighlightsInView();
 }
 
+async function focusGraphEntityFromChat(entityName) {
+  if (!entityName) return null;
+
+  const [known] = filterKnownEntityNames([entityName]);
+  const focus = known || entityName;
+  if (!splitViewActive) {
+    pendingGraphFromAnswer = null;
+    setSplitView(true);
+  }
+
+  pendingGraphFromAnswer = {
+    question: "",
+    result: null,
+    questionKeywords: [focus],
+    focus,
+    related: [],
+  };
+  applyEntityTableHighlights({ keywords: [focus], focus, related: [] });
+  setGraphHighlightState(
+    { focus, keywords: [focus], related: [] },
+    { applyToGraph: false }
+  );
+
+  await enterEntityNetwork(focus, {
+    preserveKeywords: true,
+    keywords: [focus],
+    related: [],
+  });
+  focusGraphViewportOnHighlights();
+  return focus;
+}
+
 async function rerenderCurrentGraph() {
   getGraphRenderLimit();
   graphLoadToken += 1;
@@ -1697,6 +1797,7 @@ window.KGApp = {
   toggleSplitView,
   isSplitViewActive: () => splitViewActive,
   focusGraphFromAnswer,
+  focusGraphEntityFromChat,
   enterEntityNetwork,
 };
 

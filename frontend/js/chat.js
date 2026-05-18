@@ -75,6 +75,35 @@
       .replace(/"/g, "&quot;");
   }
 
+  function uniqueNames(names) {
+    const seen = new Set();
+    return (names || [])
+      .map((name) => String(name || "").trim())
+      .filter((name) => {
+        if (!name || name === "—" || seen.has(name)) return false;
+        seen.add(name);
+        return true;
+      });
+  }
+
+  function renderFocusActions(meta) {
+    const targets = uniqueNames(meta?.focusTargets).slice(0, 8);
+    if (!targets.length) return "";
+
+    return `
+      <div class="chat-focus-actions" aria-label="图谱聚焦">
+        <span class="chat-focus-label">聚焦图谱</span>
+        ${targets
+          .map(
+            (name) => `
+            <button type="button" class="chat-focus-chip" data-entity="${escapeHtml(name)}">
+              ${escapeHtml(name)}
+            </button>`
+          )
+          .join("")}
+      </div>`;
+  }
+
   function renderHistoryList() {
     const list = document.getElementById("chatHistoryList");
     if (!list) return;
@@ -159,6 +188,7 @@
         const evidence = meta.evidence
           ? `<div class="qa-evidence" style="margin-top:0.5rem;font-size:0.75rem;color:var(--text-muted)">${escapeHtml(meta.evidence)}</div>`
           : "";
+        const focusActions = renderFocusActions(meta);
         return `
         <div class="chat-bubble chat-bubble--assistant">
           <span class="chat-avatar">KG</span>
@@ -166,12 +196,34 @@
             <div class="chat-bubble-body">${escapeHtml(m.content)}</div>
             ${pills ? `<div class="chat-bubble-meta">${pills}</div>` : ""}
             ${evidence}
+            ${focusActions}
           </div>
         </div>`;
       })
       .join("");
 
+    bindFocusActions(container);
     container.scrollTop = container.scrollHeight;
+  }
+
+  function bindFocusActions(root) {
+    root.querySelectorAll(".chat-focus-chip").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const entity = btn.dataset.entity;
+        if (!entity || !window.KGApp?.focusGraphEntityFromChat) return;
+        btn.disabled = true;
+        btn.classList.add("is-loading");
+        try {
+          await window.KGApp.focusGraphEntityFromChat(entity);
+        } catch (err) {
+          console.warn("聚焦图谱失败", err);
+          alert(`聚焦失败：${err.message}`);
+        } finally {
+          btn.disabled = false;
+          btn.classList.remove("is-loading");
+        }
+      });
+    });
   }
 
   function bindSuggestChips(root) {
@@ -310,6 +362,11 @@
         confidence: result.confidence,
         mode: result.mode,
         evidence: evidenceText,
+        focusTargets: uniqueNames([
+          result.entity,
+          ...questionKeywords,
+          ...related,
+        ]),
       });
 
       window.KGApp.syncGraphFromAnswer(text, result).catch((syncErr) => {

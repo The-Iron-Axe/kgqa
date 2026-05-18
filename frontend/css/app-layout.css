@@ -534,6 +534,42 @@
   padding: 0.15rem 0.45rem;
 }
 
+.chat-focus-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.6rem;
+}
+
+.chat-focus-label {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+
+.chat-focus-chip {
+  border: 1px solid rgba(99, 102, 241, 0.24);
+  background: rgba(99, 102, 241, 0.08);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 0.18rem 0.55rem;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: transform 0.18s, border-color 0.18s, background 0.18s;
+}
+
+.chat-focus-chip:hover {
+  transform: translateY(-1px);
+  border-color: rgba(99, 102, 241, 0.55);
+  background: rgba(99, 102, 241, 0.14);
+}
+
+.chat-focus-chip:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
 .chat-bubble--typing .chat-bubble-body {
   color: var(--text-muted);
   font-style: italic;

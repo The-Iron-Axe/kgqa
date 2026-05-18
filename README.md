@@ -1,193 +1,347 @@
-# 中国先进人工智能技术 · 知识图谱问答系统
+# 中国人工智能技术知识图谱问答系统
 
-> **课程设计 / 答辩项目** — 领域：**人工智能**
+> 课程设计 / 答辩项目  
+> 领域：人工智能技术、模型、机构、产品、政策、算力基础设施与应用场景  
+> 当前图谱规模：377 个实体、954 条关系，共 1331 条图谱记录
 
-## 实验报告 · 数据收集章节
+本项目是一个面向中国人工智能技术领域的知识图谱问答演示系统。系统使用结构化图谱数据组织 AI 相关实体、技术机制、模型架构、优化方法、问题风险与应用场景，支持知识图谱可视化、实体检索、智能问答、分屏对比、Neo4j Cypher 控制台、查询结果导出和问答评测。
 
-撰写「数据来源 / 收集方法 / 步骤与质量评估」时，请直接参考项目内说明文档：  
-[docs/DATA_COLLECTION_REPORT.md](docs/DATA_COLLECTION_REPORT.md)（含统计数字、来源分类、答辩话术与 Neo4j 结构说明，与 `data/raw/ai_knowledge.json` 一致）。
+项目不是工业级技术情报平台，而是课程设计场景下的知识图谱应用原型。当前版本避免把普通科普词条包装成“技术追踪数据库”，重点展示技术实体建模、图数据库存储、结构化图谱检索、可视化交互和图谱证据增强问答流程。
 
-## 一、Docker 不是必须的
+## 主要功能
 
-本项目提供 **两种运行方式**，默认使用 **本地模式**，**无需 Docker、无需 Neo4j**：
+- 知识图谱可视化：基于 `vis-network` 展示实体和关系，支持搜索、聚焦、全屏、节点数量设置和动态布局。
+- 智能问答：支持 KG-only 和 KG + LLM 两种模式。
+- 问答联动图谱：问答结果可同步高亮相关实体与关系。
+- 分屏对比：智能问答页可左右分屏，左侧问答，右侧图谱。
+- 实体数据管理：以表格方式查看和筛选实体。
+- 图谱控制台：Neo4j 模式下支持输入 Cypher 语句进行查询、新增、修改和删除。
+- 结果展示与导出：Cypher 查询结果可在表格和原始 JSON 之间切换，并支持 CSV / JSON 导出。
+- 评测报告：支持运行脚本生成 KG-only 与 KG + LLM 的问答评测结果。
 
-| 模式 | 配置 | 是否需要 Docker | 适合场景 |
-|------|------|-----------------|----------|
-| **本地模式（默认）** | `GRAPH_MODE=local` | 否 | PyCharm 直接运行、快速演示 |
-| **Neo4j 模式** | `GRAPH_MODE=neo4j` | 否* | 答辩强调「图数据库 Neo4j」 |
+## 图谱数据
 
-\* Neo4j 模式可用 **Neo4j Desktop**（图形界面安装），不必用 Docker。
+核心数据文件：
 
----
-
-## 二、PyCharm 运行指南（推荐，不用命令行）
-
-### 第 1 步：用 PyCharm 打开项目
-
-1. 打开 PyCharm → **File → Open** → 选择 `d:\knowledgegraph`
-2. 提示创建虚拟环境时选 **Yes**，或手动：**File → Settings → Project → Python Interpreter → Add → Virtualenv**
-
-### 第 2 步：安装依赖
-
-PyCharm 通常会自动识别 `requirements.txt` 并提示安装；也可在底部 **Terminal** 中执行一次：
-
+```text
+data/raw/ai_knowledge.json
 ```
+
+当前数据规模：
+
+```text
+实体：377
+关系：954
+总计：1331
+```
+
+实体类型包括：
+
+```text
+Technology、Model、Organization、Product、Application、Policy、Hardware、Algorithm、Person、Infrastructure、Problem、Metric
+```
+
+数据内容覆盖：
+
+- 基础 AI 技术：机器学习、深度学习、自然语言处理、计算机视觉、知识图谱等。
+- 大模型与产品：DeepSeek-R1、DeepSeek-V3、Qwen3、Qwen2.5、Kimi K2、GLM、文心一言、讯飞星火等。
+- 技术机制：RAG、LoRA、RLHF、DPO、MoE、MLA、FlashAttention、RoPE、推测解码、量化、蒸馏、长上下文等。
+- 技术问题与优化指标：模型幻觉、事实一致性校验、引用溯源、事实性评估、吞吐量、KV 缓存优化等。
+- 企业与机构：百度、阿里巴巴、腾讯、华为、科大讯飞、智谱 AI、月之暗面、DeepSeek 等。
+- 政策与基础设施：新一代人工智能发展规划、算力网络、智算中心、AI 芯片等。
+- 应用场景：智能客服、自动驾驶、智慧医疗、工业质检、金融风控、教育辅助等。
+
+## 运行环境
+
+推荐使用 Conda：
+
+```powershell
+conda create -n kgqa python=3.11 -y
+conda activate kgqa
 pip install -r requirements.txt
 ```
 
-### 第 3 步：配置运行项（只需做一次）
+如果下载较慢，可以使用清华源：
 
-**运行 Web 演示（主程序）：**
+```powershell
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
-1. 在项目树中右键 `run_server.py`
-2. 点击 **Run 'run_server'**
-3. 浏览器打开 http://localhost:8001
+主要依赖：
 
-**运行评测报告：**
+- FastAPI / Uvicorn：后端 Web 服务
+- Neo4j Python Driver：连接 Neo4j 图数据库
+- Pydantic / python-dotenv：配置和数据校验
+- OpenAI SDK：可选的大模型接口
+- scikit-learn / jieba：问答评测与中文处理
+- vis-network：前端图谱可视化
 
-1. 右键 `scripts/02_run_evaluation.py` → **Run**
-2. 报告生成在 `data/evaluation/reports/evaluation_report.md`
+## 配置文件
 
-**导入 Neo4j 数据（仅 Neo4j 模式需要）：**
+如果没有 `.env`，先复制模板：
 
-1. 右键 `scripts/01_import_data.py` → **Run**
-2. 本地模式下运行会提示「无需导入」，可忽略
+```powershell
+copy .env.example .env
+```
 
-### 第 4 步：设置工作目录（如运行报错再配置）
+常用配置：
 
-若提示找不到模块，对 `run_server.py` 的运行配置：
+```env
+GRAPH_MODE=local
 
-- **Run → Edit Configurations**
-- **Working directory** 设为 `d:\knowledgegraph`
-- 勾选 **Add content roots to PYTHONPATH**
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=kgqa123456
 
----
+LLM_ENABLED=false
+LLM_API_KEY=
+LLM_BASE_URL=https://api.deepseek.com/v1
+LLM_MODEL=deepseek-v4-flash
 
-## 三、本地模式（零安装，最快开始）
+API_HOST=0.0.0.0
+API_PORT=8001
+```
 
-默认已是本地模式，**不用装 Docker，不用装 Neo4j**。
+说明：
 
-在 PyCharm 中 **直接运行 `run_server.py`** 即可，数据来自 `data/raw/ai_knowledge.json`。
+- `GRAPH_MODE=local`：使用本地 JSON 内存图谱，不需要安装 Neo4j。
+- `GRAPH_MODE=neo4j`：使用 Neo4j 图数据库，支持 Cypher 控制台。
+- `LLM_ENABLED=false`：只使用图谱问答。
+- `LLM_ENABLED=true`：启用图谱证据增强的大模型问答，需要配置 API Key。
 
-答辩时可说明：
-> 系统基于知识图谱架构，开发阶段使用 JSON 内存图谱；生产/完整版可切换至 Neo4j 图数据库。
+不要把包含真实密码或 API Key 的 `.env` 上传到 GitHub。
 
----
+## 启动方式
 
-## 四、Neo4j 模式（答辩想强调图数据库时）
+### 本地 JSON 模式
 
-### 方式 A：Neo4j Desktop（推荐，有图形界面）
+适合快速演示，无需 Neo4j。
 
-1. 下载 **Neo4j Desktop**：https://neo4j.com/download/
-2. 安装后新建 Local DB，设置密码（如 `kgqa123456`）
-3. 点击 **Start** 启动数据库
-4. 复制 `.env.example` 为 `.env`，修改：
+`.env` 设置：
+
+```env
+GRAPH_MODE=local
+```
+
+启动：
+
+```powershell
+conda activate kgqa
+python run_server.py
+```
+
+浏览器访问：
+
+```text
+http://localhost:8001
+```
+
+### Neo4j 模式
+
+适合正式演示图数据库、Cypher 查询和图谱 CRUD。
+
+1. 打开 Neo4j Desktop。
+2. 创建并启动本地数据库。
+3. 修改 `.env`：
 
 ```env
 GRAPH_MODE=neo4j
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USER=neo4j
-NEO4J_PASSWORD=你设置的密码
+NEO4J_PASSWORD=你的数据库密码
 ```
 
-5. PyCharm 运行 `scripts/01_import_data.py` 导入数据
-6. PyCharm 运行 `run_server.py`
-
-### 方式 B：Docker（可选，不是必须）
+4. 导入数据：
 
 ```powershell
-docker compose up -d
+python scripts/01_import_data.py
 ```
 
-然后同样设置 `GRAPH_MODE=neo4j` 并运行导入脚本。
+5. 启动服务：
 
----
+```powershell
+python run_server.py
+```
 
-## 五、可选：启用大模型
+6. 浏览器访问：
 
-编辑 `.env`（没有则复制 `.env.example`）：
+```text
+http://localhost:8001
+```
+
+## 页面说明
+
+### 知识图谱
+
+知识图谱页支持加载全图、搜索实体、聚焦节点、查看实体邻域、全屏展示和调节渲染节点数量。节点数量设置用于控制前端一次渲染的规模，适合在流畅度和展示完整度之间做平衡。
+
+### 智能问答
+
+智能问答页支持 KG-only 和 KG + LLM 两种回答方式。
+
+- KG-only：根据问题识别实体和意图，从图谱中检索关系并生成模板化回答，已支持技术路径、架构、优化和风险缓解类问题。
+- KG + LLM：先生成结构化图谱答案，再把图谱证据和用户问题交给大模型组织自然语言表达。
+
+这里更准确的定位是“图谱证据增强问答”。系统没有宣称自己是完整工业级检索增强生成框架，LLM 只作为可选的表达增强层。
+
+示例问题：
+
+```text
+解决大语言模型幻觉的技术路径有哪些？
+Qwen3 使用了哪些架构？
+Kimi K2 使用了哪些架构？
+FlashAttention 优化了什么？
+Kimi 支持什么技术能力？
+低秩适配属于什么微调方法？
+```
+
+### 分屏对比
+
+点击智能问答页的“分屏对比”按钮后，页面会分为左右两部分：
+
+- 左侧：问答窗口
+- 右侧：知识图谱
+
+提问后，相关实体会在右侧图谱中高亮，便于答辩时说明答案来源。
+
+### 图谱控制台
+
+图谱控制台仅在 Neo4j 模式下完整可用。它支持直接执行 Cypher：
+
+```cypher
+MATCH (n:Entity)
+RETURN n.name AS name, n.type AS type
+LIMIT 10
+```
+
+支持的操作包括：
+
+- 查询实体和关系
+- 新增实体
+- 新增关系
+- 修改属性
+- 删除实体或关系
+- 表格 / 原始 JSON 切换
+- CSV / JSON 导出
+
+示例查询可以点击页面中的 `?` 按钮查看。
+
+## 常用脚本
+
+| 脚本 | 作用 |
+|------|------|
+| `run_server.py` | 启动 Web 服务 |
+| `scripts/01_import_data.py` | 将 JSON 图谱导入 Neo4j |
+| `scripts/02_run_evaluation.py` | 生成问答评测报告 |
+| `scripts/05_check_islands.py` | 检查图谱是否存在孤立子图 |
+| `scripts/06_list_low_degree.py` | 检查低连接度实体 |
+| `scripts/08_expand_to_1000.py` | 扩充图谱数据到 1000 条左右 |
+
+## 项目结构
+
+```text
+knowledgegraph/
+├── run_server.py
+├── requirements.txt
+├── config/
+│   └── settings.py
+├── data/
+│   ├── raw/
+│   │   └── ai_knowledge.json
+│   └── evaluation/
+│       └── qa_test_set.json
+├── scripts/
+├── src/
+│   ├── api/
+│   ├── kg/
+│   ├── qa/
+│   └── evaluation/
+├── frontend/
+│   ├── css/
+│   ├── js/
+│   └── index.html
+└── docs/
+```
+
+## 评测
+
+运行：
+
+```powershell
+python scripts/02_run_evaluation.py
+```
+
+如果不想调用大模型：
+
+```powershell
+python scripts/02_run_evaluation.py --skip-llm
+```
+
+评测报告输出到：
+
+```text
+data/evaluation/reports/
+```
+
+## 常见问题
+
+### Neo4j 认证失败
+
+检查 `.env` 里的密码是否和 Neo4j Desktop 中的数据库密码一致：
 
 ```env
-LLM_ENABLED=true
-LLM_API_KEY=你的API密钥
-LLM_BASE_URL=https://api.deepseek.com/v1
-LLM_MODEL=deepseek-chat
+NEO4J_PASSWORD=你的真实密码
 ```
 
-DeepSeek 注册：https://platform.deepseek.com/
+修改后重新运行导入脚本和服务。
 
----
+### 图谱控制台显示 Not Found
 
-## 六、PyCharm 运行顺序速查
+通常是后端没有重启。停止当前服务后重新运行：
 
-### 本地模式（最简单）
-
-```
-1. 运行 run_server.py          → 打开 http://localhost:8001
-2. 运行 scripts/02_run_evaluation.py  → 生成评测报告（可选）
+```powershell
+python run_server.py
 ```
 
-### Neo4j 模式
+然后浏览器按 `Ctrl + F5` 强制刷新。
 
+### Cypher 查询是不是 SELECT
+
+不是。Neo4j 使用 Cypher，查询语法通常是：
+
+```cypher
+MATCH (n)
+RETURN n
+LIMIT 10
 ```
-1. 启动 Neo4j Desktop 中的数据库
-2. （可选）修改 data/raw/ai_knowledge.json 后，运行 scripts/03_enrich_references.py 重新生成参考文献字段
-3. 运行 scripts/01_import_data.py（写入 Neo4j，含 reference）
-4. 运行 run_server.py
-5. 运行 scripts/02_run_evaluation.py（可选）
+
+SQL 的 `SELECT ... FROM ...` 是关系型数据库写法。
+
+### 本地模式能不能执行 Cypher
+
+不能。本地模式使用 JSON 内存图谱，不是 Neo4j 图数据库。需要执行 Cypher 时，请切换到：
+
+```env
+GRAPH_MODE=neo4j
 ```
 
----
+并先运行：
 
-## 七、项目文件说明
+```powershell
+python scripts/01_import_data.py
+```
 
-| 文件 | 作用 | PyCharm 是否运行 |
-|------|------|------------------|
-| `run_server.py` | 启动 Web 演示服务 | **是（主程序）** |
-| `scripts/02_run_evaluation.py` | 生成 KG vs KG+LLM 评测报告 | 可选 |
-| `scripts/01_import_data.py` | 导入数据到 Neo4j（含 `reference`） | 仅 Neo4j 模式 |
-| `scripts/03_enrich_references.py` | 为 JSON 批量写入/更新 `reference` 字段 | 改数据后可选 |
-| `data/raw/ai_knowledge.json` | 知识图谱数据（35 实体 + 43 关系 + 参考文献） | 不运行，只读 |
-| `config/settings.py` | 全局配置 | 不运行 |
-| `src/kg/local_graph_client.py` | 本地 JSON 图谱（无需数据库） | 不运行 |
-| `src/kg/neo4j_client.py` | Neo4j 图数据库客户端 | 不运行 |
-| `src/qa/kg_qa_engine.py` | 纯图谱问答引擎 | 不运行 |
-| `src/qa/llm_qa_engine.py` | 图谱+大模型问答 | 不运行 |
-| `frontend/` | 演示页面（图谱+表格+问答） | 不运行 |
+## 答辩演示建议
 
----
+1. 打开首页，说明当前图谱规模和两种运行模式。
+2. 进入知识图谱页，加载全图并展示节点数量调节。
+3. 搜索 `DeepSeek`、`文心一言`、`RAG` 等实体，展示邻域关系。
+4. 进入智能问答页，提问并展示图谱证据。
+5. 打开分屏对比，展示问答和图谱高亮联动。
+6. 进入图谱控制台，执行 `MATCH ... RETURN ...` 查询。
+7. 切换表格 / JSON 结果展示，并导出查询结果。
+8. 展示评测报告，说明 KG-only 与 KG + LLM 的差异。
 
-## 八、需下载的软件
+推荐表述：
 
-### 本地模式（最少）
-
-| 软件 | 下载 |
-|------|------|
-| Python 3.10+ | https://www.python.org/downloads/ |
-| PyCharm | https://www.jetbrains.com/pycharm/download/ |
-
-### Neo4j 模式（额外）
-
-| 软件 | 下载 |
-|------|------|
-| Neo4j Desktop | https://neo4j.com/download/ |
-
-### 大模型（可选）
-
-| 服务 | 下载 |
-|------|------|
-| DeepSeek API | https://platform.deepseek.com/ |
-
----
-
-## 九、答辩演示建议
-
-1. **数据展示**：实体表格
-2. **知识图谱**：vis.js 交互可视化
-3. **问答**：KG-only 与 KG+LLM 对比
-4. **评测**：打开 `data/evaluation/reports/evaluation_report.md`
-
-**答辩关键信息：**
-- 领域：中国先进人工智能技术
-- 图谱：本地 JSON / Neo4j 5.26（按你实际使用的模式说明）
-- 方案：意图解析 → 图谱检索 → 模板/LLM 生成
+> 本项目围绕中国人工智能技术领域，构建了包含技术、模型、产品、机构、政策、硬件和应用场景的知识图谱，并在此基础上实现了可视化浏览、结构化查询、图谱证据增强问答和结果评测。项目重点不在于替代工业级技术情报系统，而是完整展示知识图谱从数据组织到应用服务的课程设计流程。
